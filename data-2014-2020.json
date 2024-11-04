@@ -1,0 +1,6442 @@
+[
+    {
+      "year": 2014,
+      "category": "Game of the Year",
+      "nominee": "Dragon Age: Inquisition",
+      "company": "BioWare",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Game of the Year",
+      "nominee": "Bayonetta 2",
+      "company": "Platinum Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Game of the Year",
+      "nominee": "Dark Souls II",
+      "company": "FromSoftware",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Game of the Year",
+      "nominee": "Hearthstone: Heroes of Warcraft",
+      "company": "Blizzard Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Game of the Year",
+      "nominee": "Middle-earth: Shadow of Mordor",
+      "company": "Monolith Productions",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Developer of the Year",
+      "nominee": "Nintendo Entertainment Analysis and Development",
+      "company": "Nintendo",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Developer of the Year",
+      "nominee": "Blizzard Entertainment",
+      "company": "Blizzard Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Developer of the Year",
+      "nominee": "Monolith Productions",
+      "company": "Monolith Productions",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Developer of the Year",
+      "nominee": "Telltale Games",
+      "company": "Telltale Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Developer of the Year",
+      "nominee": "Ubisoft Montreal",
+      "company": "Ubisoft Montreal",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Shooter",
+      "nominee": "Far Cry 4",
+      "company": "Ubisoft Montreal",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Shooter",
+      "nominee": "Call of Duty: Advanced Warfare",
+      "company": "Sledgehammer Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Shooter",
+      "nominee": "Destiny",
+      "company": "Bungie",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Shooter",
+      "nominee": "Titanfall",
+      "company": "Respawn Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Shooter",
+      "nominee": "Wolfenstein: The New Order",
+      "company": "MachineGames",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Action/Adventure",
+      "nominee": "Middle-earth: Shadow of Mordor",
+      "company": "Monolith Productions",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Action/Adventure",
+      "nominee": "Alien: Isolation",
+      "company": "Creative Assembly/Sega)",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Action/Adventure",
+      "nominee": "Assassin's Creed Unity",
+      "company": "Ubisoft Montreal/Ubisoft)",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Action/Adventure",
+      "nominee": "Bayonetta 2",
+      "company": "Platinum Games/Nintendo)",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Action/Adventure",
+      "nominee": "Sunset Overdrive",
+      "company": "Insomniac Games/Microsoft Studios)",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Sports/Racing Game",
+      "nominee": "Mario Kart 8",
+      "company": "Nintendo EAD",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Sports/Racing Game",
+      "nominee": "FIFA 15",
+      "company": "EA Canada/EA Sports)",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Sports/Racing Game",
+      "nominee": "Forza Horizon 2",
+      "company": "Playground Games/Turn 10 Studios/Microsoft Studios)",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Sports/Racing Game",
+      "nominee": "NBA 2K15",
+      "company": "Visual Concepts/2K Sports)",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Sports/Racing Game",
+      "nominee": "Trials Fusion",
+      "company": "RedLynx/Ubisoft)",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Independent Game",
+      "nominee": "Shovel Knight",
+      "company": "Yacht Club Games",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Independent Game",
+      "nominee": "Broken Age: Act I",
+      "company": "Double Fine Productions)",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Independent Game",
+      "nominee": "Monument Valley",
+      "company": "Ustwo)",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Independent Game",
+      "nominee": "Transistor",
+      "company": "Supergiant Games)",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Independent Game",
+      "nominee": "The Vanishing of Ethan Carter",
+      "company": "The Astronauts)",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Role Playing Game",
+      "nominee": "Dragon Age: Inquisition",
+      "company": "BioWare",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Role Playing Game",
+      "nominee": "Bravely Default",
+      "company": "Silicon Studio/Square-Enix/Nintendo)",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Role Playing Game",
+      "nominee": "Dark Souls II",
+      "company": "From Software/Bandai Namco Games)",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Role Playing Game",
+      "nominee": "Divinity",
+      "company": "Larian Studios)",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Role Playing Game",
+      "nominee": "South Park: The Stick of Truth",
+      "company": "Obsidian/Ubisoft)",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Fighting Game",
+      "nominee": "Super Smash Bros. for Wii U",
+      "company": "Sora Ltd. e Bandai Namco Games",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Fighting Game",
+      "nominee": "Killer Instinct: Season Two",
+      "company": "Iron Galaxy Studios/Microsoft Studios)",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Fighting Game",
+      "nominee": "Persona 4 Arena Ultimax",
+      "company": "Arc System Works/Atlus)",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Fighting Game",
+      "nominee": "Super Smash Bros. for Nintendo 3DS",
+      "company": "Sora Ltd. e Bandai Namco Games)",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Fighting Game",
+      "nominee": "Ultra Street Fighter IV",
+      "company": "Capcom)",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Mobile/Handheld Game",
+      "nominee": "Hearthstone: Heroes of Warcraft",
+      "company": "Blizzard Entertainment",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Mobile/Handheld Game",
+      "nominee": "Bravely Default",
+      "company": "Silicon Studio and Square Enix",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Mobile/Handheld Game",
+      "nominee": "Monument Valley",
+      "company": "Ustwo",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Mobile/Handheld Game",
+      "nominee": "Super Smash Bros. for Nintendo 3DS",
+      "company": "Sora Ltd and Bandai Namco Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Mobile/Handheld Game",
+      "nominee": "Threes",
+      "company": "Sirvo",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Score/Soundtrack",
+      "nominee": "Destiny",
+      "company": "Michael Salvatori, C. Paul Johnson, Martin O'Donnell e Paul McCartney",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Score/Soundtrack",
+      "nominee": "Alien: Isolation",
+      "company": "Byron Bullock, Sam Cooper, Jeff van Dyck, Christian Henson, Joe Henson, Haydn Payne and Alexis Smith",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Score/Soundtrack",
+      "nominee": "Child of Light",
+      "company": "Béatrice Martin",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Score/Soundtrack",
+      "nominee": "Sunset Overdrive",
+      "company": "Boris Salchow",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Score/Soundtrack",
+      "nominee": "Transistor",
+      "company": "Darren Korb",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Remaster",
+      "nominee": "Grand Theft Auto V",
+      "company": "Rockstar North",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Remaster",
+      "nominee": "Halo: The Master Chief Collection",
+      "company": "originally Bungie and 343 Industries; re343 Industries",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Remaster",
+      "nominee": "Pokémon Omega Ruby and Alpha Sapphire",
+      "company": "originally developed / reGame Freak",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Remaster",
+      "nominee": "The Last of Us Remastered",
+      "company": "originally developed / reNaughty Dog",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Remaster",
+      "nominee": "Tomb Raider: Definitive Edition",
+      "company": "originally Crystal Dynamics; reNixxes Software and United Front Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Narrative",
+      "nominee": "Valiant Hearts: The Great War",
+      "company": "Ubisoft Montpellier",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Narrative",
+      "nominee": "South Park: The Stick of Truth",
+      "company": "Trey Parker and Matt Stone",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Narrative",
+      "nominee": "The Walking Dead: Season Two",
+      "company": "Nick Breckon and Andrew Grant",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Narrative",
+      "nominee": "The Wolf Among Us",
+      "company": "Pierre Shorette",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Narrative",
+      "nominee": "Wolfenstein: The New Order",
+      "company": "Jerk Gustafsson, Tom Keegan and Jens Matthies",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Performance",
+      "nominee": "Trey Parker as Various Voices (South Park: The Stick of Truth)",
+      "company": "Obsidian Entertainment",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Performance",
+      "nominee": "Adam Harrington as Bigby Wolf (The Wolf Among Us)",
+      "company": "Telltale Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Performance",
+      "nominee": "Kevin Spacey as Jonathan Irons (Call of Duty: Advanced Warfare)",
+      "company": "Sledgehammer Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Performance",
+      "nominee": "Melissa Hutchison as Clementine (The Walking Dead: Season Two)",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Performance",
+      "nominee": "Troy Baker as Talion (in Middle-earth: Shadow of Mordor)",
+      "company": "Monolith Productions",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Games for Change",
+      "nominee": "Valiant Hearts: The Great War",
+      "company": "Ubisoft Montpellier",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Games for Change",
+      "nominee": "Mountain",
+      "company": "David OReilly",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Games for Change",
+      "nominee": "Never Alone",
+      "company": "Upper One Games and E-Line Media",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Games for Change",
+      "nominee": "The Last of Us: Left Behind",
+      "company": "Naughty Dog",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Games for Change",
+      "nominee": "This War of Mine",
+      "company": "11 bit studios",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Family Game",
+      "nominee": "Mario Kart 8",
+      "company": "Nintendo EAD",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Family Game",
+      "nominee": "Mountain",
+      "company": "David OReilly",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Family Game",
+      "nominee": "Never Alone",
+      "company": "Upper One Games and E-Line Media",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Family Game",
+      "nominee": "The Last of Us: Left Behind",
+      "company": "Naughty Dog",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Family Game",
+      "nominee": "This War of Mine",
+      "company": "11 bit studios",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Online Experience",
+      "nominee": "Destiny",
+      "company": "Bungie",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Online Experience",
+      "nominee": "Call of Duty: Advanced Warfare",
+      "company": "Sledgehammer Games, High Moon Studios and Raven Software",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Online Experience",
+      "nominee": "Dark Souls II",
+      "company": "FromSoftware",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Online Experience",
+      "nominee": "Hearthstone: Heroes of Warcraft",
+      "company": "Blizzard Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Best Online Experience",
+      "nominee": "Titanfall",
+      "company": "Respawn Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2014,
+      "category": "Most Anticipated Game 2015",
+      "nominee": "The Witcher 3: Wild Hunt",
+      "company": "CD Projekt RED",
+      "winner": 1,
+      "voted": "fan"
+    },
+    {
+      "year": 2014,
+      "category": "Most Anticipated Game 2015",
+      "nominee": "Batman: Arkham Knight",
+      "company": "Rocksteady Studios",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2014,
+      "category": "Most Anticipated Game 2015",
+      "nominee": "Uncharted 4: A Thief's End",
+      "company": "Naughty Dog",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2014,
+      "category": "Most Anticipated Game 2015",
+      "nominee": "Evolve",
+      "company": "Turtle Rock Studios",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2014,
+      "category": "Most Anticipated Game 2015",
+      "nominee": "Bloodborne",
+      "company": "FromSoftware",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2014,
+      "category": "Best Fan Creation",
+      "nominee": "Twitch Plays Pokémon – by Anonymous",
+      "company": "Anonymous",
+      "winner": 1,
+      "voted": "fan"
+    },
+    {
+      "year": 2014,
+      "category": "Best Fan Creation",
+      "nominee": "Luigi Death Stare",
+      "company": "CZBwoi and Rizupicorr",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2014,
+      "category": "Best Fan Creation",
+      "nominee": "It's Dangerous to Go Alone",
+      "company": "Starbomb",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2014,
+      "category": "Best Fan Creation",
+      "nominee": "Minecraft - Titan City",
+      "company": "Colonial Puppet",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2014,
+      "category": "Best Fan Creation",
+      "nominee": "Mine the Diamond (Minecraft Song)",
+      "company": "Tobuscus",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2014,
+      "category": "ESports Player of the Year",
+      "nominee": "Matt \"NaDeSHoT\" Haag",
+      "company": "",
+      "winner": 1,
+      "voted": "fan"
+    },
+    {
+      "year": 2014,
+      "category": "ESports Player of the Year",
+      "nominee": "Christopher \"GeT RiGhT\" Alesund",
+      "company": "",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2014,
+      "category": "ESports Player of the Year",
+      "nominee": "Martin ‘Rekkles’ Larsson",
+      "company": "",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2014,
+      "category": "ESports Player of the Year",
+      "nominee": "James “Firebat” Kostesich",
+      "company": "",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2014,
+      "category": "ESports Player of the Year",
+      "nominee": "Xu “Fy” Linsen",
+      "company": "",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2014,
+      "category": "ESports Team of the Year",
+      "nominee": "Ninjas in Pyjamas",
+      "company": "",
+      "winner": 1,
+      "voted": "fan"
+    },
+    {
+      "year": 2014,
+      "category": "ESports Team of the Year",
+      "nominee": "Evil Geniuses",
+      "company": "",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2014,
+      "category": "ESports Team of the Year",
+      "nominee": "Samsung White",
+      "company": "",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2014,
+      "category": "ESports Team of the Year",
+      "nominee": "Edward Gaming",
+      "company": "",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2014,
+      "category": "ESports Team of the Year",
+      "nominee": "Newbee",
+      "company": "",
+      "winner": 1,
+      "voted": "fan"
+    },
+    {
+      "year": 2014,
+      "category": "Trending Gamer",
+      "nominee": "TotalBiscuit",
+      "company": "",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2014,
+      "category": "Trending Gamer",
+      "nominee": "Evan \"Vanoss\" Fong",
+      "company": "",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2014,
+      "category": "Trending Gamer",
+      "nominee": "Jeff Gerstmann",
+      "company": "",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2014,
+      "category": "Trending Gamer",
+      "nominee": "PewDiePie",
+      "company": "",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2014,
+      "category": "Trending Gamer",
+      "nominee": "StampyLongHead",
+      "company": "",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2014,
+      "category": "Industry Icon Award",
+      "nominee": "Ken and Roberta Williams",
+      "company": "Sierra Entertainment",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Game of the Year",
+      "nominee": "The Witcher 3: Wild Hunt",
+      "company": "CD Projekt Red",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Game of the Year",
+      "nominee": "Bloodborne",
+      "company": "FromSoftware",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Game of the Year",
+      "nominee": "Fallout 4",
+      "company": "Bethesda Game Studios",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Game of the Year",
+      "nominee": "Metal Gear Solid V: The Phantom Pain",
+      "company": "Kojima Productions",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Game of the Year",
+      "nominee": "Super Mario Maker",
+      "company": "Nintendo",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Developer of the Year",
+      "nominee": "CD Projekt Red",
+      "company": "",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Developer of the Year",
+      "nominee": "Bethesda Game Studios",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Developer of the Year",
+      "nominee": "FromSoftware",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Developer of the Year",
+      "nominee": "Kojima Productions",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Developer of the Year",
+      "nominee": "Nintendo",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Independent Game",
+      "nominee": "Rocket League",
+      "company": "Psyonix",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Independent Game",
+      "nominee": "Axiom Verge",
+      "company": "Tom Happ",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Independent Game",
+      "nominee": "Her Story",
+      "company": "Sam Barlow",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Independent Game",
+      "nominee": "Ori and the Blind Forest",
+      "company": "Moon Studios",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Independent Game",
+      "nominee": "Undertale",
+      "company": "Toby Fox",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Mobile/Handheld Game",
+      "nominee": "Lara Croft Go",
+      "company": "Square Enix Montréal",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Mobile/Handheld Game",
+      "nominee": "Downwell",
+      "company": "Moppin",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Mobile/Handheld Game",
+      "nominee": "Fallout Shelter",
+      "company": "Bethesda Game Studios and Behaviour Interactive",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Mobile/Handheld Game",
+      "nominee": "Monster Hunter 4 Ultimate",
+      "company": "Capcom",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Mobile/Handheld Game",
+      "nominee": "Pac-Man 256",
+      "company": "Hipster Whale",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Narrative",
+      "nominee": "Her Story",
+      "company": "Sam Barlow",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Narrative",
+      "nominee": "Life Is Strange",
+      "company": "Christian Divine and Jean-Luc Cano",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Narrative",
+      "nominee": "Tales from the Borderlands",
+      "company": "Pierre Shorette, Adam Hines, Jeremy Breslau, Chuck Jordan, Eric Stirpe, Anthony Burch, and Zack Keller",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Narrative",
+      "nominee": "The Witcher 3: Wild Hunt",
+      "company": "Marcin Blacha and Borys Pugacz-Muraszkiewicz",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Narrative",
+      "nominee": "Until Dawn",
+      "company": "Graham Reznick and Larry Fessenden",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Art Direction",
+      "nominee": "Ori and the Blind Forest",
+      "company": "Moon Studios",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Art Direction",
+      "nominee": "Batman: Arkham Knight",
+      "company": "Rocksteady Studios",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Art Direction",
+      "nominee": "Bloodborne",
+      "company": "FromSoftware",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Art Direction",
+      "nominee": "Metal Gear Solid V: The Phantom Pain",
+      "company": "Kojima Productions",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Art Direction",
+      "nominee": "The Witcher 3: Wild Hunt",
+      "company": "CD Projekt Red",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Score/Soundtrack",
+      "nominee": "Metal Gear Solid V: The Phantom Pain",
+      "company": "Ludvig Forssell, Justin Burnett, and Daniel James",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Score/Soundtrack",
+      "nominee": "Fallout 4",
+      "company": "Inon Zur",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Score/Soundtrack",
+      "nominee": "Halo 5: Guardians",
+      "company": "Kazuma Jinnouchi",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Score/Soundtrack",
+      "nominee": "Ori and the Blind Forest",
+      "company": "Gareth Coker",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Score/Soundtrack",
+      "nominee": "The Witcher 3: Wild Hunt",
+      "company": "Marcin Przybyłowicz, Mikolai Stroinski, and Percival",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Performance",
+      "nominee": "Viva Seifert as Hannah Smith (Her Story)",
+      "company": "",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Performance",
+      "nominee": "Ashly Burch as Chloe Price (Life Is Strange)",
+      "company": "Square Enix",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Performance",
+      "nominee": "Camilla Luddington as Lara Croft (Rise of the Tomb Raider)",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Performance",
+      "nominee": "Doug Cockle as Geralt of Rivia (The Witcher 3: Wild Hunt)",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Performance",
+      "nominee": "Mark Hamill as the Joker (Batman: Arkham Knight)",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Games for Impact",
+      "nominee": "Life Is Strange",
+      "company": "Dontnod Entertainment",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Games for Impact",
+      "nominee": "Cibele",
+      "company": "Star Maid Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Games for Impact",
+      "nominee": "Her Story",
+      "company": "Sam Barlow",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Games for Impact",
+      "nominee": "Sunset",
+      "company": "Tale of Tales",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Games for Impact",
+      "nominee": "Undertale",
+      "company": "Toby Fox",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Shooter",
+      "nominee": "Splatoon",
+      "company": "Nintendo",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Shooter",
+      "nominee": "Call of Duty: Black Ops III",
+      "company": "Treyarch",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Shooter",
+      "nominee": "Destiny: The Taken King",
+      "company": "Bungie",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Shooter",
+      "nominee": "Halo 5: Guardians",
+      "company": "343 Industries",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Shooter",
+      "nominee": "Star Wars Battlefront",
+      "company": "EA Digital Illusions CE",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Action/Adventure",
+      "nominee": "Metal Gear Solid V: The Phantom Pain",
+      "company": "Kojima Productions",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Action/Adventure",
+      "nominee": "Assassin's Creed Syndicate",
+      "company": "Ubisoft Quebec",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Action/Adventure",
+      "nominee": "Batman: Arkham Knight",
+      "company": "Rocksteady Studios",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Action/Adventure",
+      "nominee": "Ori and the Blind Forest",
+      "company": "Moon Studios",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Action/Adventure",
+      "nominee": "Rise of the Tomb Raider",
+      "company": "Crystal Dynamics",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Role Playing Game",
+      "nominee": "The Witcher 3: Wild Hunt",
+      "company": "CD Projekt Red",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Role Playing Game",
+      "nominee": "Bloodborne",
+      "company": "FromSoftware",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Role Playing Game",
+      "nominee": "Fallout 4",
+      "company": "Bethesda Game Studios",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Role Playing Game",
+      "nominee": "Pillars of Eternity",
+      "company": "Obsidian Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Role Playing Game",
+      "nominee": "Undertale",
+      "company": "Toby Fox",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Fighting Game",
+      "nominee": "Mortal Kombat X",
+      "company": "NetherRealm Studios",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Fighting Game",
+      "nominee": "Guilty Gear Xrd",
+      "company": "SIGN",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Fighting Game",
+      "nominee": "Rise of Incarnates",
+      "company": "Bandai Namco Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Fighting Game",
+      "nominee": "Rising Thunder",
+      "company": "Radiant Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Family Game",
+      "nominee": "Super Mario Maker",
+      "company": "Nintendo",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Family Game",
+      "nominee": "Disney Infinity 3.0",
+      "company": "Avalanche Software with additional work by Ninja Theory, Studio Gobo, Sumo Digital and United Front Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Family Game",
+      "nominee": "Lego Dimensions",
+      "company": "Traveller's Tales",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Family Game",
+      "nominee": "Skylanders: SuperChargers",
+      "company": "Vicarious Visions and Beenox",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Family Game",
+      "nominee": "Splatoon",
+      "company": "Nintendo",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Sports/Racing Game",
+      "nominee": "Rocket League",
+      "company": "Psyonix",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Sports/Racing Game",
+      "nominee": "FIFA 16",
+      "company": "EA Canada",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Sports/Racing Game",
+      "nominee": "Forza Motorsport 6",
+      "company": "Turn 10 Studios",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Sports/Racing Game",
+      "nominee": "NBA 2K16",
+      "company": "Visual Concepts",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Sports/Racing Game",
+      "nominee": "Pro Evolution Soccer 2016",
+      "company": "PES Productions",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Multiplayer",
+      "nominee": "Splatoon",
+      "company": "Nintendo",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Multiplayer",
+      "nominee": "Call of Duty: Black Ops III",
+      "company": "Treyarch",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Multiplayer",
+      "nominee": "Destiny: The Taken King",
+      "company": "Bungie",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Multiplayer",
+      "nominee": "Halo 5: Guardians",
+      "company": "343 Industries",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Best Multiplayer",
+      "nominee": "Rocket League",
+      "company": "Psyonix",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2015,
+      "category": "Most Anticipated Game",
+      "nominee": "No Man's Sky",
+      "company": "Hello Games",
+      "winner": 1,
+      "voted": "fan"
+    },
+    {
+      "year": 2015,
+      "category": "Most Anticipated Game",
+      "nominee": "Horizon Zero Dawn",
+      "company": "Guerrilla Games",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2015,
+      "category": "Most Anticipated Game",
+      "nominee": "Quantum Break",
+      "company": "Remedy Entertainment",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2015,
+      "category": "Most Anticipated Game",
+      "nominee": "The Last Guardian",
+      "company": "genDESIGN and SCE Japan Studio",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2015,
+      "category": "Most Anticipated Game",
+      "nominee": "Uncharted 4: A Thief's End",
+      "company": "Naughty Dog",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2015,
+      "category": "ESports Player of the Year",
+      "nominee": "Kenny \"KennyS\" Schrub (Team EnVyUs",
+      "company": "Counter-Strike: Global Offensive)",
+      "winner": 1,
+      "voted": "fan"
+    },
+    {
+      "year": 2015,
+      "category": "ESports Player of the Year",
+      "nominee": "Lee \"Faker\" Sang-hyeok (SK Telecom T1 League of Legends)",
+      "company": "Riot Games",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2015,
+      "category": "ESports Player of the Year",
+      "nominee": "Olof \"olofmeister\" Kajbjer (Fnatic",
+      "company": "Valve",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2015,
+      "category": "ESports Player of the Year",
+      "nominee": "Peter \"ppd\" Dager (Evil Geniuses Dota 2)",
+      "company": "Valve",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2015,
+      "category": "ESports Player of the Year",
+      "nominee": "Syed Sumail \"Suma1L\" Hassan (Evil Geniuses Dota 2)",
+      "company": "Valve",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2015,
+      "category": "ESports Team of the Year",
+      "nominee": "OpTic Gaming",
+      "company": "",
+      "winner": 1,
+      "voted": "fan"
+    },
+    {
+      "year": 2015,
+      "category": "ESports Team of the Year",
+      "nominee": "Evil Geniuses",
+      "company": "",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2015,
+      "category": "ESports Team of the Year",
+      "nominee": "Fnatic",
+      "company": "",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2015,
+      "category": "ESports Team of the Year",
+      "nominee": "SK Telecom T1",
+      "company": "",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2015,
+      "category": "ESports Team of the Year",
+      "nominee": "Team SoloMid",
+      "company": "",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2015,
+      "category": "ESports Game of the Year",
+      "nominee": "Counter-Strike: Global Offensive",
+      "company": "Valve",
+      "winner": 1,
+      "voted": "fan"
+    },
+    {
+      "year": 2015,
+      "category": "ESports Game of the Year",
+      "nominee": "Call of Duty: Advanced Warfare",
+      "company": "Sledgehammer Games",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2015,
+      "category": "ESports Game of the Year",
+      "nominee": "Dota 2",
+      "company": "Valve",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2015,
+      "category": "ESports Game of the Year",
+      "nominee": "Hearthstone: Heroes of Warcraft",
+      "company": "Blizzard Entertainment",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2015,
+      "category": "ESports Game of the Year",
+      "nominee": "League of Legends",
+      "company": "Riot Games",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2015,
+      "category": "Trending Gamer",
+      "nominee": "Greg Miller",
+      "company": "",
+      "winner": 1,
+      "voted": "fan"
+    },
+    {
+      "year": 2015,
+      "category": "Trending Gamer",
+      "nominee": "TotalBiscuit",
+      "company": "",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2015,
+      "category": "Trending Gamer",
+      "nominee": "Christopher \"MonteCristo\" Mykles",
+      "company": "",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2015,
+      "category": "Trending Gamer",
+      "nominee": "Markiplier",
+      "company": "",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2015,
+      "category": "Trending Gamer",
+      "nominee": "PewDiePie",
+      "company": "",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2015,
+      "category": "Best Fan Creation",
+      "nominee": "Portal Stories: Mel",
+      "company": "Prism Studios",
+      "winner": 1,
+      "voted": "fan"
+    },
+    {
+      "year": 2015,
+      "category": "Best Fan Creation",
+      "nominee": "GTA V",
+      "company": "Targets",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2015,
+      "category": "Best Fan Creation",
+      "nominee": "Real GTA",
+      "company": "Corridor Digital",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2015,
+      "category": "Best Fan Creation",
+      "nominee": "Twitch Plays Dark Souls",
+      "company": "Twitch Community",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2015,
+      "category": "Industry Icon Award",
+      "nominee": "Brett Sperry and Louis Castle",
+      "company": "Westwood Studios",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Game of the Year",
+      "nominee": "Overwatch",
+      "company": "Blizzard Entertainment",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Game of the Year",
+      "nominee": "Doom",
+      "company": "id Software",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Game of the Year",
+      "nominee": "Inside",
+      "company": "Playdead",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Game of the Year",
+      "nominee": "Titanfall 2",
+      "company": "Respawn Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Game of the Year",
+      "nominee": "Uncharted 4: A Thief's End",
+      "company": "Naughty Dog",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Developer of the Year",
+      "nominee": "Overwatch",
+      "company": "Blizzard Entertainment",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Developer of the Year",
+      "nominee": "Battlefield 1",
+      "company": "EA DICE",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Developer of the Year",
+      "nominee": "Doom",
+      "company": "id Software",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Developer of the Year",
+      "nominee": "Uncharted 4: A Thief's End",
+      "company": "Naughty Dog",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Developer of the Year",
+      "nominee": "Titanfall 2",
+      "company": "Respawn Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Narrative",
+      "nominee": "Uncharted 4: A Thief's End",
+      "company": "Neil Druckmann and Josh Scherr",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Narrative",
+      "nominee": "Firewatch",
+      "company": "Olly Moss, Chris Remo, Jake Rodkin, and Sean Vanaman",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Narrative",
+      "nominee": "Inside",
+      "company": "Laurids Binderup",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Narrative",
+      "nominee": "Mafia III",
+      "company": "Bill Harms",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Narrative",
+      "nominee": "Oxenfree",
+      "company": "Adam Hines",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Art Direction",
+      "nominee": "Inside",
+      "company": "Playdead",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Art Direction",
+      "nominee": "Abzû",
+      "company": "Giant Squid",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Art Direction",
+      "nominee": "Firewatch",
+      "company": "Campo Santo",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Art Direction",
+      "nominee": "Overwatch",
+      "company": "Blizzard Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Art Direction",
+      "nominee": "Uncharted 4: A Thief's End",
+      "company": "Naughty Dog",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Music/Sound Design",
+      "nominee": "Doom",
+      "company": "Mick Gordon",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Music/Sound Design",
+      "nominee": "Battlefield 1",
+      "company": "Patrik Andrén and Johan Söderqvist",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Music/Sound Design",
+      "nominee": "Inside",
+      "company": "Martin Stig Andersen and Søs Gunver Ryberg",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Music/Sound Design",
+      "nominee": "Rez Infinite",
+      "company": "United Game Artists",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Music/Sound Design",
+      "nominee": "Thumper",
+      "company": "Drool",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Performance",
+      "nominee": "Nolan North as Nathan Drake (Uncharted 4: A Thief's End)",
+      "company": "Naughty Dog",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Performance",
+      "nominee": "Alex Hernandez as Lincoln Clay (Mafia III)",
+      "company": "Hangar 13",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Performance",
+      "nominee": "Cissy Jones as Delilah (Firewatch)",
+      "company": "Campo Santo",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Performance",
+      "nominee": "Emily Rose as Elena (Uncharted 4: A Thief's End)",
+      "company": "Naughty Dog",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Performance",
+      "nominee": "Rich Sommer as Henry (Firewatch)",
+      "company": "Campo Santo",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Performance",
+      "nominee": "Troy Baker as Sam Drake (Uncharted 4: A Thief's End)",
+      "company": "Naughty Dog",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Games for Impact",
+      "nominee": "That Dragon, Cancer",
+      "company": "Numinous Games",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Games for Impact",
+      "nominee": "Block’hood",
+      "company": "Plethora Project",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Games for Impact",
+      "nominee": "Orwell",
+      "company": "Osmotic",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Games for Impact",
+      "nominee": "Sea Hero Quest",
+      "company": "Glitchers",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Games for Impact",
+      "nominee": "1979 Revolution: Black Friday",
+      "company": "iNK Stories",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Independent Game",
+      "nominee": "Inside",
+      "company": "Playdead",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Independent Game",
+      "nominee": "Firewatch",
+      "company": "Campo Santo",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Independent Game",
+      "nominee": "Hyper Light Drifter",
+      "company": "Heart Machine",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Independent Game",
+      "nominee": "Stardew Valley",
+      "company": "ConcernedApe",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Independent Game",
+      "nominee": "The Witness",
+      "company": "Thekla, Inc.",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Mobile/Handheld Game",
+      "nominee": "Pokémon Go",
+      "company": "Niantic",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Mobile/Handheld Game",
+      "nominee": "Clash Royale",
+      "company": "Supercell",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Mobile/Handheld Game",
+      "nominee": "Fire Emblem Fates",
+      "company": "Intelligent Systems",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Mobile/Handheld Game",
+      "nominee": "Monster Hunter Generations",
+      "company": "Capcom",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Mobile/Handheld Game",
+      "nominee": "Severed",
+      "company": "DrinkBox Studios",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best VR Game",
+      "nominee": "Rez Infinite",
+      "company": "United Game Artists",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best VR Game",
+      "nominee": "Batman: Arkham VR",
+      "company": "Rocksteady Studios",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best VR Game",
+      "nominee": "Eve: Valkyrie",
+      "company": "CCP Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best VR Game",
+      "nominee": "Job Simulator",
+      "company": "Owlchemy Labs",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best VR Game",
+      "nominee": "Thumper",
+      "company": "Drool",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Action Game",
+      "nominee": "Doom",
+      "company": "id Software",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Action Game",
+      "nominee": "Battlefield 1",
+      "company": "EA DICE",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Action Game",
+      "nominee": "Gears of War 4",
+      "company": "The Coalition",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Action Game",
+      "nominee": "Overwatch",
+      "company": "Blizzard Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Action Game",
+      "nominee": "Titanfall 2",
+      "company": "Respawn Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Action/Adventure",
+      "nominee": "Dishonored 2",
+      "company": "Arkane Studios",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Action/Adventure",
+      "nominee": "Hitman",
+      "company": "IO Interactive",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Action/Adventure",
+      "nominee": "Hyper Light Drifter",
+      "company": "Heart Machine",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Action/Adventure",
+      "nominee": "Ratchet & Clank",
+      "company": "Insomniac Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Action/Adventure",
+      "nominee": "Uncharted 4: A Thief's End",
+      "company": "Naughty Dog",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Role Playing Game",
+      "nominee": "The Witcher 3: Wild Hunt - Blood and Wine",
+      "company": "CD Projekt Red",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Role Playing Game",
+      "nominee": "Dark Souls III",
+      "company": "FromSoftware",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Role Playing Game",
+      "nominee": "Deus Ex: Mankind Divided",
+      "company": "Eidos Montréal",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Role Playing Game",
+      "nominee": "World of Warcraft: Legion",
+      "company": "Blizzard Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Role Playing Game",
+      "nominee": "Xenoblade Chronicles X",
+      "company": "Monolith Soft",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Fighting Game",
+      "nominee": "Street Fighter V",
+      "company": "Capcom",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Fighting Game",
+      "nominee": "Killer Instinct Season Three",
+      "company": "Iron Galaxy",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Fighting Game",
+      "nominee": "The King of Fighters XIV",
+      "company": "SNK",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Fighting Game",
+      "nominee": "Pokkén Tournament",
+      "company": "Bandai Namco Studios",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Strategy Game",
+      "nominee": "Civilization VI",
+      "company": "Firaxis Games",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Strategy Game",
+      "nominee": "Fire Emblem Fates",
+      "company": "Intelligent Systems",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Strategy Game",
+      "nominee": "The Banner Saga 2",
+      "company": "Stoic",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Strategy Game",
+      "nominee": "Total War: Warhammer",
+      "company": "Creative Assembly",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Strategy Game",
+      "nominee": "XCOM 2",
+      "company": "Firaxis Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Family Game",
+      "nominee": "Pokémon Go",
+      "company": "Niantic",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Family Game",
+      "nominee": "Dragon Quest Builders",
+      "company": "Square Enix",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Family Game",
+      "nominee": "Lego Star Wars: The Force Awakens",
+      "company": "TT Fusion",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Family Game",
+      "nominee": "Ratchet & Clank",
+      "company": "Insomniac Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Family Game",
+      "nominee": "Skylanders: Imaginators",
+      "company": "Toys for Bob",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Sports/Racing Game",
+      "nominee": "Forza Horizon 3",
+      "company": "Playground Games",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Sports/Racing Game",
+      "nominee": "FIFA 17",
+      "company": "EA Canada",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Sports/Racing Game",
+      "nominee": "MLB The Show 16",
+      "company": "SIE San Diego Studio",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Sports/Racing Game",
+      "nominee": "NBA 2K17",
+      "company": "Visual Concepts",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Sports/Racing Game",
+      "nominee": "Pro Evolution Soccer 2017",
+      "company": "PES Productions",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Multiplayer",
+      "nominee": "Overwatch",
+      "company": "Blizzard Entertainment",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Multiplayer",
+      "nominee": "Battlefield 1",
+      "company": "EA DICE",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Multiplayer",
+      "nominee": "Gears of War 4",
+      "company": "The Coalition",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Multiplayer",
+      "nominee": "Overcooked",
+      "company": "Ghost Town Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Multiplayer",
+      "nominee": "Titanfall 2",
+      "company": "Respawn Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Best Multiplayer",
+      "nominee": "Tom Clancy's Rainbow Six Siege",
+      "company": "Ubisoft Montreal",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2016,
+      "category": "Most Anticipated Game",
+      "nominee": "The Legend of Zelda: Breath of the Wild",
+      "company": "Nintendo EPD",
+      "winner": 1,
+      "voted": "fan"
+    },
+    {
+      "year": 2016,
+      "category": "Most Anticipated Game",
+      "nominee": "God of War",
+      "company": "SIE Santa Monica Studio",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2016,
+      "category": "Most Anticipated Game",
+      "nominee": "Horizon Zero Dawn",
+      "company": "Guerrilla Games",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2016,
+      "category": "Most Anticipated Game",
+      "nominee": "Mass Effect: Andromeda",
+      "company": "BioWare",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2016,
+      "category": "Most Anticipated Game",
+      "nominee": "Red Dead Redemption 2",
+      "company": "Rockstar Studios",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2016,
+      "category": "Trending Gamer",
+      "nominee": "Boogie2988",
+      "company": "",
+      "winner": 1,
+      "voted": "fan"
+    },
+    {
+      "year": 2016,
+      "category": "Trending Gamer",
+      "nominee": "AngryJoeShow",
+      "company": "",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2016,
+      "category": "Trending Gamer",
+      "nominee": "Danny O'Dwyer",
+      "company": "",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2016,
+      "category": "Trending Gamer",
+      "nominee": "JackSepticEye",
+      "company": "",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2016,
+      "category": "Trending Gamer",
+      "nominee": "Lirik",
+      "company": "",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2016,
+      "category": "Best Fan Creation",
+      "nominee": "Enderal: The Shards of Order",
+      "company": "",
+      "winner": 1,
+      "voted": "fan"
+    },
+    {
+      "year": 2016,
+      "category": "Best Fan Creation",
+      "nominee": "Brutal Doom",
+      "company": "",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2016,
+      "category": "ESports Player of the Year",
+      "nominee": "Marcelo \"Coldzera\" David (SK Gaming Counter-Strike: Global Offensive)",
+      "company": "Valve",
+      "winner": 1,
+      "voted": "fan"
+    },
+    {
+      "year": 2016,
+      "category": "ESports Player of the Year",
+      "nominee": "Lee \"Faker\" Sang-hyeok (SK Telecom T1 League of Legends)",
+      "company": "Riot Games",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2016,
+      "category": "ESports Player of the Year",
+      "nominee": "Hyun \"ByuN\" Woo (StarCraft II)",
+      "company": "Blizzard Entertainment",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2016,
+      "category": "ESports Player of the Year",
+      "nominee": "Lee \"Infiltration\" Seon-woo (Team Razer Street Fighter V)",
+      "company": "Capcom",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2016,
+      "category": "ESports Player of the Year",
+      "nominee": "Juan \"Hungrybox\" Debiedma (Team Liquid Super Smash Bros. Melee)",
+      "company": "Nintendo",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2016,
+      "category": "ESports Team of the Year",
+      "nominee": "Cloud9",
+      "company": "",
+      "winner": 1,
+      "voted": "fan"
+    },
+    {
+      "year": 2016,
+      "category": "ESports Team of the Year",
+      "nominee": "SK Telecom T1",
+      "company": "",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2016,
+      "category": "ESports Team of the Year",
+      "nominee": "Wings Gaming",
+      "company": "",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2016,
+      "category": "ESports Team of the Year",
+      "nominee": "SK Gaming",
+      "company": "",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2016,
+      "category": "ESports Team of the Year",
+      "nominee": "ROX Tigers",
+      "company": "",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2016,
+      "category": "ESports Game of the Year",
+      "nominee": "Overwatch",
+      "company": "Blizzard Entertainment",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2016,
+      "category": "ESports Game of the Year",
+      "nominee": "Counter-Strike: Global Offensive",
+      "company": "Valve",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2016,
+      "category": "ESports Game of the Year",
+      "nominee": "Dota 2",
+      "company": "Valve",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2016,
+      "category": "ESports Game of the Year",
+      "nominee": "League of Legends",
+      "company": "Riot Games",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2016,
+      "category": "ESports Game of the Year",
+      "nominee": "Street Fighter V",
+      "company": "Capcom",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2016,
+      "category": "Industry Icon Award",
+      "nominee": "Hideo Kojima",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Game of the Year",
+      "nominee": "The Legend of Zelda: Breath of the Wild",
+      "company": "Nintendo",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Game of the Year",
+      "nominee": "Horizon Zero Dawn",
+      "company": "Guerrilla Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Game of the Year",
+      "nominee": "Persona 5",
+      "company": "Atlus",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Game of the Year",
+      "nominee": "PlayerUnknown's Battlegrounds",
+      "company": "PUBG Corporation",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Game of the Year",
+      "nominee": "Super Mario Odyssey",
+      "company": "Nintendo",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Game Direction",
+      "nominee": "The Legend of Zelda: Breath of the Wild",
+      "company": "Hidemaro Fujibayashi",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Game Direction",
+      "nominee": "Horizon Zero Dawn",
+      "company": "Mathijs de Jonge",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Game Direction",
+      "nominee": "Resident Evil 7: Biohazard",
+      "company": "Koshi Nakanishi",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Game Direction",
+      "nominee": "Super Mario Odyssey",
+      "company": "Kenta Motokura",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Game Direction",
+      "nominee": "Wolfenstein II: The New Colossus - Jens Matthies",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Narrative",
+      "nominee": "What Remains of Edith Finch",
+      "company": "Ian Dallas",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Narrative",
+      "nominee": "Hellblade: Senua's Sacrifice",
+      "company": "Tameem Antoniades and Elizabeth Ashman-Rowe",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Narrative",
+      "nominee": "Horizon Zero Dawn",
+      "company": "John Gonzalez",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Narrative",
+      "nominee": "Nier: Automata",
+      "company": "Yoko Taro, Hana Kikuchi, and Yoshiho Akabane",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Narrative",
+      "nominee": "Wolfenstein II: The New Colossus",
+      "company": "Jen Matthies and Tommy Tordsson Bjork",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Art Direction",
+      "nominee": "Cuphead",
+      "company": "StudioMDHR",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Art Direction",
+      "nominee": "Destiny 2",
+      "company": "Bungie",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Art Direction",
+      "nominee": "Horizon Zero Dawn",
+      "company": "Guerrilla Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Art Direction",
+      "nominee": "Persona 5",
+      "company": "Atlus",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Art Direction",
+      "nominee": "The Legend of Zelda: Breath of the Wild",
+      "company": "Nintendo",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Score/Music",
+      "nominee": "Nier: Automata",
+      "company": "Keiichi Okabe and Keigo Hoashi",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Score/Music",
+      "nominee": "Cuphead",
+      "company": "Kristofer Maddigan",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Score/Music",
+      "nominee": "Destiny 2",
+      "company": "Michael Salvatori, Skye Lewin, and C Paul Johnson",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Score/Music",
+      "nominee": "Persona 5",
+      "company": "Shoji Meguro",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Score/Music",
+      "nominee": "Super Mario Odyssey",
+      "company": "Naoto Kubo, Shiho Fujii, and Koji Kondo",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Score/Music",
+      "nominee": "The Legend of Zelda: Breath of the Wild",
+      "company": "Manaka Kataoka and Yasuaki Iwata",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Audio Design",
+      "nominee": "Hellblade: Senua's Sacrifice",
+      "company": "Ninja Theory",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Audio Design",
+      "nominee": "Destiny 2",
+      "company": "Bungie",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Audio Design",
+      "nominee": "Resident Evil 7: Biohazard",
+      "company": "Capcom",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Audio Design",
+      "nominee": "Super Mario Odyssey",
+      "company": "Nintendo",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Audio Design",
+      "nominee": "The Legend of Zelda: Breath of the Wild",
+      "company": "Nintendo",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Performance",
+      "nominee": "Melina Juergens as Senua",
+      "company": "Hellblade: Senua's Sacrifice",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Performance",
+      "nominee": "Ashly Burch as Aloy",
+      "company": "Horizon Zero Dawn",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Performance",
+      "nominee": "Brian Bloom as B.J. Blazkowicz",
+      "company": "Wolfenstein II: The New Colossus",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Performance",
+      "nominee": "Claudia Black as Chloe Frazer",
+      "company": "Uncharted: The Lost Legacy",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Performance",
+      "nominee": "Laura Bailey as Nadine Ross",
+      "company": "Uncharted: The Lost Legacy",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Games for Impact",
+      "nominee": "Hellblade: Senua's Sacrifice",
+      "company": "Ninja Theory",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Games for Impact",
+      "nominee": "Bury Me, My Love",
+      "company": "The Pixel Hunt",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Games for Impact",
+      "nominee": "Life is Strange: Before the Storm",
+      "company": "Deck Nine",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Games for Impact",
+      "nominee": "Night in the Woods",
+      "company": "Infinite Fall",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Games for Impact",
+      "nominee": "Please Knock on My Door",
+      "company": "Levall Games AB",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Games for Impact",
+      "nominee": "What Remains of Edith Finch",
+      "company": "Giant Sparrow",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Ongoing Game",
+      "nominee": "Overwatch",
+      "company": "Blizzard Entertainment",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Ongoing Game",
+      "nominee": "Destiny 2",
+      "company": "Bungie",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Ongoing Game",
+      "nominee": "Grand Theft Auto Online",
+      "company": "Rockstar Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Ongoing Game",
+      "nominee": "PlayerUnknown's Battlegrounds",
+      "company": "PUBG Corporation",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Ongoing Game",
+      "nominee": "Tom Clancy's Rainbow Six Siege",
+      "company": "Ubisoft Montreal",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Ongoing Game",
+      "nominee": "Warframe",
+      "company": "Digital Extremes",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Independent Game",
+      "nominee": "Cuphead",
+      "company": "StudioMDHR",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Independent Game",
+      "nominee": "Hellblade: Senua's Sacrifice",
+      "company": "Ninja Theory",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Independent Game",
+      "nominee": "Night in the Woods",
+      "company": "Infinite Fall",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Independent Game",
+      "nominee": "Pyre",
+      "company": "Supergiant Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Independent Game",
+      "nominee": "What Remains of Edith Finch",
+      "company": "Giant Sparrow",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Mobile Game",
+      "nominee": "Monument Valley 2",
+      "company": "ustwo games",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Mobile Game",
+      "nominee": "Fire Emblem Heroes",
+      "company": "Intelligent Systems",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Mobile Game",
+      "nominee": "Hidden Folks",
+      "company": "Adriaan de Jongh and Sylvain Tegroeg",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Mobile Game",
+      "nominee": "Old Man's Journey",
+      "company": "Broken Rules",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Mobile Game",
+      "nominee": "Super Mario Run",
+      "company": "Nintendo",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Handheld Game",
+      "nominee": "Metroid: Samus Returns",
+      "company": "MercurySteam and Nintendo",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Handheld Game",
+      "nominee": "Ever Oasis",
+      "company": "Grezzo",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Handheld Game",
+      "nominee": "Fire Emblem Echoes: Shadows of Valentia",
+      "company": "Intelligent Systems",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Handheld Game",
+      "nominee": "Monster Hunter Stories",
+      "company": "Marvelous Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Handheld Game",
+      "nominee": "Poochy and Yoshi's Woolly World",
+      "company": "Good-Feel",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best VR/AR Game",
+      "nominee": "Resident Evil 7: Biohazard",
+      "company": "Capcom",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best VR/AR Game",
+      "nominee": "Farpoint",
+      "company": "Impulse Gear",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best VR/AR Game",
+      "nominee": "Lone Echo",
+      "company": "Ready at Dawn",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best VR/AR Game",
+      "nominee": "Star Trek: Bridge Crew",
+      "company": "Red Storm Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best VR/AR Game",
+      "nominee": "Superhot VR",
+      "company": "Superhot Team",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Action Game",
+      "nominee": "Wolfenstein II: The New Colossus",
+      "company": "MachineGames",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Action Game",
+      "nominee": "Cuphead",
+      "company": "StudioMDHR",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Action Game",
+      "nominee": "Destiny 2",
+      "company": "Bungie",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Action Game",
+      "nominee": "Nioh",
+      "company": "Team Ninja",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Action Game",
+      "nominee": "Prey",
+      "company": "Arkane Studios",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Action/Adventure",
+      "nominee": "The Legend of Zelda: Breath of the Wild",
+      "company": "Nintendo",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Action/Adventure",
+      "nominee": "Assassin's Creed: Origins",
+      "company": "Ubisoft Montreal",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Action/Adventure",
+      "nominee": "Horizon Zero Dawn",
+      "company": "Guerrilla Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Action/Adventure",
+      "nominee": "Super Mario Odyssey",
+      "company": "Nintendo",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Action/Adventure",
+      "nominee": "Uncharted: The Lost Legacy",
+      "company": "Naughty Dog",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Role Playing Game",
+      "nominee": "Persona 5",
+      "company": "Atlus",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Role Playing Game",
+      "nominee": "Divinity: Original Sin II",
+      "company": "Larian Studios",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Role Playing Game",
+      "nominee": "Final Fantasy XV",
+      "company": "Square Enix",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Role Playing Game",
+      "nominee": "Nier: Automata",
+      "company": "PlatinumGames",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Role Playing Game",
+      "nominee": "South Park: The Fractured But Whole",
+      "company": "Ubisoft San Francisco",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Fighting Game",
+      "nominee": "Injustice 2",
+      "company": "NetherRealm Studios",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Fighting Game",
+      "nominee": "ARMS",
+      "company": "Nintendo",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Fighting Game",
+      "nominee": "Marvel vs. Capcom: Infinite",
+      "company": "Capcom",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Fighting Game",
+      "nominee": "Nidhogg 2",
+      "company": "Messhof Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Fighting Game",
+      "nominee": "Tekken 7",
+      "company": "Bandai Namco",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Family Game",
+      "nominee": "Super Mario Odyssey",
+      "company": "Nintendo",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Family Game",
+      "nominee": "Mario Kart 8 Deluxe",
+      "company": "Nintendo, Bandai Namco Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Family Game",
+      "nominee": "Mario + Rabbids Kingdom Battle",
+      "company": "Ubisoft",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Family Game",
+      "nominee": "Sonic Mania",
+      "company": "Christian Whitehead, PagodaWest Games, Headcannon",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Family Game",
+      "nominee": "Splatoon 2",
+      "company": "Nintendo",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Strategy Game",
+      "nominee": "Mario + Rabbids Kingdom Battle",
+      "company": "Ubisoft",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Strategy Game",
+      "nominee": "Halo Wars 2",
+      "company": "Creative Assembly and 343 Industries",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Strategy Game",
+      "nominee": "Total War: Warhammer II",
+      "company": "Creative Assembly",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Strategy Game",
+      "nominee": "Tooth and Tail",
+      "company": "Pocketwatch Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Strategy Game",
+      "nominee": "XCOM 2: War of the Chosen",
+      "company": "Firaxis Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Sports/Racing Game",
+      "nominee": "Forza Motorsport 7",
+      "company": "Turn 10 Studios",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Sports/Racing Game",
+      "nominee": "FIFA 18",
+      "company": "EA Vancouver",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Sports/Racing Game",
+      "nominee": "Gran Turismo Sport",
+      "company": "Polyphony Digital",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Sports/Racing Game",
+      "nominee": "NBA 2K18",
+      "company": "Visual Concepts",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Sports/Racing Game",
+      "nominee": "Pro Evolution Soccer 2018",
+      "company": "Konami",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Sports/Racing Game",
+      "nominee": "Project Cars 2",
+      "company": "Slightly Mad Studios",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Multiplayer",
+      "nominee": "PlayerUnknown's Battlegrounds",
+      "company": "PUBG Corporation",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Multiplayer",
+      "nominee": "Call of Duty: WWII",
+      "company": "Sledgehammer Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Multiplayer",
+      "nominee": "Destiny 2",
+      "company": "Bungie",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Multiplayer",
+      "nominee": "Fortnite",
+      "company": "Epic Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Multiplayer",
+      "nominee": "Mario Kart 8 Deluxe",
+      "company": "Nintendo",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Multiplayer",
+      "nominee": "Splatoon 2",
+      "company": "Nintendo",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Student Game Award",
+      "nominee": "Level Squared",
+      "company": "Kip Brennan, Stephen Scoglio, and Dane Perry Svendsen, Swinburne University",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Student Game Award",
+      "nominee": "Falling Sky",
+      "company": "Jonathan Nielssen, Nikolay Savov, and Mohsen Shah, National Film and Television School",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Student Game Award",
+      "nominee": "From Light",
+      "company": "Alejandro Grossman, Steven Li, and Sherveen Uduwana, University of Southern California",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Student Game Award",
+      "nominee": "Hollowed",
+      "company": "Erin Marek, Jerrick Flores, and Charley Choucard, University of Central Florida",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Student Game Award",
+      "nominee": "Impulsion",
+      "company": "Hugo Verger, Remi Bertrand, and Maxime Lupinski, Institut de l'Internet et du Multimédia",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Student Game Award",
+      "nominee": "Meaning",
+      "company": "Hariz Yet, DigiPen Institute of Technology Singapore",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Debut Indie Game",
+      "nominee": "Cuphead",
+      "company": "StudioMDHR",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Debut Indie Game",
+      "nominee": "Golf Story",
+      "company": "Sidebar Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Debut Indie Game",
+      "nominee": "Hollow Knight",
+      "company": "Team Cherry",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Debut Indie Game",
+      "nominee": "Mr. Shifty",
+      "company": "Team Shifty",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Best Debut Indie Game",
+      "nominee": "Slime Rancher",
+      "company": "Monomi Park",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Industry Icon Award",
+      "nominee": "Carol Shaw",
+      "company": "",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2017,
+      "category": "Most Anticipated Game",
+      "nominee": "The Last of Us Part II",
+      "company": "Naughty Dog",
+      "winner": 1,
+      "voted": "fan"
+    },
+    {
+      "year": 2017,
+      "category": "Most Anticipated Game",
+      "nominee": "God of War",
+      "company": "Santa Monica Studio",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2017,
+      "category": "Most Anticipated Game",
+      "nominee": "Marvel's Spider-Man",
+      "company": "Insomniac Games",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2017,
+      "category": "Most Anticipated Game",
+      "nominee": "Monster Hunter: World",
+      "company": "Capcom",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2017,
+      "category": "Most Anticipated Game",
+      "nominee": "Red Dead Redemption 2",
+      "company": "Rockstar Games",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2017,
+      "category": "Trending Gamer",
+      "nominee": "Guy Beahm (\"Dr DisRespect\")",
+      "company": "",
+      "winner": 1,
+      "voted": "fan"
+    },
+    {
+      "year": 2017,
+      "category": "Trending Gamer",
+      "nominee": "Andrea Rene (What's Good Games)",
+      "company": "",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2017,
+      "category": "Trending Gamer",
+      "nominee": "Clint Lexa (\"Halfcoordinated\")",
+      "company": "",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2017,
+      "category": "Trending Gamer",
+      "nominee": "Mike Grzesiek (\"Shroud\")",
+      "company": "",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2017,
+      "category": "Trending Gamer",
+      "nominee": "Steven Spohn (AbleGamers)",
+      "company": "",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2017,
+      "category": "Best eSports Game",
+      "nominee": "Overwatch",
+      "company": "Blizzard Entertainment",
+      "winner": 1,
+      "voted": "fan"
+    },
+    {
+      "year": 2017,
+      "category": "Best eSports Game",
+      "nominee": "Counter-Strike: Global Offensive",
+      "company": "Valve",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2017,
+      "category": "Best eSports Game",
+      "nominee": "Dota 2",
+      "company": "Valve",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2017,
+      "category": "Best eSports Game",
+      "nominee": "League of Legends",
+      "company": "Riot Games",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2017,
+      "category": "Best eSports Game",
+      "nominee": "Rocket League",
+      "company": "Psyonix",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2017,
+      "category": "Best eSports Player",
+      "nominee": "Lee Sang-hyeok \"Faker\" (SK Telecom 1, League of Legends)",
+      "company": "Riot Games",
+      "winner": 1,
+      "voted": "fan"
+    },
+    {
+      "year": 2017,
+      "category": "Best eSports Player",
+      "nominee": "Marcelo \"coldzera\" David (SK Gaming, Counter-Strike: GO)",
+      "company": "Valve",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2017,
+      "category": "Best eSports Player",
+      "nominee": "Nikola \"NiKo\" Kovac (FaZe Clan, Counter-Strike: GO)",
+      "company": "Valve",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2017,
+      "category": "Best eSports Player",
+      "nominee": "Je-hong \"ryujehong” Ryu (Seoul Dynasty, Overwatch)",
+      "company": "Blizzard Entertainment",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2017,
+      "category": "Best eSports Player",
+      "nominee": "Kuro \"KuroKy\" Salehi Takhasomi (Team Liquid, Dota 2)",
+      "company": "Valve",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2017,
+      "category": "Best eSports Team",
+      "nominee": "Cloud9",
+      "company": "",
+      "winner": 1,
+      "voted": "fan"
+    },
+    {
+      "year": 2017,
+      "category": "Best eSports Team",
+      "nominee": "FaZe Clan",
+      "company": "",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2017,
+      "category": "Best eSports Team",
+      "nominee": "Lunatic-Hai",
+      "company": "",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2017,
+      "category": "Best eSports Team",
+      "nominee": "SK Telecom T1",
+      "company": "",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2017,
+      "category": "Best eSports Team",
+      "nominee": "Team Liquid",
+      "company": "",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2017,
+      "category": "Chinese Fan Game Award",
+      "nominee": "jx3 HD",
+      "company": "Kingsoft Corporation",
+      "winner": 1,
+      "voted": "fan"
+    },
+    {
+      "year": 2017,
+      "category": "Chinese Fan Game Award",
+      "nominee": "Honor of Kings",
+      "company": "Timi Studio Group",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2017,
+      "category": "Chinese Fan Game Award",
+      "nominee": "ICEY",
+      "company": "FantaBlade Network",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2017,
+      "category": "Chinese Fan Game Award",
+      "nominee": "Gumballs & Dungeons",
+      "company": "QcPlay Limited",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2017,
+      "category": "Chinese Fan Game Award",
+      "nominee": "Monument Valley 2",
+      "company": "ustwo games",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2018,
+      "category": "Game of the Year",
+      "nominee": "God of War",
+      "company": "SIE Santa Monica Studio/Sony Interactive Entertainment",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Game of the Year",
+      "nominee": "Assassin's Creed Odyssey",
+      "company": "Ubisoft",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Game of the Year",
+      "nominee": "Celeste",
+      "company": "Matt Makes Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Game of the Year",
+      "nominee": "Marvel's Spider-Man",
+      "company": "Insomniac Games/Sony Interactive Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Game of the Year",
+      "nominee": "Monster Hunter: World",
+      "company": "Capcom",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Game of the Year",
+      "nominee": "Red Dead Redemption 2",
+      "company": "Rockstar Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Game Direction",
+      "nominee": "God of War",
+      "company": "SIE Santa Monica Studio/Sony Interactive Entertainment",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Game Direction",
+      "nominee": "A Way Out",
+      "company": "Hazelight Studios/Electronic Arts",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Game Direction",
+      "nominee": "Detroit: Become Human",
+      "company": "Quantic Dream/Sony Interactive Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Game Direction",
+      "nominee": "Marvel's Spider-Man",
+      "company": "Insomniac Games/Sony Interactive Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Game Direction",
+      "nominee": "Red Dead Redemption 2",
+      "company": "Rockstar Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Ongoing Game",
+      "nominee": "Fortnite",
+      "company": "Epic Games",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Ongoing Game",
+      "nominee": "Destiny 2: Forsaken",
+      "company": "Bungie/Activision",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Ongoing Game",
+      "nominee": "No Man’s Sky",
+      "company": "Hello Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Ongoing Game",
+      "nominee": "Overwatch",
+      "company": "Blizzard Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Ongoing Game",
+      "nominee": "Tom Clancy's Rainbow Six Siege",
+      "company": "Ubisoft",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Narrative",
+      "nominee": "Red Dead Redemption 2",
+      "company": "Rockstar Games",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Narrative",
+      "nominee": "Detroit: Become Human",
+      "company": "Quantic Dream/Sony Interactive Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Narrative",
+      "nominee": "God of War",
+      "company": "SIE Santa Monica Studio/Sony Interactive Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Narrative",
+      "nominee": "Life Is Strange 2",
+      "company": "Dontnod Entertainment/Square Enix",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Narrative",
+      "nominee": "Marvel's Spider-Man",
+      "company": "Insomniac Games/Sony Interactive Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Art Direction",
+      "nominee": "Return of the Obra Dinn",
+      "company": "3909 LLC",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Art Direction",
+      "nominee": "Assassin's Creed Odyssey",
+      "company": "Ubisoft",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Art Direction",
+      "nominee": "God of War",
+      "company": "SIE Santa Monica Studio/Sony Interactive Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Art Direction",
+      "nominee": "Red Dead Redemption 2",
+      "company": "Rockstar Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Art Direction",
+      "nominee": "Octopath Traveler",
+      "company": "Square Enix/Acquire/Nintendo",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Score/Music",
+      "nominee": "Red Dead Redemption 2",
+      "company": "Woody Jackson",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Score/Music",
+      "nominee": "Celeste",
+      "company": "Lena Raine",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Score/Music",
+      "nominee": "God of War",
+      "company": "Bear McCreary",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Score/Music",
+      "nominee": "Marvel's Spider-Man",
+      "company": "John Paesano",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Score/Music",
+      "nominee": "Ni no Kuni II: Revenant Kingdom",
+      "company": "Joe Hisaishi",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Score/Music",
+      "nominee": "Octopath Traveler",
+      "company": "Yasunori Nishiki",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Audio Design",
+      "nominee": "Red Dead Redemption 2",
+      "company": "Rockstar Games",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Audio Design",
+      "nominee": "Call of Duty: Black Ops 4",
+      "company": "Treyarch",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Audio Design",
+      "nominee": "Forza Horizon 4",
+      "company": "Playground Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Audio Design",
+      "nominee": "God of War",
+      "company": "SIE Santa Monica Studio/Sony Interactive Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Audio Design",
+      "nominee": "Marvel's Spider-Man",
+      "company": "Insomniac Games/Sony Interactive Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Performance",
+      "nominee": "Roger Clark as Arthur Morgan (Red Dead Redemption 2)",
+      "company": "Rockstar Games",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Performance",
+      "nominee": "Bryan Dechart as Connor (Detroit: Become Human)",
+      "company": "Quantic Dream",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Performance",
+      "nominee": "Christopher Judge as Kratos (God of War)",
+      "company": "SIE Santa Monica Studio/Sony Interactive Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Performance",
+      "nominee": "Melissanthi Mahut as Kassandra (Assassin's Creed Odyssey)",
+      "company": "Ubisoft",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Performance",
+      "nominee": "Yuri Lowenthal as Spider-Man (Marvel's Spider-Man)",
+      "company": "Insomniac Games/Sony Interactive Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Games for Impact",
+      "nominee": "Celeste",
+      "company": "Matt Makes Games",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Games for Impact",
+      "nominee": "11-11 Memories Retold",
+      "company": "Digixart/Aardman Animations/Bandai Namco Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Games for Impact",
+      "nominee": "Florence",
+      "company": "Mountains",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Games for Impact",
+      "nominee": "Life Is Strange 2",
+      "company": "Dontnod Entertainment/Square Enix",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Games for Impact",
+      "nominee": "The Missing: J.J. Macfield and the Island of Memories",
+      "company": "White Owls/Arc System Works",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Independent Game",
+      "nominee": "Celeste",
+      "company": "Matt Makes Games",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Independent Game",
+      "nominee": "Dead Cells",
+      "company": "Motion Twin",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Independent Game",
+      "nominee": "Into the Breach",
+      "company": "Subset Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Independent Game",
+      "nominee": "Return of the Obra Dinn",
+      "company": "3909 LLC",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Independent Game",
+      "nominee": "The Messenger",
+      "company": "Sabotage/Devolver Digital",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Mobile Game",
+      "nominee": "Florence",
+      "company": "Mountains",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Mobile Game",
+      "nominee": "Donut County",
+      "company": "Ben Esposito/Annapurna Interactive",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Mobile Game",
+      "nominee": "Fortnite",
+      "company": "Epic Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Mobile Game",
+      "nominee": "PUBG Mobile",
+      "company": "Lightspeed & Quantum/Tencent Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Mobile Game",
+      "nominee": "Reigns: Game of Thrones",
+      "company": "Nerial/Devolver Digital",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best VR/AR Game",
+      "nominee": "Astro Bot Rescue Mission",
+      "company": "SIE Japan Studio/Sony Interactive Entertainment",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best VR/AR Game",
+      "nominee": "Beat Saber",
+      "company": "Beat Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best VR/AR Game",
+      "nominee": "Firewall: Zero Hour",
+      "company": "First Contact Entertainment/Sony Interactive Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best VR/AR Game",
+      "nominee": "Moss",
+      "company": "Polyarc Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best VR/AR Game",
+      "nominee": "Tetris Effect",
+      "company": "Resonair/Enhance, Inc.",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Action Game",
+      "nominee": "Dead Cells",
+      "company": "Motion Twin",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Action Game",
+      "nominee": "Call of Duty: Black Ops 4",
+      "company": "Treyarch/Activision",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Action Game",
+      "nominee": "Destiny 2: Forsaken",
+      "company": "Bungie/Activision",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Action Game",
+      "nominee": "Far Cry 5",
+      "company": "Ubisoft",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Action Game",
+      "nominee": "Mega Man 11",
+      "company": "Capcom",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Action/Adventure Game",
+      "nominee": "God of War",
+      "company": "SIE Santa Monica Studio/Sony Interactive Entertainment",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Action/Adventure Game",
+      "nominee": "Assassin's Creed Odyssey",
+      "company": "Ubisoft",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Action/Adventure Game",
+      "nominee": "Marvel's Spider-Man",
+      "company": "Insomniac Games/Sony Interactive Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Action/Adventure Game",
+      "nominee": "Red Dead Redemption 2",
+      "company": "Rockstar Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Action/Adventure Game",
+      "nominee": "Shadow of the Tomb Raider",
+      "company": "Eidos Montréal/Square Enix",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Role Playing Game",
+      "nominee": "Monster Hunter: World",
+      "company": "Capcom",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Role Playing Game",
+      "nominee": "Dragon Quest XI",
+      "company": "Square Enix",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Role Playing Game",
+      "nominee": "Ni no Kuni II: Revenant Kingdom",
+      "company": "Level-5/Bandai Namco Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Role Playing Game",
+      "nominee": "Octopath Traveler",
+      "company": "Square Enix/Acquire/Nintendo",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Role Playing Game",
+      "nominee": "Pillars of Eternity II: Deadfire",
+      "company": "Obsidian Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Fighting Game",
+      "nominee": "Dragon Ball FighterZ",
+      "company": "Arc System Works/Bandai Namco Entertainment",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Fighting Game",
+      "nominee": "BlazBlue: Cross Tag Battle",
+      "company": "Arc System Works",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Fighting Game",
+      "nominee": "Soulcalibur VI",
+      "company": "Bandai Namco Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Fighting Game",
+      "nominee": "Street Fighter V: Arcade Edition",
+      "company": "Capcom",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Family Game",
+      "nominee": "Overcooked 2",
+      "company": "Ghost Town Games/Team17",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Family Game",
+      "nominee": "Mario Tennis Aces",
+      "company": "Camelot Software Planning/Nintendo",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Family Game",
+      "nominee": "Nintendo Labo",
+      "company": "Nintendo",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Family Game",
+      "nominee": "Starlink: Battle for Atlas",
+      "company": "Ubisoft",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Family Game",
+      "nominee": "Super Mario Party",
+      "company": "NDcube/Nintendo",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Strategy Game",
+      "nominee": "Into the Breach",
+      "company": "Subset Games",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Strategy Game",
+      "nominee": "The Banner Saga 3",
+      "company": "Stoic Studio/Versus Evil",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Strategy Game",
+      "nominee": "BattleTech",
+      "company": "Harebrained Schemes/Paradox Interactive",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Strategy Game",
+      "nominee": "Frostpunk",
+      "company": "11 bit studios",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Strategy Game",
+      "nominee": "Valkyria Chronicles 4",
+      "company": "Sega",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Sports/Racing Game",
+      "nominee": "Forza Horizon 4",
+      "company": "Playground Games/Microsoft Studios",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Sports/Racing Game",
+      "nominee": "FIFA 19",
+      "company": "EA Vancouver/EA Sports",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Sports/Racing Game",
+      "nominee": "Mario Tennis Aces",
+      "company": "Camelot Software Planning/Nintendo",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Sports/Racing Game",
+      "nominee": "NBA 2K19",
+      "company": "Visual Concepts/2K Sports",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Sports/Racing Game",
+      "nominee": "Pro Evolution Soccer 2019",
+      "company": "PES Productions/Konami",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Multiplayer Game",
+      "nominee": "Fortnite",
+      "company": "Epic Games",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Multiplayer Game",
+      "nominee": "Call of Duty: Black Ops 4",
+      "company": "Treyarch/Activision",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Multiplayer Game",
+      "nominee": "Destiny 2: Forsaken",
+      "company": "Bungie/Activision",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Multiplayer Game",
+      "nominee": "Monster Hunter: World",
+      "company": "Capcom",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Multiplayer Game",
+      "nominee": "Sea of Thieves",
+      "company": "Rare/Microsoft Studios",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Student Game",
+      "nominee": "Combat 2018",
+      "company": "Inland Norway University of Applied Sciences",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Student Game",
+      "nominee": "Dash Quasar",
+      "company": "UC Santa Cruz",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Student Game",
+      "nominee": "JERA",
+      "company": "DigiPen Bilbao, Spain",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Student Game",
+      "nominee": "LIFF",
+      "company": "ISART Digital",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Student Game",
+      "nominee": "RE: Charge",
+      "company": "MIT",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Debut Indie Game",
+      "nominee": "The Messenger",
+      "company": "Sabotage/Devolver Digital",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Debut Indie Game",
+      "nominee": "Donut County",
+      "company": "Ben Esposito/Annapurna Interactive",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Debut Indie Game",
+      "nominee": "Florence",
+      "company": "Mountains",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Debut Indie Game",
+      "nominee": "Moss",
+      "company": "Polyarc Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Debut Indie Game",
+      "nominee": "Yoku's Island Express",
+      "company": "Villa Gorilla",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Esports Game",
+      "nominee": "Overwatch",
+      "company": "Blizzard Entertainment",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Esports Game",
+      "nominee": "Counter-Strike: Global Offensive",
+      "company": "Valve",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Esports Game",
+      "nominee": "Dota 2",
+      "company": "Valve",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Esports Game",
+      "nominee": "Fortnite",
+      "company": "Epic Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Esports Game",
+      "nominee": "League of Legends",
+      "company": "Riot Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Esports Player",
+      "nominee": "Dominique \"SonicFox\" McLean (Echo Fox)",
+      "company": "",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Esports Player",
+      "nominee": "Hajime \"Tokido\" Taniguchi (Echo Fox)",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Esports Player",
+      "nominee": "Jian \"Uzi\" Zi-Hao (Royal Never Give Up)",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Esports Player",
+      "nominee": "Oleksandr \"s1mple\" Kostyliev (Natus Vincere)",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Esports Player",
+      "nominee": "Sung-hygeon \"JJoNak\" Bang (New York Excelsior)",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Esports Team",
+      "nominee": "Cloud9 (League of Legends)",
+      "company": "Riot Games",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Esports Team",
+      "nominee": "Astralis (Counter-Strike: Global Offensive)",
+      "company": "Valve",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Esports Team",
+      "nominee": "Fnatic (League of Legends)",
+      "company": "Riot Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Esports Team",
+      "nominee": "London Spitfire (Overwatch League)",
+      "company": "Blizzard Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Esports Team",
+      "nominee": "OG (Dota 2)",
+      "company": "Valve",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Esports Coach",
+      "nominee": "Bok \"Reapered\" Han-gyu (Cloud9)",
+      "company": "",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Esports Coach",
+      "nominee": "Christian \"ppasarel\" Banaseanu (OG)",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Esports Coach",
+      "nominee": "Danny \"zonic\" Sorensen (Astralis)",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Esports Coach",
+      "nominee": "Dylan Falco (Fnatic)",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Esports Coach",
+      "nominee": "Jakob \"YamatoCannon\" Mebdi (Team Vitality)",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Esports Coach",
+      "nominee": "Janko \"YNk\" Paunovic (MiBR)",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Esports Event",
+      "nominee": "2018 League of Legends World Championship",
+      "company": "",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Esports Event",
+      "nominee": "ELEAGUE Major: Boston 2018",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Esports Event",
+      "nominee": "Evo 2018",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Esports Event",
+      "nominee": "2018 Overwatch League Grand Finals",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Esports Event",
+      "nominee": "The International 2018",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Esports Host",
+      "nominee": "Eefje \"Sjokz\" Depoortere",
+      "company": "",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Esports Host",
+      "nominee": "Alex \"Goldenboy\" Mendez",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Esports Host",
+      "nominee": "Alex \"Machine\" Richardson",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Esports Host",
+      "nominee": "Anders Blume",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Esports Host",
+      "nominee": "Paul \"Redeye\" Chaloner",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Esports Moment",
+      "nominee": "Cloud9 comeback win in triple OT vs Faze (ELEAGUE Major: Boston 2018)",
+      "company": "",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Esports Moment",
+      "nominee": "G2 beating RNG (League of Legends World Championship)",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Esports Moment",
+      "nominee": "KT vs IG base race (League of Legends World Championship)",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Esports Moment",
+      "nominee": "OG's massive upset of LGD (The International 2018)",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Best Esports Moment",
+      "nominee": "SonicFox side switch against Go1 (Evo 2018)",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Content Creator of the Year",
+      "nominee": "Ninja",
+      "company": "",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Content Creator of the Year",
+      "nominee": "Dr. Lupo",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Content Creator of the Year",
+      "nominee": "Pokimane",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Content Creator of the Year",
+      "nominee": "Willyrex",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Industry Icon Award",
+      "nominee": "Greg Thomas (Visual Concepts)",
+      "company": "",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Global Gaming Citizens",
+      "nominee": "Steven Spohn",
+      "company": "",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Global Gaming Citizens",
+      "nominee": "Sadia Bashir",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2018,
+      "category": "Global Gaming Citizens",
+      "nominee": "Lual Mayen",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Game of the Year",
+      "nominee": "Sekiro: Shadows Die Twice",
+      "company": "FromSoftware/Activision",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Game of the Year",
+      "nominee": "Control",
+      "company": "Remedy Entertainment/505 Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Game of the Year",
+      "nominee": "Death Stranding",
+      "company": "Kojima Productions/Sony Interactive Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Game of the Year",
+      "nominee": "Resident Evil 2",
+      "company": "Capcom",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Game of the Year",
+      "nominee": "Super Smash Bros. Ultimate",
+      "company": "Bandai Namco/Sora Ltd./Nintendo",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Game of the Year",
+      "nominee": "The Outer Worlds",
+      "company": "Obsidian Entertainment/Private Division",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Game Direction",
+      "nominee": "Death Stranding",
+      "company": "Kojima Productions/Sony Interactive Entertainment",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Game Direction",
+      "nominee": "Control",
+      "company": "Remedy Entertainment/505 Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Game Direction",
+      "nominee": "Resident Evil 2",
+      "company": "Capcom",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Game Direction",
+      "nominee": "Sekiro: Shadows Die Twice",
+      "company": "FromSoftware/Activision",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Game Direction",
+      "nominee": "Outer Wilds",
+      "company": "Mobius Digital/Annapurna Interactive",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Ongoing Game",
+      "nominee": "Fortnite",
+      "company": "Epic Games",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Ongoing Game",
+      "nominee": "Apex Legends",
+      "company": "Respawn Entertainment/Electronic Arts",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Ongoing Game",
+      "nominee": "Destiny 2",
+      "company": "Bungie",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Ongoing Game",
+      "nominee": "Final Fantasy XIV",
+      "company": "Square Enix",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Ongoing Game",
+      "nominee": "Tom Clancy's Rainbow Six Siege",
+      "company": "Ubisoft",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Narrative",
+      "nominee": "Disco Elysium",
+      "company": "ZA/UM",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Narrative",
+      "nominee": "A Plague Tale: Innocence",
+      "company": "Asobo Studio/Focus Home Interactive",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Narrative",
+      "nominee": "Control",
+      "company": "Remedy Entertainment/505 Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Narrative",
+      "nominee": "Death Stranding",
+      "company": "Kojima Productions/Sony Interactive Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Narrative",
+      "nominee": "The Outer Worlds",
+      "company": "Obsidian Entertainment/Private Division",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Art Direction",
+      "nominee": "Control",
+      "company": "Remedy Entertainment/505 Games",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Art Direction",
+      "nominee": "Death Stranding",
+      "company": "Kojima Productions/Sony Interactive Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Art Direction",
+      "nominee": "Gris",
+      "company": "Nomada Studio/Devolver Digital",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Art Direction",
+      "nominee": "Sayonara Wild Hearts",
+      "company": "Simogo/Annapurna Interactive",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Art Direction",
+      "nominee": "Sekiro: Shadows Die Twice",
+      "company": "FromSoftware/Activision",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Art Direction",
+      "nominee": "The Legend of Zelda: Link's Awakening",
+      "company": "Grezzo/Nintendo",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Score/Music",
+      "nominee": "Death Stranding",
+      "company": "Kojima Productions/Sony Interactive Entertainment",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Score/Music",
+      "nominee": "Cadence of Hyrule",
+      "company": "Brace Yourself Games/Nintendo",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Score/Music",
+      "nominee": "Devil May Cry 5",
+      "company": "Capcom",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Score/Music",
+      "nominee": "Kingdom Hearts III",
+      "company": "Square Enix",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Score/Music",
+      "nominee": "Sayonara Wild Hearts",
+      "company": "Simogo/Annapurna Interactive",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Audio Design",
+      "nominee": "Call of Duty: Modern Warfare",
+      "company": "Infinity Ward/Activision",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Audio Design",
+      "nominee": "Control",
+      "company": "Remedy Entertainment/505 Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Audio Design",
+      "nominee": "Death Stranding",
+      "company": "Kojima Productions/Sony Interactive Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Audio Design",
+      "nominee": "Gears 5",
+      "company": "The Coalition/Xbox Game Studios",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Audio Design",
+      "nominee": "Resident Evil 2",
+      "company": "Capcom",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Audio Design",
+      "nominee": "Sekiro: Shadows Die Twice",
+      "company": "FromSoftware/Activision",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Performance",
+      "nominee": "Mads Mikkelsen as Cliff",
+      "company": "Death Stranding",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Performance",
+      "nominee": "Ashly Burch as Parvati Holcomb (The Outer Worlds)",
+      "company": "Obsidian Entertainment/Private Division",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Performance",
+      "nominee": "Courtney Hope as Jesse Faden (Control)",
+      "company": "Remedy Entertainment/505 Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Performance",
+      "nominee": "Laura Bailey as Kait Diaz (Gears 5)",
+      "company": "The Coalition/Xbox Game Studios",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Performance",
+      "nominee": "Matthew Porretta as Dr. Casper Darling (Control)",
+      "company": "Remedy Entertainment/505 Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Performance",
+      "nominee": "Norman Reedus as Sam Porter Bridges (Death Stranding)",
+      "company": "Kojima Productions/Sony Interactive Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Games for Impact",
+      "nominee": "Gris",
+      "company": "Nomada Studio/Devolver Digital",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Games for Impact",
+      "nominee": "Concrete Genie",
+      "company": "Pixelopus/Sony Interactive Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Games for Impact",
+      "nominee": "Kind Words",
+      "company": "Popcannibal",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Games for Impact",
+      "nominee": "Life Is Strange 2",
+      "company": "Dontnod/Square Enix",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Games for Impact",
+      "nominee": "Sea of Solitude",
+      "company": "Jo-Mei Games/Electronic Arts",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Independent Game",
+      "nominee": "Disco Elysium",
+      "company": "ZA/UM",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Independent Game",
+      "nominee": "Baba Is You",
+      "company": "Hempuli",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Independent Game",
+      "nominee": "Katana Zero",
+      "company": "Askiisoft/Devolver Digital",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Independent Game",
+      "nominee": "Outer Wilds",
+      "company": "Mobius Digital/Annapurna Interactive",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Independent Game",
+      "nominee": "Untitled Goose Game",
+      "company": "House House/Panic",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Mobile Game",
+      "nominee": "Call of Duty: Mobile",
+      "company": "TiMi Studios/Activision",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Mobile Game",
+      "nominee": "Grindstone",
+      "company": "Capybara Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Mobile Game",
+      "nominee": "Sayonara Wild Hearts",
+      "company": "Simogo/Annapurna Interactive",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Mobile Game",
+      "nominee": "Sky: Children of Light",
+      "company": "Thatgamecompany",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Mobile Game",
+      "nominee": "What the Golf?",
+      "company": "Triband",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best VR/AR Game",
+      "nominee": "Beat Saber",
+      "company": "Beat Games",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best VR/AR Game",
+      "nominee": "Asgard's Wrath",
+      "company": "Sanzaru Games/Oculus Studios",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best VR/AR Game",
+      "nominee": "Blood & Truth",
+      "company": "SIE London Studio/Sony Interactive Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best VR/AR Game",
+      "nominee": "No Man's Sky",
+      "company": "Hello Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best VR/AR Game",
+      "nominee": "Trover Saves the Universe",
+      "company": "Squanch Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Action Game",
+      "nominee": "Devil May Cry 5",
+      "company": "Capcom",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Action Game",
+      "nominee": "Apex Legends",
+      "company": "Respawn Entertainment/Electronic Arts",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Action Game",
+      "nominee": "Astral Chain",
+      "company": "Platinum Games/Nintendo",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Action Game",
+      "nominee": "Call of Duty: Modern Warfare",
+      "company": "Infinity Ward/Activision",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Action Game",
+      "nominee": "Gears 5",
+      "company": "The Coalition/Xbox Game Studios",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Action Game",
+      "nominee": "Metro Exodus",
+      "company": "4A Games/Deep Silver",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Action/Adventure Game",
+      "nominee": "Sekiro: Shadows Die Twice",
+      "company": "FromSoftware/Activision",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Action/Adventure Game",
+      "nominee": "Borderlands 3",
+      "company": "Gearbox/2K Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Action/Adventure Game",
+      "nominee": "Control",
+      "company": "Remedy Entertainment/505 Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Action/Adventure Game",
+      "nominee": "Death Stranding",
+      "company": "Kojima Productions/Sony Interactive Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Action/Adventure Game",
+      "nominee": "Resident Evil 2",
+      "company": "Capcom",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Action/Adventure Game",
+      "nominee": "The Legend of Zelda: Link's Awakening",
+      "company": "Grezzo/Nintendo",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Role Playing Game",
+      "nominee": "Disco Elysium",
+      "company": "ZA/UM",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Role Playing Game",
+      "nominee": "Final Fantasy XIV",
+      "company": "Square Enix",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Role Playing Game",
+      "nominee": "Kingdom Hearts III",
+      "company": "Square Enix",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Role Playing Game",
+      "nominee": "Monster Hunter World: Iceborne",
+      "company": "Capcom",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Role Playing Game",
+      "nominee": "The Outer Worlds",
+      "company": "Obsidian Entertainment/Private Division",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Fighting Game",
+      "nominee": "Super Smash Bros. Ultimate",
+      "company": "Bandai Namco/Sora Ltd./Nintendo",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Fighting Game",
+      "nominee": "Dead or Alive 6",
+      "company": "Team Ninja/Koei Tecmo",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Fighting Game",
+      "nominee": "Jump Force",
+      "company": "Spike Chunsoft/Bandai Namco",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Fighting Game",
+      "nominee": "Mortal Kombat 11",
+      "company": "NetherRealm/Warner Bros. Interactive Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Family Game",
+      "nominee": "Samurai Shodown",
+      "company": "SNK Corporation/Athlon Games",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Family Game",
+      "nominee": "Luigi's Mansion 3",
+      "company": "Next Level Games/Nintendo",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Family Game",
+      "nominee": "Ring Fit Adventure",
+      "company": "Nintendo",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Family Game",
+      "nominee": "Super Mario Maker 2",
+      "company": "Nintendo",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Family Game",
+      "nominee": "Super Smash Bros. Ultimate",
+      "company": "Bandai Namco/Sora Ltd./Nintendo",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Family Game",
+      "nominee": "Yoshi's Crafted World",
+      "company": "Good-Feel/Nintendo",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Strategy Game",
+      "nominee": "Fire Emblem: Three Houses",
+      "company": "Intelligent Systems/Koei Tecmo/Nintendo",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Strategy Game",
+      "nominee": "Age of Wonders: Planetfall",
+      "company": "Triumph Studios/Paradox Interactive",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Strategy Game",
+      "nominee": "Anno 1800",
+      "company": "Blue Byte/Ubisoft",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Strategy Game",
+      "nominee": "Total War: Three Kingdoms",
+      "company": "Creative Assembly/Sega",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Strategy Game",
+      "nominee": "Tropico 6",
+      "company": "Limbic Entertainment/Kalypso Media",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Strategy Game",
+      "nominee": "Wargroove",
+      "company": "Chucklefish",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Sports/Racing Game",
+      "nominee": "Crash Team Racing Nitro-Fueled",
+      "company": "Beenox/Activision",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Sports/Racing Game",
+      "nominee": "Dirt Rally 2.0",
+      "company": "Codemasters",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Sports/Racing Game",
+      "nominee": "eFootball Pro Evolution Soccer 2020",
+      "company": "PES Productions/Konami",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Sports/Racing Game",
+      "nominee": "F1 2019",
+      "company": "Codemasters",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Sports/Racing Game",
+      "nominee": "FIFA 20",
+      "company": "EA Sports",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Multiplayer Game",
+      "nominee": "Apex Legends",
+      "company": "Respawn Entertainment/Electronic Arts",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Multiplayer Game",
+      "nominee": "Borderlands 3",
+      "company": "Gearbox/2K Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Multiplayer Game",
+      "nominee": "Call of Duty: Modern Warfare",
+      "company": "Infinity Ward/Activision",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Multiplayer Game",
+      "nominee": "Tetris 99",
+      "company": "Arika/Nintendo",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Multiplayer Game",
+      "nominee": "Tom Clancy's The Division 2",
+      "company": "Massive Entertainment/Ubisoft",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Fresh Indie Game",
+      "nominee": "Disco Elysium",
+      "company": "ZA/UM",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Fresh Indie Game",
+      "nominee": "My Friend Pedro",
+      "company": "DeadToast Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Fresh Indie Game",
+      "nominee": "Untitled Goose Game",
+      "company": "House House",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Fresh Indie Game",
+      "nominee": "Slay the Spire",
+      "company": "MegaCrit",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Fresh Indie Game",
+      "nominee": "Outer Wilds",
+      "company": "Mobius Digital",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Fresh Indie Game",
+      "nominee": "Gris",
+      "company": "Nomada Studio",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Community Support",
+      "nominee": "Destiny 2",
+      "company": "Bungie",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Community Support",
+      "nominee": "Apex Legends",
+      "company": "Respawn Entertainment/Electronic Arts",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Community Support",
+      "nominee": "Final Fantasy XIV",
+      "company": "Square Enix",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Community Support",
+      "nominee": "Fortnite",
+      "company": "Epic Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Community Support",
+      "nominee": "Tom Clancy's Rainbow Six Siege",
+      "company": "Ubisoft",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Content Creator of the Year",
+      "nominee": "Michael \"Shroud\" Grzesiek",
+      "company": "",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Content Creator of the Year",
+      "nominee": "Jack \"Courage\" Dunlop",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Content Creator of the Year",
+      "nominee": "Benjamin \"Dr. Lupo\" Lupo",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Content Creator of the Year",
+      "nominee": "Soleil \"Ewok\" Wheeler",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Content Creator of the Year",
+      "nominee": "David \"Grefg\" Martínez",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Player's Voice",
+      "nominee": "Fire Emblem: Three Houses",
+      "company": "Intelligent Systems/Koei Tecmo/Nintendo",
+      "winner": 1,
+      "voted": "fan"
+    },
+    {
+      "year": 2019,
+      "category": "Player's Voice",
+      "nominee": "Death Stranding",
+      "company": "Kojima Productions/Sony Interactive Entertainment",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2019,
+      "category": "Player's Voice",
+      "nominee": "Star Wars Jedi: Fallen Order",
+      "company": "Respawn Entertainment/Electronic Arts",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2019,
+      "category": "Player's Voice",
+      "nominee": "Super Smash Bros. Ultimate",
+      "company": "Bandai Namco/Sora Ltd./Nintendo",
+      "winner": 0,
+      "voted": "fan"
+    },
+    {
+      "year": 2019,
+      "category": "Best Esports Game",
+      "nominee": "League of Legends",
+      "company": "Riot Games",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Esports Game",
+      "nominee": "Counter-Strike: Global Offensive",
+      "company": "Valve",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Esports Game",
+      "nominee": "Dota 2",
+      "company": "Valve",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Esports Game",
+      "nominee": "Fortnite",
+      "company": "Epic Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Esports Game",
+      "nominee": "Overwatch",
+      "company": "Blizzard Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Esports Player",
+      "nominee": "Kyle \"Bugha\" Giersdorf (Sentinels, Fortnite)",
+      "company": "Epic Games",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Esports Player",
+      "nominee": "Lee \"Faker\" Sang-hyeok (SK Telecom T1, League of Legends)",
+      "company": "Riot Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Esports Player",
+      "nominee": "Luka \"Perkz\" Perkovic (G2 Esports, League of Legends)",
+      "company": "Riot Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Esports Player",
+      "nominee": "Oleksandr \"S1mple\" Kostyliev (Natus Vincere, Counter-Strike: Global Offensive)",
+      "company": "Valve",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Esports Player",
+      "nominee": "Jay \"Sinatraa\" Won (San Francisco Shock, Overwatch League)",
+      "company": "Blizzard Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Esports Team",
+      "nominee": "G2 Esports (League of Legends)",
+      "company": "Riot Games",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Esports Team",
+      "nominee": "Astralis (Counter-Strike: Global Offensive)",
+      "company": "Valve",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Esports Team",
+      "nominee": "OG (Dota 2)",
+      "company": "Valve",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Esports Team",
+      "nominee": "San Francisco Shock (Overwatch League)",
+      "company": "Blizzard Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Esports Team",
+      "nominee": "Team Liquid (Counter-Strike: Global Offensive)",
+      "company": "Valve",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Esports Coach",
+      "nominee": "Danny \"Zonic\" Sørensen (Astralis, Counter-Strike: Global Offensive)",
+      "company": "Valve",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Esports Coach",
+      "nominee": "Eric \"adreN\" Hoag (Team Liquid, Counter-Strike: Global Offensive)",
+      "company": "Valve",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Esports Coach",
+      "nominee": "Nu-ri \"Cain\" Jang (Team Liquid, League of Legends)",
+      "company": "Riot Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Esports Coach",
+      "nominee": "Fabian \"GrabbZ\" Lohmann (G2 Esports, League of Legends)",
+      "company": "Riot Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Esports Coach",
+      "nominee": "Kim \"Kkoma\" Jeong-gyun (SK Telecom T1, League of Legends)",
+      "company": "Riot Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Esports Coach",
+      "nominee": "Titouan \"Sockshka\" Merloz (OG, Dota 2)",
+      "company": "Valve",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Esports Event",
+      "nominee": "2019 League of Legends World Championship",
+      "company": "Riot Games",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Esports Event",
+      "nominee": "2019 Overwatch League Grand Finals",
+      "company": "Blizzard Entertainment",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Esports Event",
+      "nominee": "EVO 2019",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Esports Event",
+      "nominee": "Fortnite World Cup",
+      "company": "Epic Games",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Esports Event",
+      "nominee": "IEM Katowice 2019",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Esports Event",
+      "nominee": "The International 2019",
+      "company": "Valve",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Esports Host",
+      "nominee": "Eefje \"Sjokz\" Depoortere",
+      "company": "",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Esports Host",
+      "nominee": "Alex \"Goldenboy\" Mendez",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Esports Host",
+      "nominee": "Alex \"Machine\" Richardson",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Esports Host",
+      "nominee": "Duan \"Candice\" Yu-Shuang",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Best Esports Host",
+      "nominee": "Paul \"Redeye\" Chaloner",
+      "company": "",
+      "winner": 0,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Global Gaming Citizens",
+      "nominee": "Fereshteh Forough, Code to Inspire",
+      "company": "",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Global Gaming Citizens",
+      "nominee": "Damon Packwood, Gameheads",
+      "company": "",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Global Gaming Citizens",
+      "nominee": "Luke, Let's Be Well",
+      "company": "",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Global Gaming Citizens",
+      "nominee": "Vanessa Gill, Social Cipher",
+      "company": "",
+      "winner": 1,
+      "voted": "jury"
+    },
+    {
+      "year": 2019,
+      "category": "Global Gaming Citizens",
+      "nominee": "Stephen Machuga and Mat Bergendahl, Stack Up",
+      "company": "",
+      "winner": 1,
+      "voted": "jury"
+    }
+  ]
