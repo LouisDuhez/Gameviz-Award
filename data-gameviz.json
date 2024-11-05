@@ -5,35 +5,41 @@
             "category": "game of the year",
             "game": "Dragon Age: Inquisition",
             "studio": "BioWare",
-            "winner": 1
+            "winner": 1,
+            "note": 6.1
           },
           {
             "year": 2014,
             "category": "game of the year",
             "game": "Bayonetta 2",
             "studio": "Platinum games",
-            "winner": 0
+            "winner": 0,
+            "note": 9
           },
           {
             "year": 2014,
             "category": "game of the year",
             "game": "Dark Souls II",
             "studio": "FromSoftware",
-            "winner": 0
+            "winner": 0,
+            "note" : 7.8
           },
           {
             "year": 2014,
             "category": "game of the year",
             "game": "Hearthstone: Heroes of Warcraft",
             "studio": "Blizzard Entertainment",
-            "winner": 0
+            "winner": 0,
+            "note" : 5.7
+
           },
           {
             "year": 2014,
             "category": "game of the year",
             "game": "Middle-earth: Shadow of Mordor",
             "studio": "Monolith Productions",
-            "winner": 0
+            "winner": 0,
+            "note" : 7.9
           },
           {
             "year": 2014,
@@ -747,35 +753,40 @@
             "category": "game of the year",
             "game": "The Witcher 3: Wild Hunt",
             "studio": "CD Projekt Red",
-            "winner": 1
+            "winner": 1,
+            "note" : 9.1
           },
           {
             "year": 2015,
             "category": "game of the year",
             "game": "Bloodborne",
             "studio": "FromSoftware",
-            "winner": 0
+            "winner": 0,
+            "note" : 8.9
           },
           {
             "year": 2015,
             "category": "game of the year",
             "game": "Fallout 4",
             "studio": "Bethesda game studios",
-            "winner": 0
+            "winner": 0,
+            "note" : 7
           },
           {
             "year": 2015,
             "category": "game of the year",
             "game": "Metal Gear Solid V: The Phantom Pain",
             "studio": "Kojima Productions",
-            "winner": 0
+            "winner": 0,
+            "note" : 8.1
           },
           {
             "year": 2015,
             "category": "game of the year",
             "game": "Super Mario Maker",
             "studio": "Nintendo",
-            "winner": 0
+            "winner": 0,
+            "note" : 8.6
           },
           {
             "year": 2015,
