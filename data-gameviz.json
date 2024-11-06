@@ -1521,35 +1521,40 @@
             "category": "game of the year",
             "game": "Overwatch",
             "studio": "Blizzard Entertainment",
-            "winner": 1
+            "winner": 1,
+            "note" : 9.1
           },
           {
             "year": 2016,
             "category": "game of the year",
             "game": "Doom",
             "studio": "id Software",
-            "winner": 0
+            "winner" : 0,
+            "note": 8.3
           },
           {
             "year": 2016,
             "category": "game of the year",
             "game": "Inside",
             "studio": "Playdead",
-            "winner": 0
+            "winner": 0,
+            "note" : 8.7
           },
           {
             "year": 2016,
             "category": "game of the year",
             "game": "Titanfall 2",
             "studio": "Respawn Entertainment",
-            "winner": 0
+            "winner" : 0,
+            "note": 8.5
           },
           {
             "year": 2016,
             "category": "game of the year",
             "game": "Uncharted 4: A Thief's End",
             "studio": "Naughty Dog",
-            "winner": 0
+            "winner" : 0,
+            "note": 8.8
           },
           {
             "year": 2016,
@@ -2354,35 +2359,40 @@
             "category": "game of the year",
             "game": "The Legend of Zelda: Breath of the Wild",
             "studio": "Nintendo",
-            "winner": 1
+            "winner": 1,
+            "note" : 8.8
           },
           {
             "year": 2017,
             "category": "game of the year",
             "game": "Horizon Zero Dawn",
             "studio": "Guerrilla games",
-            "winner": 0
+            "winner" : 0,
+            "note": 8.4
           },
           {
             "year": 2017,
             "category": "game of the year",
             "game": "Persona 5",
             "studio": "Atlus",
-            "winner": 0
+            "winner" : 0,
+            "note": 9.3
           },
           {
             "year": 2017,
             "category": "game of the year",
             "game": "PlayerUnknown's Battlegrounds",
             "studio": "PUBG Corporation",
-            "winner": 0
+            "winner": 0,
+            "note" : 8.4
           },
           {
             "year": 2017,
             "category": "game of the year",
             "game": "Super Mario Odyssey",
             "studio": "Nintendo",
-            "winner": 0
+            "winner" : 0,
+            "note": 8.9
           },
           {
             "year": 2017,
@@ -3418,42 +3428,48 @@
             "category": "game of the year",
             "game": "God of War",
             "studio": "SIE Santa Monica studio/Sony Interactive Entertainment",
-            "winner": 1
+            "winner": 1,
+            "note" : 9.1
           },
           {
             "year": 2018,
             "category": "game of the year",
             "game": "Assassin's Creed Odyssey",
             "studio": "Ubisoft",
-            "winner": 0
+            "winner": 0,
+            "note" : 6.8
           },
           {
             "year": 2018,
             "category": "game of the year",
             "game": "Celeste",
             "studio": "Matt Makes games",
-            "winner": 0
+            "winner": 0,
+            "note" : 8.7
           },
           {
             "year": 2018,
             "category": "game of the year",
             "game": "Marvel's Spider-Man",
             "studio": "Insomniac games/Sony Interactive Entertainment",
-            "winner": 0
+            "winner": 0,
+            "note" : 8.7
           },
           {
             "year": 2018,
             "category": "game of the year",
             "game": "Monster Hunter: World",
             "studio": "Capcom",
-            "winner": 0
+            "winner": 0,
+            "note" : 8.7
           },
           {
             "year": 2018,
             "category": "game of the year",
             "game": "Red Dead Redemption 2",
             "studio": "Rockstar games",
-            "winner": 0
+            "winner": 0,
+            "note" : 8.9
           },
           {
             "year": 2018,
@@ -4503,42 +4519,48 @@
             "category": "game of the year",
             "game": "Sekiro: Shadows Die Twice",
             "studio": "FromSoftware/Activision",
-            "winner": 1
+            "winner": 1,
+            "note" : 8.6
           },
           {
             "year": 2019,
             "category": "game of the year",
             "game": "Control",
             "studio": "Remedy Entertainment/505 games",
-            "winner": 0
+            "winner": 0,
+            "note" : 7.3 
           },
           {
             "year": 2019,
             "category": "game of the year",
             "game": "Death Stranding",
             "studio": "Kojima Productions/Sony Interactive Entertainment",
-            "winner": 0
+            "winner": 0,
+            "note" : 7.4
           },
           {
             "year": 2019,
             "category": "game of the year",
             "game": "Resident Evil 2",
             "studio": "Capcom",
-            "winner": 0
+            "winner": 0,
+            "note" : 8.2
           },
           {
             "year": 2019,
             "category": "game of the year",
             "game": "Super Smash Bros. Ultimate",
             "studio": "Bandai Namco/Sora Ltd./Nintendo",
-            "winner": 0
+            "winner": 0,
+            "note" : 8.7
           },
           {
             "year": 2019,
             "category": "game of the year",
             "game": "The Outer Worlds",
             "studio": "Obsidian Entertainment/Private Division",
-            "winner": 0
+            "winner": 0,
+            "note" : 7.9
           },
           {
             "year": 2019,
@@ -5651,42 +5673,48 @@
         "category": "game of the year",
         "game": "Alan Wake 2",
         "studio": "Remedy Entertainment\/Epic games Publishing",
-        "winner": 0
+        "winner": 0,
+        "note" : 8.5
         },
         {
         "year": 2023,
         "category": "game of the year",
         "game": "Baldur’s Gate 3",
         "studio": "Larian studios",
-        "winner": 1
+        "winner": 1,
+        "note" : 9.2
         },
         {
         "year": 2023,
         "category": "game of the year",
         "game": "Marvel’s Spider-Man 2",
         "studio": "Insomniac games\/SIE",
-        "winner": 0
+        "winner": 0,
+        "note" : 8.8
         },
         {
         "year": 2023,
         "category": "game of the year",
         "game": "Resident Evil 4",
         "studio": "Capcom",
-        "winner": 0
+        "winner": 0,
+        "note" : 8.8
         },
         {
         "year": 2023,
         "category": "game of the year",
         "game": "Super Mario Bros. Wonder",
         "studio": "Nintendo",
-        "winner": 0
+        "winner": 0,
+        "note" : 9
         },
         {
         "year": 2023,
         "category": "game of the year",
         "game": "The Legend of Zelda: Tears of the Kingdom",
         "studio": "Nintendo",
-        "winner": 0
+        "winner": 0,
+        "note" : 8.8
         },
         {
         "year": 2023,
@@ -6582,42 +6610,48 @@
         "category": "game of the year",
         "game": "A Plague Tale: Requiem",
         "studio": "Asobo studio\/Focus Entertainment",
-        "winner": 0
+        "winner": 0,
+        "note": 8.3
         },
         {
         "year": 2022,
         "category": "game of the year",
         "game": "Elden Ring",
         "studio": "FromSoftware\/Bandai Namco",
-        "winner": 1
+        "winner": 1,
+        "note" : 8.2 
         },
         {
         "year": 2022,
         "category": "game of the year",
         "game": "God of War Ragnarök",
         "studio": "Sony Santa Monica\/SIE",
-        "winner": 0
+        "winner": 0,
+        "note":8.2
         },
         {
         "year": 2022,
         "category": "game of the year",
         "game": "Horizon Forbidden West",
         "studio": "Guerrilla games\/SIE",
-        "winner": 0
+        "winner": 0,
+        "note" : 8
         },
         {
         "year": 2022,
         "category": "game of the year",
         "game": "Stray",
         "studio": "BlueTwelve studio\/Annapurna",
-        "winner": 0
+        "winner": 0,
+        "note" : 8.3
         },
         {
         "year": 2022,
         "category": "game of the year",
         "game": "Xenoblade Chronicles 3",
         "studio": "Monolith Soft\/Nintendo",
-        "winner": 0
+        "winner": 0,
+        "note" : 8.8
         },
         {
         "year": 2022,
@@ -7471,42 +7505,48 @@
         "category": "game of the year",
         "game": "Deathloop",
         "studio": "Arkane studios\/Bethesda",
-        "winner": 0
+        "winner": 0,
+        "note": 6.8
         },
         {
         "year": 2021,
         "category": "game of the year",
         "game": "It Takes Two",
         "studio": "Hazelight studios\/EA",
-        "winner": 1
+        "winner": 1,
+        "note" : 8.9
         },
         {
         "year": 2021,
         "category": "game of the year",
         "game": "Metroid Dread",
         "studio": "Mercury Steam\/Nintendo",
-        "winner": 0
+        "winner": 0,
+        "note": 8.8
         },
         {
         "year": 2021,
         "category": "game of the year",
         "game": "Psychonauts 2",
         "studio": "Double Fine\/Xbox game studios",
-        "winner": 0
+        "winner": 0,
+        "note":8.1
         },
         {
         "year": 2021,
         "category": "game of the year",
         "game": "Ratchet & Clank: Rift Apart",
         "studio": "Insomniac games\/SIE",
-        "winner": 0
+        "winner": 0,
+        "note" : 8.6
         },
         {
         "year": 2021,
         "category": "game of the year",
         "game": "Resident Evil Village",
         "studio": "Capcom",
-        "winner": 0
+        "winner": 0,
+        "note" : 8.4
         },
         {
         "year": 2021,
@@ -8325,42 +8365,48 @@
         "category": "game of the year",
         "game": "The Last of Us Part II",
         "studio": "Naughty Dog \/ Sony Interactive Entertainment",
-        "winner": 1
+        "winner": 1,
+        "note" : 5.8
         },
         {
         "year": 2020,
         "category": "game of the year",
         "game": "Animal Crossing: New Horizons",
         "studio": "Nintendo",
-        "winner": 0
+        "winner": 0,
+        "note" : 5.8
         },
         {
         "year": 2020,
         "category": "game of the year",
         "game": "Doom Eternal",
         "studio": "id Software",
-        "winner": 0
+        "winner": 0,
+        "note" : 8.6
         },
         {
         "year": 2020,
         "category": "game of the year",
         "game": "Final Fantasy VII Remake",
         "studio": "Square Enix",
-        "winner": 0
+        "winner": 0,
+        "note": 8.2
         },
         {
         "year": 2020,
         "category": "game of the year",
         "game": "Ghost of Tsushima",
         "studio": "Sucker Punch Productions \/ Sony Interactive Entertainment",
-        "winner": 0
+        "winner": 0,
+        "note" : 9.2
         },
         {
         "year": 2020,
         "category": "game of the year",
         "game": "Hades",
         "studio": "Supergiant games",
-        "winner": 0
+        "winner": 0,
+        "note" : 8.6
         },
         {
         "year": 2020,

@@ -19,9 +19,7 @@
                 console.log(data); 
                 gameOfTheYearGames = data
                     .filter(data => data.category === "game of the year")
-                    .map(data => ({ game: data.game, year: data.year, note: data.note})); // Remplir la variable avec les jeux et leurs années
-                
-                console.log(gameOfTheYearGames); // Affiche les jeux gagnants
+                    .map(data => ({ game: data.game, year: data.year, note: data.note, winner : data.winner})); // Remplir la variable avec les jeux et leurs années
 
                 // Remplir le <select> avec les années
                 const yearsSelect = document.getElementById('yearsSelect');
@@ -44,11 +42,13 @@
                     drawChart(selectedYear);
                 });
 
+
+                
                 // Fonction pour dessiner le graphique
                 function drawChart(selectedYear) {
                     // Filtrer les jeux en fonction de l'année sélectionnée
                     const gameOfTheYearList = gameOfTheYearGames.filter(d => d.year == selectedYear);
-
+                    console.log(gameOfTheYearList)
                     // Dimensions et marges du graphique.
                     const width = 900;
                     const height = 500;
@@ -83,7 +83,7 @@
                     svg.append("g")
                         .attr("fill", "orange")
                         .selectAll("rect")
-                        .data(gameOfTheYearList) // Corriger ici
+                        .data(gameOfTheYearList)
                         .join("rect")
                             .attr("x", d => x(d.game)) // Positionne la barre à la position de la bande
                             .attr("y", d => y(d.note))
@@ -105,7 +105,7 @@
                             .attr("fill", "currentColor")
                             .attr("text-anchor", "start")
                             .text("Note Metacritic"));
-
+                        
                     // Ajouter le SVG au conteneur.
                     document.querySelector('.container').appendChild(svg.node());
                 }
