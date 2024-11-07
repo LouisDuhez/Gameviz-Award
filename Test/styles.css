@@ -1,0 +1,40 @@
+html {
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/*======================================== LA PAGE D'ACCUEIL ======================================================*/
+/* Enlever les marges du body et de html */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Section accueil en plein écran */
+.accueil {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.accueil svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+/*======================================== DEUXIEME SECTION ======================================================*/
+.section2 {
+    width: 100vw;
+    height: 100vh;
+    background-color: orange;
+}
