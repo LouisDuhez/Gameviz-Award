@@ -97,13 +97,13 @@ html {
     width: 100vw;
     height: 100vh;
     background-color: #121212;
-}
+  }
 
-.text-container {
+  .text-container {
     height: 50px;
-}
+  }
 
-h2 {
+  h2 {
     margin: 0;
     font-size: 3rem;
     font-family: 'montserrat', sans-serif;
@@ -113,9 +113,9 @@ h2 {
     left: 25px;
     color: white;
 
-}
+  }
 
-.section2 p {
+  .paragraphe-h2 {
     font-size: 1.5rem;
     font-family: 'montserrat', sans-serif;
     font-weight: 300;
@@ -124,9 +124,9 @@ h2 {
     top: 140px;
     left: 25px;
     width: 750px;
-}
+  }
 
-.section2 a {
+  .section2 a {
     position: relative;
     top: 150px;
     left: 25px;
@@ -134,4 +134,18 @@ h2 {
     color: white;
     font-size: 1.25rem;
     font-weight: 800;
-}
+  }
+
+  @media (min-width: 980px) and (max-width: 1200px) {
+    .paragraphe-h2 {
+      width: 550px;
+      font-size: 1rem;
+    }
+    .section2 a {
+      font-size: 1rem;
+    }
+    h2 {
+      font-size: 2rem;
+    }
+
+  }
