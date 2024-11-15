@@ -2,7 +2,7 @@ import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 
 
  // On donne la taille du SVG
- const width = window.innerWidth //Largeur
+ const width = window.innerWidth /2 //Largeur
  const height = window.innerHeight //Hauteur
 
 
@@ -20,7 +20,7 @@ import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 let data = (await d3.json("data-gameviz.json"))
 data = data
         .filter(data => data.category === "game of the year")
-        .map(data => ({ game: data.game, year: data.year, note: data.note, winner : data.winner})); // On filtre les données pour récupérer uniquement les jeux de l'année
+        .map(data => ({ game: data.game, year: data.year, note: data.note, winner : data.winner, studio : data.studio})); // On filtre les données pour récupérer uniquement les jeux de l'année
         
 let selectYears = document.querySelector('.selectYears'); // On créer une varaibles selectYears pour sélectionner le <select> ou se trouve toutes les années 
 let  listYears = [...new Set(data.map(d => d.year))]; // On sélectionne toutes les années disponibles
@@ -89,7 +89,7 @@ function createGraph(data) {
 
     const barWidth = x.bandwidth();
 
-    svg.selectAll('rect')
+    console.log(svg.selectAll('rect')
     .data(data, d => d.game) 
     .join(
         enter => enter
@@ -98,6 +98,7 @@ function createGraph(data) {
             .attr('y', y(0))                
             .attr("height", 0)              
             .attr('width', barWidth)
+            .attr('class', d=> `winner${d.winner}`)
             .call(enter => enter.transition() 
                 .duration(700)
                 .attr('y', d => y(d.note))
@@ -114,19 +115,35 @@ function createGraph(data) {
             .attr("height", 0)
             .attr('y', y(0))
             .remove()
-    );
-
+    ));
+    svg.selectAll('.x-axis').remove()
     svg.append('g')
+        .attr('class', 'x-axis') 
         .attr('transform', `translate(0, ${y.range()[0]})`)
-        .call(xAxis)
+        .call(xAxis);
 
     svg.append('g')
         .attr('transform', `translate(${x.range()[0]},0)`)
         .call(yAxis)
 
-    document.body.appendChild(svg.node())   
+    document.body.appendChild(svg.node())
+    
+    afficheInfoRect()
 }
 
+let infoGraphique = document.querySelector('.infoGraphique')
+function afficheInfoRect() {
+    svg.selectAll('rect')
+    .on('mouseenter', function (event, d) { 
+
+        infoGraphique.innerHTML = `<p>Nom du jeux : ${d.game}</p>
+        <p>Nom du studio : ${d.studio}</p>
+        <p>Année de sortie : ${d.years}</p>
+        <p>Note INDB : ${d.note}</p>
+        `
+        console.log(d);    
+    });
+}
 
 
 
