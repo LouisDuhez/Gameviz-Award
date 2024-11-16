@@ -6,13 +6,39 @@
     <title>Graph test</title>
 </head>
 <body>
-    <select class="selectYears" name="yearsSelect" id="yearsSelect"></select>
+    
     <style>
         .winner1{
-            fill: yellow;
+            fill: #FE721B !important;
+        }
+        .infoGraphique {
+            position: absolute;
+            background-color: white;
+            padding: 15px 25px;
+            width: 300px;
+            height: 150px;
+            border-radius: 16px;
+        }
+        .bar {
+            fill: #8F41CE ;
+        }
+        .infoJeux img{
+            max-width: 500px;
+        }
+        .svgGraphique {
+            width: 1000px;
+            height: 1000px;
         }
     </style>
     <div class="infoGraphique">
+        
+    </div>
+    <div class="svgGraphique">
+
+    </div>
+    <select class="selectYears" name="yearsSelect" id="yearsSelect"></select>
+    <input class="rangeSelect" type="range" min="2014" max="2023" step="1" value="2014"> <span class="rangeSelectValue">Valeur : 2014</span>
+    <div class="infoJeux">
         
     </div>
 

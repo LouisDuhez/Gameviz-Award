@@ -6,7 +6,8 @@
             "game": "Dragon Age: Inquisition",
             "studio": "BioWare",
             "winner": 1,
-            "note": 6.1
+            "note": 6.1,
+            "image" : "https://gaming-cdn.com/images/products/399/616x353/dragon-age-inquisition-pc-jeu-origin-cover.jpg?v=1651137991"
           },
           {
             "year": 2014,
@@ -14,7 +15,8 @@
             "game": "Bayonetta 2",
             "studio": "Platinum games",
             "winner": 0,
-            "note": 9
+            "note": 9,
+            "image" : "https://gaming-cdn.com/images/products/3239/orig/bayonetta-2-switch-jeu-nintendo-eshop-europe-cover.jpg?v=1730382401"
           },
           {
             "year": 2014,
@@ -22,7 +24,8 @@
             "game": "Dark Souls II",
             "studio": "FromSoftware",
             "winner": 0,
-            "note" : 7.8
+            "note" : 7.8,
+            "image" : "https://gaming-cdn.com/images/products/697/orig/dark-souls-ii-scholar-of-the-first-sin-pc-jeu-steam-cover.jpg?v=1703155906"
           },
           {
             "year": 2014,
@@ -30,7 +33,8 @@
             "game": "Hearthstone: Heroes of Warcraft",
             "studio": "Blizzard Entertainment",
             "winner": 0,
-            "note" : 5.7
+            "note" : 5.7,
+            "image" : "https://gaming-cdn.com/images/products/506/orig/hearthstone-heroes-of-warcraft-5x-booster-pack-pc-jeu-battle-net-europe-cover.jpg?v=1674143405"
 
           },
           {
@@ -39,7 +43,8 @@
             "game": "Middle-earth: Shadow of Mordor",
             "studio": "Monolith Productions",
             "winner": 0,
-            "note" : 7.9
+            "note" : 7.9,
+            "image" : "https://gaming-cdn.com/images/products/408/orig/la-terre-du-milieu-l-ombre-du-mordor-pc-jeu-steam-cover.jpg?v=1724235825"
           },
           {
             "year": 2014,
@@ -754,7 +759,8 @@
             "game": "The Witcher 3: Wild Hunt",
             "studio": "CD Projekt Red",
             "winner": 1,
-            "note" : 9.1
+            "note" : 9.1,
+            "image" : "https://gaming-cdn.com/images/products/268/orig/the-witcher-3-wild-hunt-pc-game-gog-com-cover.jpg?v=1710174099"
           },
           {
             "year": 2015,
@@ -762,7 +768,8 @@
             "game": "Bloodborne",
             "studio": "FromSoftware",
             "winner": 0,
-            "note" : 8.9
+            "note" : 8.9,
+            "image" : "https://gaming-cdn.com/images/products/11777/orig/bloodborne-endless-nocturne-pc-gioco-cover.jpg?v=1729514771"
           },
           {
             "year": 2015,
@@ -770,7 +777,8 @@
             "game": "Fallout 4",
             "studio": "Bethesda game studios",
             "winner": 0,
-            "note" : 7
+            "note" : 7,
+            "image" : "https://gaming-cdn.com/images/products/755/orig/fallout-4-pc-jeu-steam-cover.jpg?v=1722000921"
           },
           {
             "year": 2015,
@@ -778,7 +786,8 @@
             "game": "Metal Gear Solid V: The Phantom Pain",
             "studio": "Kojima Productions",
             "winner": 0,
-            "note" : 8.1
+            "note" : 8.1,
+            "image" : "https://gaming-cdn.com/images/products/488/orig/metal-gear-solid-v-the-phantom-pain-pc-jeu-steam-cover.jpg?v=1705331875"
           },
           {
             "year": 2015,
@@ -786,7 +795,8 @@
             "game": "Super Mario Maker",
             "studio": "Nintendo",
             "winner": 0,
-            "note" : 8.6
+            "note" : 8.6,
+            "image" : "https://www.nintendo.com/eu/media/images/10_share_images/games_15/wiiu_14/SI_WiiU_SuperMarioMaker_v01_image1600w.jpg"
           },
           {
             "year": 2015,
@@ -1408,8 +1418,7 @@
             "year": 2015,
             "category": "ESports Team of the year",
             "game": "Team SoloMid",
-            "studio": "",
-            "winner": 0
+            "studio": ""
           },
           {
             "year": 2015,
@@ -1522,7 +1531,8 @@
             "game": "Overwatch",
             "studio": "Blizzard Entertainment",
             "winner": 1,
-            "note" : 9.1
+            "note" : 9.1,
+            "image" : "https://gaming-cdn.com/images/products/2208/orig/overwatch-pc-jeu-battle-net-cover.jpg?v=1668415006"
           },
           {
             "year": 2016,
@@ -1530,7 +1540,8 @@
             "game": "Doom",
             "studio": "id Software",
             "winner" : 0,
-            "note": 8.3
+            "note": 8.3,
+            "image" : "https://gaming-cdn.com/images/products/865/orig/doom-pc-jeu-steam-cover.jpg?v=1704189309"
           },
           {
             "year": 2016,
@@ -1538,7 +1549,8 @@
             "game": "Inside",
             "studio": "Playdead",
             "winner": 0,
-            "note" : 8.7
+            "note" : 8.7,
+            "image" : "https://gaming-cdn.com/images/products/1920/orig/inside-pc-mac-jeu-steam-cover.jpg?v=1704905690"
           },
           {
             "year": 2016,
@@ -1546,7 +1558,8 @@
             "game": "Titanfall 2",
             "studio": "Respawn Entertainment",
             "winner" : 0,
-            "note": 8.5
+            "note": 8.5,
+            "image" : "https://gaming-cdn.com/images/products/1273/orig/titanfall-2-pc-jeu-ea-app-cover.jpg?v=1703158431"
           },
           {
             "year": 2016,
@@ -1554,7 +1567,8 @@
             "game": "Uncharted 4: A Thief's End",
             "studio": "Naughty Dog",
             "winner" : 0,
-            "note": 8.8
+            "note": 8.8,
+            "image" : "https://blog.francetvinfo.fr/popup/wp-content/uploads/sites/373/2016/05/Uncharted-4.jpg"
           },
           {
             "year": 2016,
@@ -2360,7 +2374,8 @@
             "game": "The Legend of Zelda: Breath of the Wild",
             "studio": "Nintendo",
             "winner": 1,
-            "note" : 8.8
+            "note" : 8.8,
+            "image" : "https://www.nintendo.com/eu/media/images/10_share_images/games_15/wiiu_14/SI_WiiU_TheLegendOfZeldaBreathOfTheWild.jpg"
           },
           {
             "year": 2017,
@@ -2368,7 +2383,8 @@
             "game": "Horizon Zero Dawn",
             "studio": "Guerrilla games",
             "winner" : 0,
-            "note": 8.4
+            "note": 8.4,
+            "image" : "https://gaming-cdn.com/images/products/6202/orig/horizon-zero-dawn-complete-edition-complete-edition-pc-jeu-steam-cover.jpg?v=1715782186"
           },
           {
             "year": 2017,
@@ -2376,7 +2392,8 @@
             "game": "Persona 5",
             "studio": "Atlus",
             "winner" : 0,
-            "note": 9.3
+            "note": 9.3,
+            "image" : "https://gaming-cdn.com/images/products/7975/616x353/persona-5-strikers-pc-jeu-steam-europe-cover.jpg?v=1706698571"
           },
           {
             "year": 2017,
@@ -2384,7 +2401,8 @@
             "game": "PlayerUnknown's Battlegrounds",
             "studio": "PUBG Corporation",
             "winner": 0,
-            "note" : 8.4
+            "note" : 8.4,
+            "image" : "https://gaming-cdn.com/images/products/1995/orig/playerunknown-s-battlegrounds-pc-jeu-steam-cover.jpg?v=1703254609"
           },
           {
             "year": 2017,
@@ -2392,7 +2410,8 @@
             "game": "Super Mario Odyssey",
             "studio": "Nintendo",
             "winner" : 0,
-            "note": 8.9
+            "note": 8.9,
+            "image" : "https://gaming-cdn.com/images/products/2618/orig/super-mario-odyssey-switch-jeu-nintendo-eshop-europe-cover.jpg?v=1730381674"
           },
           {
             "year": 2017,
@@ -3429,7 +3448,8 @@
             "game": "God of War",
             "studio": "SIE Santa Monica studio/Sony Interactive Entertainment",
             "winner": 1,
-            "note" : 9.1
+            "note" : 9.1,
+            "image" : "https://gaming-cdn.com/images/products/7325/orig-fallback-v1/god-of-war-pc-jeu-steam-cover.jpg?v=1683627071"
           },
           {
             "year": 2018,
@@ -3437,7 +3457,8 @@
             "game": "Assassin's Creed Odyssey",
             "studio": "Ubisoft",
             "winner": 0,
-            "note" : 6.8
+            "note" : 6.8,
+            "image" : "https://gaming-cdn.com/images/products/2648/orig/assassin-s-creed-odyssey-pc-jeu-ubisoft-connect-europe-cover.jpg?v=1701185469"
           },
           {
             "year": 2018,
@@ -3445,7 +3466,8 @@
             "game": "Celeste",
             "studio": "Matt Makes games",
             "winner": 0,
-            "note" : 8.7
+            "note" : 8.7,
+            "image" : "https://gaming-cdn.com/images/products/8003/orig/celeste-pc-mac-jeu-steam-cover.jpg?v=1705489821"
           },
           {
             "year": 2018,
@@ -3453,7 +3475,8 @@
             "game": "Marvel's Spider-Man",
             "studio": "Insomniac games/Sony Interactive Entertainment",
             "winner": 0,
-            "note" : 8.7
+            "note" : 8.7,
+            "image" : "https://gaming-cdn.com/images/products/11907/orig/marvel-s-spider-man-remastered-pc-jeu-steam-cover.jpg?v=1697644479"
           },
           {
             "year": 2018,
@@ -3461,7 +3484,8 @@
             "game": "Monster Hunter: World",
             "studio": "Capcom",
             "winner": 0,
-            "note" : 8.7
+            "note" : 8.7,
+            "image" : "https://gaming-cdn.com/images/products/2155/orig/monster-hunter-world-pc-jeu-steam-europe-cover.jpg?v=1710330176"
           },
           {
             "year": 2018,
@@ -3469,7 +3493,8 @@
             "game": "Red Dead Redemption 2",
             "studio": "Rockstar games",
             "winner": 0,
-            "note" : 8.9
+            "note" : 8.9,
+            "image" : "Red Dead Redemption 2"
           },
           {
             "year": 2018,
@@ -4520,7 +4545,8 @@
             "game": "Sekiro: Shadows Die Twice",
             "studio": "FromSoftware/Activision",
             "winner": 1,
-            "note" : 8.6
+            "note" : 8.6,
+            "image" : "https://gaming-cdn.com/images/products/3520/orig/sekiro-shadows-die-twice-xbox-one-xbox-one-jeu-microsoft-store-cover.jpg?v=1704203999"
           },
           {
             "year": 2019,
@@ -4528,7 +4554,8 @@
             "game": "Control",
             "studio": "Remedy Entertainment/505 games",
             "winner": 0,
-            "note" : 7.3 
+            "note" : 7.3 ,
+            "image" : "https://gaming-cdn.com/images/products/7467/orig/control-ultimate-edition-ultimate-edition-pc-jeu-steam-europe-cover.jpg?v=1706715991"
           },
           {
             "year": 2019,
@@ -4536,7 +4563,8 @@
             "game": "Death Stranding",
             "studio": "Kojima Productions/Sony Interactive Entertainment",
             "winner": 0,
-            "note" : 7.4
+            "note" : 7.4,
+            "image" : "https://gaming-cdn.com/images/products/5721/616x353/death-stranding-pc-jeu-steam-cover.jpg?v=1710512707"
           },
           {
             "year": 2019,
@@ -4544,7 +4572,8 @@
             "game": "Resident Evil 2",
             "studio": "Capcom",
             "winner": 0,
-            "note" : 8.2
+            "note" : 8.2,
+            "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9UeTx5TA0395YAcawZrx-3pmeaZ0z6VLSKA&s"
           },
           {
             "year": 2019,
@@ -4552,7 +4581,8 @@
             "game": "Super Smash Bros. Ultimate",
             "studio": "Bandai Namco/Sora Ltd./Nintendo",
             "winner": 0,
-            "note" : 8.7
+            "note" : 8.7,
+            "image" : "https://gaming-cdn.com/images/products/3000/orig/super-smash-bros-ultimate-switch-jeu-nintendo-eshop-europe-cover.jpg?v=1730381580"
           },
           {
             "year": 2019,
@@ -4560,7 +4590,8 @@
             "game": "The Outer Worlds",
             "studio": "Obsidian Entertainment/Private Division",
             "winner": 0,
-            "note" : 7.9
+            "note" : 7.9,
+            "image" : "https://gaming-cdn.com/images/products/7749/orig/the-outer-worlds-pc-jeu-steam-europe-cover.jpg?v=1706711175"
           },
           {
             "year": 2019,
@@ -5674,7 +5705,8 @@
         "game": "Alan Wake 2",
         "studio": "Remedy Entertainment\/Epic games Publishing",
         "winner": 0,
-        "note" : 8.5
+        "note" : 8.5,
+        "image" : "https://gaming-cdn.com/images/products/7493/orig/alan-wake-2-pc-jeu-cover.jpg?v=1701276070"
         },
         {
         "year": 2023,
@@ -5682,7 +5714,8 @@
         "game": "Baldur’s Gate 3",
         "studio": "Larian studios",
         "winner": 1,
-        "note" : 9.2
+        "note" : 9.2,
+        "image" : "https://gaming-cdn.com/images/products/4804/orig/baldur-s-gate-3-pc-jeu-gog-com-cover.jpg?v=1710239606"
         },
         {
         "year": 2023,
@@ -5690,7 +5723,8 @@
         "game": "Marvel’s Spider-Man 2",
         "studio": "Insomniac games\/SIE",
         "winner": 0,
-        "note" : 8.8
+        "note" : 8.8,
+        "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyNqMtvd60Er2VPV7c9bZPgUFy76H-OTMFQA&s"
         },
         {
         "year": 2023,
@@ -5698,7 +5732,8 @@
         "game": "Resident Evil 4",
         "studio": "Capcom",
         "winner": 0,
-        "note" : 8.8
+        "note" : 8.8,
+        "image" : "https://gaming-cdn.com/images/products/6772/orig/resident-evil-4-pc-jeu-steam-europe-cover.jpg?v=1684153325"
         },
         {
         "year": 2023,
@@ -5706,7 +5741,8 @@
         "game": "Super Mario Bros. Wonder",
         "studio": "Nintendo",
         "winner": 0,
-        "note" : 9
+        "note" : 9,
+        "image" : "https://gaming-cdn.com/images/products/14461/orig/super-mario-bros-wonder-switch-jeu-nintendo-eshop-europe-cover.jpg?v=1730891119"
         },
         {
         "year": 2023,
@@ -5714,7 +5750,8 @@
         "game": "The Legend of Zelda: Tears of the Kingdom",
         "studio": "Nintendo",
         "winner": 0,
-        "note" : 8.8
+        "note" : 8.8,
+        "image" : "https://gaming-cdn.com/images/products/4860/orig/the-legend-of-zelda-tears-of-the-kingdom-switch-jeu-nintendo-eshop-europe-cover.jpg?v=1730385087"
         },
         {
         "year": 2023,
@@ -6611,7 +6648,8 @@
         "game": "A Plague Tale: Requiem",
         "studio": "Asobo studio\/Focus Entertainment",
         "winner": 0,
-        "note": 8.3
+        "note": 8.3,
+        "image" : "https://gaming-cdn.com/images/products/9034/orig/a-plague-tale-requiem-pc-jeu-steam-cover.jpg?v=1705411899"
         },
         {
         "year": 2022,
@@ -6619,7 +6657,8 @@
         "game": "Elden Ring",
         "studio": "FromSoftware\/Bandai Namco",
         "winner": 1,
-        "note" : 8.2 
+        "note" : 8.2,
+        "image" : "https://gaming-cdn.com/images/products/4824/orig/elden-ring-pc-jeu-steam-europe-cover.jpg?v=1711550841"
         },
         {
         "year": 2022,
@@ -6627,7 +6666,8 @@
         "game": "God of War Ragnarök",
         "studio": "Sony Santa Monica\/SIE",
         "winner": 0,
-        "note":8.2
+        "note":8.2,
+        "image" : "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322010/extras/INT9_PC_KeyArt-MotionGraphic.gif?t=1717117701"
         },
         {
         "year": 2022,
@@ -6635,7 +6675,8 @@
         "game": "Horizon Forbidden West",
         "studio": "Guerrilla games\/SIE",
         "winner": 0,
-        "note" : 8
+        "note" : 8,
+        "image" : "https://gaming-cdn.com/images/products/15086/orig/horizon-forbidden-west-complete-edition-complete-edition-pc-jeu-steam-europe-cover.jpg?v=1711041164"
         },
         {
         "year": 2022,
@@ -6643,7 +6684,8 @@
         "game": "Stray",
         "studio": "BlueTwelve studio\/Annapurna",
         "winner": 0,
-        "note" : 8.3
+        "note" : 8.3,
+        "image" : "https://gaming-cdn.com/images/products/8260/orig/stray-pc-jeu-steam-europe-us-canada-cover.jpg?v=1720773587"
         },
         {
         "year": 2022,
@@ -6651,7 +6693,8 @@
         "game": "Xenoblade Chronicles 3",
         "studio": "Monolith Soft\/Nintendo",
         "winner": 0,
-        "note" : 8.8
+        "note" : 8.8,
+        "image" : "https://gaming-cdn.com/images/products/9360/orig/xenoblade-chronicles-3-switch-jeu-nintendo-eshop-europe-cover.jpg?v=1730392738"
         },
         {
         "year": 2022,
@@ -7506,7 +7549,8 @@
         "game": "Deathloop",
         "studio": "Arkane studios\/Bethesda",
         "winner": 0,
-        "note": 6.8
+        "note": 6.8,
+        "image" : "https://gaming-cdn.com/images/products/9452/380x218/deathloop-deluxe-edition-deluxe-edition-pc-jeu-steam-cover.jpg?v=1694589534"
         },
         {
         "year": 2021,
@@ -7514,7 +7558,8 @@
         "game": "It Takes Two",
         "studio": "Hazelight studios\/EA",
         "winner": 1,
-        "note" : 8.9
+        "note" : 8.9,
+        "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJLsAb2AV0bSMmzOTu0-MBxqaPrJB8_SZ8Cw&s"
         },
         {
         "year": 2021,
@@ -7522,7 +7567,8 @@
         "game": "Metroid Dread",
         "studio": "Mercury Steam\/Nintendo",
         "winner": 0,
-        "note": 8.8
+        "note": 8.8,
+        "image" : "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_MetroidDread_image1600w.jpg"
         },
         {
         "year": 2021,
@@ -7530,7 +7576,8 @@
         "game": "Psychonauts 2",
         "studio": "Double Fine\/Xbox game studios",
         "winner": 0,
-        "note":8.1
+        "note":8.1,
+        "image" : "https://gaming-cdn.com/images/products/4798/orig/psychonauts-2-pc-mac-jeu-steam-cover.jpg?v=1704969024"
         },
         {
         "year": 2021,
@@ -7538,7 +7585,8 @@
         "game": "Ratchet & Clank: Rift Apart",
         "studio": "Insomniac games\/SIE",
         "winner": 0,
-        "note" : 8.6
+        "note" : 8.6,
+        "image" : "https://gaming-cdn.com/images/products/9665/orig/ratchet-clank-rift-apart-pc-jeu-steam-europe-cover.jpg?v=1713186529"
         },
         {
         "year": 2021,
@@ -7546,7 +7594,8 @@
         "game": "Resident Evil Village",
         "studio": "Capcom",
         "winner": 0,
-        "note" : 8.4
+        "note" : 8.4,
+        "image" : "https://gaming-cdn.com/images/products/6329/616x353/resident-evil-village-pc-jeu-steam-cover.jpg?v=1683647602"
         },
         {
         "year": 2021,
@@ -8366,7 +8415,8 @@
         "game": "The Last of Us Part II",
         "studio": "Naughty Dog \/ Sony Interactive Entertainment",
         "winner": 1,
-        "note" : 5.8
+        "note" : 5.8,
+        "image" : "https://gaming-cdn.com/images/products/6215/orig/the-last-of-us-part-ii-pc-jeu-steam-cover.jpg?v=1729848490"
         },
         {
         "year": 2020,
@@ -8374,7 +8424,8 @@
         "game": "Animal Crossing: New Horizons",
         "studio": "Nintendo",
         "winner": 0,
-        "note" : 5.8
+        "note" : 5.8,
+        "image" : "https://gaming-cdn.com/images/products/4809/616x353/animal-crossing-new-horizons-switch-jeu-nintendo-eshop-europe-cover.jpg?v=1730384101"
         },
         {
         "year": 2020,
@@ -8382,7 +8433,8 @@
         "game": "Doom Eternal",
         "studio": "id Software",
         "winner": 0,
-        "note" : 8.6
+        "note" : 8.6,
+        "image" : "https://gaming-cdn.com/images/products/5155/orig/doom-eternal-deluxe-edition-deluxe-edition-pc-jeu-steam-cover.jpg?v=1700764610"
         },
         {
         "year": 2020,
@@ -8390,7 +8442,8 @@
         "game": "Final Fantasy VII Remake",
         "studio": "Square Enix",
         "winner": 0,
-        "note": 8.2
+        "note": 8.2,
+        "image" : "https://gaming-cdn.com/images/products/5103/orig/final-fantasy-vii-remake-xbox-one-remake-xbox-one-jeu-microsoft-store-cover.jpg?v=1666449144"
         },
         {
         "year": 2020,
@@ -8398,7 +8451,8 @@
         "game": "Ghost of Tsushima",
         "studio": "Sucker Punch Productions \/ Sony Interactive Entertainment",
         "winner": 0,
-        "note" : 9.2
+        "note" : 9.2,
+        "image" : "https://gaming-cdn.com/images/products/9093/orig/ghost-of-tsushima-director-s-cut-pc-jeu-steam-cover.jpg?v=1715876608"
         },
         {
         "year": 2020,
@@ -8406,7 +8460,8 @@
         "game": "Hades",
         "studio": "Supergiant games",
         "winner": 0,
-        "note" : 8.6
+        "note" : 8.6,
+        "image" : "https://gaming-cdn.com/images/products/5972/orig/hades-pc-mac-jeu-steam-cover.jpg?v=1670573156"
         },
         {
         "year": 2020,
