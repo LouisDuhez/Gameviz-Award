@@ -68,7 +68,7 @@ function createGraph(data) {
     const x = d3.scaleBand()
         .domain(data.map(d => d.game)) 
         .range([30, width - 30])
-        .padding(0.3);
+        .padding(0.5);
 
     const y = d3.scaleLinear().domain([0, 10]).range([height - 30, 30])
 
@@ -77,7 +77,7 @@ function createGraph(data) {
 
 
     const barWidth = x.bandwidth();
-
+    svg.style("background-color", "#121212")
     console.log(svg.selectAll('rect')
     .data(data, d => d.game) 
     .join(
@@ -87,6 +87,8 @@ function createGraph(data) {
             .attr('y', y(0))                
             .attr("height", 0)              
             .attr('width', barWidth)
+            .style('rx', 8)
+            .style('ry', 8)
             .attr('class', d=> `winner${d.winner} bar`)
             .call(enter => enter.transition() 
                 .duration(700)
@@ -112,6 +114,7 @@ function createGraph(data) {
         .call(xAxis);
 
     svg.append('g')
+        .attr('class', 'y-axis') 
         .attr('transform', `translate(${x.range()[0]},0)`)
         .call(yAxis)
 
@@ -133,7 +136,11 @@ function afficheInfoRect() {
                     <p>Année de sortie : ${d.year}</p>
                     <p>Note INDB : ${d.note}</p>
                 `)
-                .style("display", "block"); // Afficher l'info-bulle
+                .style("display", "block")
+                 // Afficher l'info-bulle
+                 svg.selectAll('rect')
+                 .style("opacity", "0.7")
+                 
         })
         .on('mousemove', function (event) { // Mettre à jour la position de l'info-bulle
             infoGraphique
@@ -143,6 +150,9 @@ function afficheInfoRect() {
         .on('mouseout', function () { // Masquer l'info-bulle
             infoGraphique
                 .style("display", "none");
+
+                svg.selectAll('rect')
+                .style("opacity", "1")
         });
 }
 

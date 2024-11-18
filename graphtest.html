@@ -18,16 +18,41 @@
             width: 300px;
             height: 150px;
             border-radius: 16px;
+            display: none;
         }
         .bar {
             fill: #8F41CE ;
+            transition: opacity .5s;
+            border-radius: 8px;
+        }
+
+        .bar:hover {
+            opacity: 1 !important;
+        }
+
+        .infoJeux {
+            margin-right: auto;
+            margin-left: auto;
+            width: 50%;
         }
         .infoJeux img{
             max-width: 500px;
         }
         .svgGraphique {
-            width: 1000px;
-            height: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 1200px;
+            height: 800px;
+        }
+
+        .x-axis {
+            color: white;
+            /* font-size: 1rem; */
+        }
+
+        .y-axis {
+            color: white;
+            /* font-size: 1rem; */
         }
     </style>
     <div class="infoGraphique">
