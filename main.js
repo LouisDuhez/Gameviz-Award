@@ -7,12 +7,13 @@ const svgGraphique = document.querySelector('.svgGraphique');
 // On donne la taille du SVG en fonction de la div
 const width = svgGraphique.offsetWidth; //Largeur de la div
 const height = svgGraphique.offsetHeight; //Hauteur de la div
+let textWidth = 200
 
 // Création du SVG avec d3.create
 const svg = d3.create('svg')
     .attr('width', width)
     .attr('height', height)
-    .attr('viewBox', `0 0 ${width} ${height}`)
+    .attr('viewBox', `${-textWidth} 0 ${width+textWidth} ${height}`)
     .style('background-color', '#f0f0f0'); // Optionnel : Couleur de fond
 
 let data = (await d3.json("data-gameviz.json"))
@@ -37,13 +38,13 @@ const years = listYears.sort(); // On trie le tableau dans l'ordre croissant
 
 let selectedYear = 2014
 const dataYears = data.filter(d => d.year == selectedYear)
-createGraph(dataYears)
+createGraphVertical(dataYears)
 selectYears.addEventListener('change', (e) => {
     selectedYear = e.target.value;
     console.log(selectedYear)
     const dataYears = data.filter(d => d.year == selectedYear)
     console.log(dataYears)
-    createGraph(dataYears)
+    createGraphVertical(dataYears)
 })
 
 
@@ -58,7 +59,7 @@ rangeSelectYears.addEventListener ('input', (e)=> {
 rangeSelectYears.addEventListener('input', (e) => {
     const value = e.target.value
     const dataYears = data.filter(d => d.year == value)
-    createGraph(dataYears)
+    createGraphVertical(dataYears)
 })
 
 function createGraph(data) {
@@ -77,7 +78,6 @@ function createGraph(data) {
 
 
     const barWidth = x.bandwidth();
-    svg.style("background-color", "#121212")
     console.log(svg.selectAll('rect')
     .data(data, d => d.game) 
     .join(
@@ -111,7 +111,7 @@ function createGraph(data) {
     svg.append('g')
         .attr('class', 'x-axis') 
         .attr('transform', `translate(0, ${y.range()[0]})`)
-        .call(xAxis);
+        .call(xAxis)
 
     svg.append('g')
         .attr('class', 'y-axis') 
@@ -124,6 +124,8 @@ function createGraph(data) {
     afficheInfoRect()
     afficheInfoJeu()
 }
+
+
 let infoGraphique = d3.select('.infoGraphique');
 
 function afficheInfoRect() {
@@ -139,7 +141,7 @@ function afficheInfoRect() {
                 .style("display", "block")
                  // Afficher l'info-bulle
                  svg.selectAll('rect')
-                 .style("opacity", "0.7")
+                 .style("opacity", "0.4")
                  
         })
         .on('mousemove', function (event) { // Mettre à jour la position de l'info-bulle
@@ -156,7 +158,9 @@ function afficheInfoRect() {
         });
 }
 
+
 const infoJeux = document.querySelector('.infoJeux')
+
 function afficheInfoJeu() {
     svg.selectAll('rect')
     .on('click', function (event, d) { 
@@ -170,6 +174,94 @@ function afficheInfoJeu() {
         console.log(d);    
     });
 }
+
+function createGraphVertical(data) {
+        
+        const x = d3.scaleLinear()
+            .domain([0, 10]) // Note sur une échelle linéaire
+            .range([30, width - 30]);
+    
+        const y = d3.scaleBand()
+            .domain(data.map(d => d.game)) // Les noms des jeux
+            .range([height - 30, 30])
+            .padding(0.5);
+    
+        const xAxis = d3.axisBottom(x); // Axe des notes
+        const yAxis = d3.axisLeft(y);   // Axe des jeux
+    
+        const barHeight = y.bandwidth();
+    
+        svg.style("background-color", "#121212");
+    
+        svg.selectAll('rect')
+            .data(data, d => d.game)
+            .join(
+                enter => enter
+                    .append('rect')
+                    .attr('x', x(0)) // Position initiale des barres
+                    .attr('y', d => y(d.game))
+                    .attr('width', 0) // Largeur initiale
+                    .attr('height', barHeight)
+                    .style('ry', 8)
+
+                    .attr('class', d => `winner${d.winner} bar`)
+                    .call(enter => enter.transition()
+                        .duration(1000)
+                        .attr('x', d => x(0))
+                        .attr('width', d => x(d.note) - x(0))
+                    ),
+                update => update
+                    .transition()
+                    .duration(1000)
+                    .attr('x', x(0))
+                    .attr('width', d => x(d.note) - x(0)),
+                exit => exit
+                    .transition()
+                    .duration(500)
+                    .attr('width', 0)
+                    .remove()
+            );
+    
+        svg.selectAll('.x-axis').remove();
+        svg.selectAll('.y-axis').remove();
+    
+        svg.append('g')
+            .attr('class', 'x-axis')
+            .attr('transform', `translate(0, ${y.range()[0]})`)
+            .call(xAxis);
+    
+        svg.append('g')
+            .attr('class', 'y-axis')
+            .attr('transform', `translate(${x.range()[0]},0)`)
+            .call(yAxis);
+    
+        // Ajout du SVG dans la div
+        svgGraphique.appendChild(svg.node());
+        selectWidthText()
+        svg.attr('viewBox', `-${textWidth} 0 ${width+textWidth} ${height}`)
+
+        
+        afficheInfoRect();
+        afficheInfoJeu();
+    }
+
+
+    
+    
+    // Fonction pour Sélectionner la taille du texte
+    
+    function selectWidthText() {
+        textWidth = 0
+        d3.select("svg").selectAll("text").each(function() {
+            const bbox = this.getBBox(); 
+            if (bbox.width > textWidth) { 
+                textWidth = bbox.width; 
+            }
+        });
+    
+        console.log("Largeur maximale du texte :", textWidth);  
+    }
+    
 
 
 
