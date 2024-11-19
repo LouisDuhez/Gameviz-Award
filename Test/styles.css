@@ -168,7 +168,7 @@ html {
     position: relative;
     top: 140px;
     left: 25px;
-    width: 750px;
+    width: 660px;
   }
 
   .section2 a {
@@ -182,9 +182,9 @@ html {
     font-size: 1.25rem;
     font-weight: 800;
   }
-  @media (min-width: 980px) and (max-width: 1200px) {
+  @media (min-width: 980px) and (max-width: 1300px) {
     .paragraphe-h2 {
-      width: 550px;
+      width: 470px;
       font-size: 1rem;
     }
     .section2 a {
