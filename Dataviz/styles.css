@@ -47,6 +47,8 @@ html {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    background-color: #121212;
+    font-family: 'montserrat', sans-serif;
 }
 
 /* Section accueil en plein écran */
@@ -137,7 +139,6 @@ html {
 
 .section2 {
     width: 100vw;
-    height: 100vh;
     background-color: #121212;
   }
 
@@ -195,3 +196,88 @@ html {
     }
 
   }
+  /* ==================================================== Graphique ===================================================  */
+
+.graph-top {
+  color: white;
+  width: 100%;
+}
+
+.graph-top h2 {
+  position: initial;
+  margin-left: 40px;
+}
+.graph-top p {
+  font-size: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+.winner1{
+    fill: #FE721B !important;
+}
+.infoGraphique {
+    position: absolute;
+    background-color: #121212;
+    padding: 15px 25px;
+    height: 150px;
+    border-radius: 16px;
+    display: none;
+    color: white;
+}
+.bar {
+    fill: #8F41CE ;
+    transition: opacity .5s;
+    border-radius: 8px;
+}
+
+.bar:hover {
+    opacity: 1 !important;
+}
+
+.infoJeux {
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+}
+.infoJeux img{
+    max-width: 500px;
+}
+.svgGraphique {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1300px;
+    height: 500px;
+    padding: 25px 15px;
+    
+}
+
+.input-bloc {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.rangeSelect {
+  width: 50%;
+}
+
+.svgGraphique svg {
+    background-color: #121212 !important;
+    padding: 15px 25px;
+}
+
+.x-axis {
+    color: white;
+    font-size: 1rem;
+}
+
+.y-axis {
+    color: white;
+    font-size: 1rem;
+}

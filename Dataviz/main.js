@@ -7,7 +7,7 @@ const svgGraphique = document.querySelector('.svgGraphique');
 // On donne la taille du SVG en fonction de la div
 const width = svgGraphique.offsetWidth; //Largeur de la div
 const height = svgGraphique.offsetHeight; //Hauteur de la div
-let textWidth = 200
+let textWidth = 300
 
 // Création du SVG avec d3.create
 const svg = d3.create('svg')
@@ -107,6 +107,8 @@ function createGraph(data) {
             .attr('y', y(0))
             .remove()
     ));
+
+
     svg.selectAll('.x-axis').remove()
     svg.append('g')
         .attr('class', 'x-axis') 
@@ -237,8 +239,8 @@ function createGraphVertical(data) {
     
         // Ajout du SVG dans la div
         svgGraphique.appendChild(svg.node());
-        selectWidthText()
-        svg.attr('viewBox', `-${textWidth} 0 ${width+textWidth} ${height}`)
+        // selectWidthText()
+        // svg.attr('viewBox', `-${textWidth} 0 ${width+textWidth} ${height}`)
 
         
         afficheInfoRect();
