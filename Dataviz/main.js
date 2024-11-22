@@ -144,6 +144,7 @@ function afficheInfoRect() {
                  // Afficher l'info-bulle
                  svg.selectAll('rect')
                  .style("opacity", "0.4")
+                 .style("cursor", "pointer")
                  
         })
         .on('mousemove', function (event) { // Mettre à jour la position de l'info-bulle
@@ -161,19 +162,27 @@ function afficheInfoRect() {
 }
 
 
-const infoJeux = document.querySelector('.infoJeux')
+const infoJeux = document.getElementById('infoJeux')
 
 function afficheInfoJeu() {
     svg.selectAll('rect')
     .on('click', function (event, d) { 
 
-        infoJeux.innerHTML = `<p>Nom du jeux : ${d.game}</p>
+        infoJeux.innerHTML = `
+        <div class="gauche">
+        <img src ="${d.image}" alt="">
+        </div>
+        <div class="droite">
+        <p>Nom du jeux :<strong> ${d.game}</strong></p>
         <p>Nom du studio : ${d.studio}</p>
         <p>Année de sortie : ${d.year}</p>
         <p>Note INDB : ${d.note}</p>
-        <img src ="${d.image}" alt="">
+        </div>
         `
+        infoJeux.style.display = "flex";
+        infoJeux.scrollIntoView({behavior: "smooth", block: "center"});
         console.log(d);    
+
     });
 }
 
