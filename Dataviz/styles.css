@@ -37,6 +37,7 @@ html {
     transform: translate(0%, 100%);
   }
 }
+
 .diagonal-line {
   animation: slideInDiagonal 3s ease-out forwards;
 }
@@ -48,7 +49,6 @@ html {
 }
 
 /*======================================== LA PAGE D'ACCUEIL ======================================================*/
-/* Enlever les marges du body et de html */
 body,
 html {
     margin: 0;
@@ -74,11 +74,9 @@ html {
 .img_trophee {
     filter: drop-shadow(0px 4px 31.1px rgba(255, 255, 255, 0.3));
     animation: slideInimage 3s ease-out forwards;
-
 }
 
 .accueil h1 {
-    font-family: 'montserrat', sans-serif;
     font-weight: 800;
     position: absolute;
     top: 13%;
@@ -93,7 +91,6 @@ html {
 }
 
 .accueil p {
-    font-family: 'montserrat', sans-serif;
     font-weight: 700;
     position: absolute;
     top: 68.5%;
@@ -122,7 +119,7 @@ html {
     bottom: 10%;
     left: 50.6%;
     transform: translateX(-50%);
-    transition: all 0.5s ease; 
+    transition: all 0.5s ease;
   }
 .accueil a:hover {
     transform: scale(1.3);
@@ -134,7 +131,6 @@ html {
 .srclogo {
   color: white;
   font-size: 0.8rem;
-  font-family: 'montserrat', sans-serif;
   display: flex;
   justify-content: end;
   margin: 145px;
@@ -154,42 +150,39 @@ html {
   }
 
   h2 {
-    
     margin-left: 20px;
     margin-top: 0;
     font-size: 3rem;
-    font-family: 'montserrat', sans-serif;
     font-weight: 800;
     position: relative;
     top: 130px;
     left: 25px;
     color: white;
-
   }
+
 
   .paragraphe-h2 {
     font-size: 1.5rem;
     margin-left: 20px;
-    font-family: 'montserrat', sans-serif;
     font-weight: 300;
     color: white;
     position: relative;
     top: 140px;
     left: 25px;
     width: 660px;
+    transition: all 0.5s ease;
   }
 
   .section2 a {
-    
     margin-left: 20px;
     position: relative;
     top: 150px;
     left: 25px;
-    font-family: 'montserrat', sans-serif;
     color: white;
     font-size: 1.25rem;
     font-weight: 800;
   }
+
   @media (min-width: 980px) and (max-width: 1300px) {
     .paragraphe-h2 {
       width: 470px;
@@ -202,6 +195,37 @@ html {
       font-size: 2rem;
     }
 
+  }
+
+  /* ============================ INFO JEUX GRAPHIQUE ========================== */
+  .infoJeux {
+    height: 70vh;
+    display: none;
+    background-color: #121212;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .gauche {
+    flex: 1;
+    color: white;
+    padding: 100px;
+  }
+
+  .droite {
+    font-size: 1.2rem;
+    flex: 1;
+    color: white;
+    height: 270px;
+  }
+
+  .gauche img {
+    width: 550px;
+    height: 270px;
+    width: 100%;
+    border-radius: 5px;
   }
   /* ==================================================== Graphique ===================================================  */
 
@@ -249,7 +273,7 @@ html {
     opacity: 1 !important;
 }
 
-.infoJeux {
+/* .infoJeux {
     margin-right: auto;
     margin-left: auto;
     width: 500px;
@@ -266,17 +290,7 @@ html {
 }
 .infoJeux img{
     max-width: 500px;
-}
-
-
-
-.orange-separation {
-  height: 20px;
-  width: 3px;
-  border-radius: 8px;
-  background-color: #FE721B;
-}
-
+} */
 .svgGraphique {
   display: flex;
   align-items: center;
