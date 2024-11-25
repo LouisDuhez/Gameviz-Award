@@ -273,7 +273,7 @@ html {
     opacity: 1 !important;
 }
 
-/* .infoJeux {
+.infoJeux {
     margin-right: auto;
     margin-left: auto;
     width: 500px;
@@ -290,7 +290,7 @@ html {
 }
 .infoJeux img{
     max-width: 500px;
-} */
+}
 .svgGraphique {
   display: flex;
   align-items: center;

@@ -140,9 +140,7 @@ function afficheInfoRect() {
         });
 }
 
-
-const infoJeux = document.getElementById('infoJeux')
-
+// Fonction pour afficher les informations d'un jeu au clic
 function afficheInfoJeu() {
     svg.selectAll('rect')
         .on('click', (event, d) => {
@@ -173,5 +171,7 @@ function afficheInfoJeu() {
                 left: 0,
                 behavior: "smooth",
               });
+              document.querySelector('.infoJeux').style.display ="block"
         });
+        
 }
