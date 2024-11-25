@@ -1,274 +1,175 @@
 import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 
-
 // Sélection de la div cible
 const svgGraphique = document.querySelector('.svgGraphique');
- 
-// On donne la taille du SVG en fonction de la div
-const width = svgGraphique.offsetWidth; //Largeur de la div
-const height = svgGraphique.offsetHeight; //Hauteur de la div
-let textWidth = 300
 
-// Création du SVG avec d3.create
+// Dimensions initiales
+let width = svgGraphique.offsetWidth;
+let height = svgGraphique.offsetHeight;
+let textWidth = 300;
+
+// Création du SVG
 const svg = d3.create('svg')
     .attr('width', width)
     .attr('height', height)
-    .attr('viewBox', `${-textWidth} 0 ${width+textWidth} ${height}`)
-    .style('background-color', '#f0f0f0'); // Optionnel : Couleur de fond
+    .attr('viewBox', `${-textWidth} 0 ${width + textWidth} ${height}`)
+    .style('background-color', '#f0f0f0');
 
-let data = (await d3.json("data-gameviz.json"))
+// Charger les données
+let data = await d3.json("data-gameviz.json");
 data = data
-        .filter(data => data.category === "game of the year")
-        .map(data => ({ game: data.game, year: data.year, note: data.note, winner : data.winner, studio : data.studio, image : data.image})); 
-        
+    .filter(d => d.category === "game of the year")
+    .map(d => ({ game: d.game, year: d.year, note: d.note, winner: d.winner, studio: d.studio, image: d.image }));
 
+// Initialisation des années
+const selectYears = document.querySelector('.selectYears');
+const listYears = [...new Set(data.map(d => d.year))].sort();
+listYears.forEach(year => {
+    const option = document.createElement('option');
+    option.value = year;
+    option.textContent = year;
+    selectYears.appendChild(option);
+});
 
+// Variables globales
+let selectedYear = listYears[0];
+let dataYears = data.filter(d => d.year == selectedYear);
 
-let selectYears = document.querySelector('.selectYears'); // On créer une varaibles selectYears pour sélectionner le <select> ou se trouve toutes les années 
-let  listYears = [...new Set(data.map(d => d.year))]; // On sélectionne toutes les années disponibles
+// Créer le graphique initial
+createGraphVertical(dataYears);
+svgGraphique.appendChild(svg.node());
 
-const years = listYears.sort(); // On trie le tableau dans l'ordre croissant
-                years.forEach(year => {
-                    const option = document.createElement('option');
-                    option.value = year; 
-                    option.textContent = year; 
-                    yearsSelect.appendChild(option); 
-                }); // On ajoutes les années dans le <select>
-
-
-let selectedYear = 2014
-const dataYears = data.filter(d => d.year == selectedYear)
-createGraphVertical(dataYears)
-selectYears.addEventListener('change', (e) => {
+// Écouteurs pour les sélections
+selectYears.addEventListener('change', e => {
     selectedYear = e.target.value;
-    console.log(selectedYear)
-    const dataYears = data.filter(d => d.year == selectedYear)
-    console.log(dataYears)
-    createGraphVertical(dataYears)
-})
+    dataYears = data.filter(d => d.year == selectedYear);
+    createGraphVertical(dataYears);
+});
 
+// Écouteur pour le range slider
+const rangeSelectYears = document.querySelector('.rangeSelect');
+const rangeSelectYearsValue = document.querySelector('.rangeSelectValue');
+rangeSelectYears.addEventListener('input', e => {
+    const value = e.target.value;
+    rangeSelectYearsValue.textContent = `Valeur : ${value}`;
+    dataYears = data.filter(d => d.year == value);
+    createGraphVertical(dataYears);
+});
 
-const rangeSelectYears = document.querySelector('.rangeSelect')
-const rangeSelectYearsValue = document.querySelector('.rangeSelectValue')
-rangeSelectYears.addEventListener ('input', (e)=> {
-    const value = e.target.value
-    rangeSelectYearsValue.textContent = `Valeur : ${value}`
+// Fonction pour créer le graphique vertical
+function createGraphVertical(data) {
+    const x = d3.scaleLinear()
+        .domain([0, 10])
+        .range([30, width - 30]);
 
-})
-
-rangeSelectYears.addEventListener('input', (e) => {
-    const value = e.target.value
-    const dataYears = data.filter(d => d.year == value)
-    createGraphVertical(dataYears)
-})
-
-function createGraph(data) {
-
-   
-
-    const x = d3.scaleBand()
-        .domain(data.map(d => d.game)) 
-        .range([30, width - 30])
+    const y = d3.scaleBand()
+        .domain(data.map(d => d.game))
+        .range([height - 30, 30])
         .padding(0.5);
 
-    const y = d3.scaleLinear().domain([0, 10]).range([height - 30, 30])
+    const xAxis = d3.axisBottom(x);
+    const yAxis = d3.axisLeft(y);
 
-    const yAxis = d3.axisLeft(y)
-    const xAxis = d3.axisBottom(x)
+    const barHeight = y.bandwidth();
 
+    // Mettre à jour les barres
+    svg.selectAll('rect')
+        .data(data, d => d.game)
+        .join(
+            enter => enter.append('rect')
+                .attr('x', x(0))
+                .attr('y', d => y(d.game))
+                .attr('width', 0)
+                .attr('height', barHeight)
+                .attr('class', d => `winner${d.winner} bar`)
+                .call(enter => enter.transition()
+                    .duration(1000)
+                    .attr('width', d => x(d.note) - x(0))
+                ),
+            update => update.transition()
+                .duration(1000)
+                .attr('width', d => x(d.note) - x(0))
+                .attr('y', d => y(d.game)),
+            exit => exit.transition()
+                .duration(500)
+                .attr('width', 0)
+                .remove()
+        );
 
-    const barWidth = x.bandwidth();
-    console.log(svg.selectAll('rect')
-    .data(data, d => d.game) 
-    .join(
-        enter => enter
-            .append('rect')
-            .attr('x', d => x(d.game))
-            .attr('y', y(0))                
-            .attr("height", 0)              
-            .attr('width', barWidth)
-            .style('rx', 8)
-            .style('ry', 8)
-            .attr('class', d=> `winner${d.winner} bar`)
-            .call(enter => enter.transition() 
-                .duration(700)
-                .attr('y', d => y(d.note))
-                .attr("height", d => y(0) - y(d.note))
-            ),
-        update => update
-            .transition()
-            .duration(700)
-            .attr('y', d => y(d.note))
-            .attr("height", d => y(0) - y(d.note)),
-        exit => exit
-            .transition()                   
-            .duration(700)
-            .attr("height", 0)
-            .attr('y', y(0))
-            .remove()
-    ));
-
-
-    svg.selectAll('.x-axis').remove()
+    // Mettre à jour les axes
+    svg.selectAll('.x-axis').remove();
     svg.append('g')
-        .attr('class', 'x-axis') 
+        .attr('class', 'x-axis')
         .attr('transform', `translate(0, ${y.range()[0]})`)
-        .call(xAxis)
+        .call(xAxis);
 
+    svg.selectAll('.y-axis').remove();
     svg.append('g')
-        .attr('class', 'y-axis') 
+        .attr('class', 'y-axis')
         .attr('transform', `translate(${x.range()[0]},0)`)
-        .call(yAxis)
+        .call(yAxis);
 
-    // Ajout du SVG dans la div
-    svgGraphique.appendChild(svg.node());
-    
-    afficheInfoRect()
-    afficheInfoJeu()
+    // Ajouter les interactions
+    afficheInfoRect();
+    afficheInfoJeu();
 }
 
-
-let infoGraphique = d3.select('.infoGraphique');
-
+// Fonction pour afficher les informations au survol
 function afficheInfoRect() {
     svg.selectAll('rect')
-        .on('mouseenter', function (event, d) { 
-            infoGraphique
+        .on('mouseenter', function (event, d) {
+            d3.select('.infoGraphique')
                 .html(`
-                    <p>Nom du jeu : ${d.game}</p>
-                    <p>Nom du studio : ${d.studio}</p>
-                    <p>Année de sortie : ${d.year}</p>
-                    <p>Note INDB : ${d.note}</p>
+                    <p><span class="data-name">Nom du jeu : </span> ${d.game}</p>
+                    <p><span class="data-name">Nom du studio :</span> ${d.studio}</p>
+                    <p><span class="data-name">Année de sortie :</span> ${d.year}</p>
+                    <p><span class="data-name">Note INDB :</span> ${d.note}</p>
                 `)
-                .style("display", "block")
-                 // Afficher l'info-bulle
-                 svg.selectAll('rect')
-                 .style("opacity", "0.4")
-                 
+                .style("display", "block");
+            d3.selectAll('rect').style("opacity", "0.4");
+            d3.select(this).style("opacity", "1");
         })
-        .on('mousemove', function (event) { // Mettre à jour la position de l'info-bulle
-            infoGraphique
-                .style("left", (event.pageX + 9) + "px")
-                .style("top", (event.pageY - 175) + "px");
+        .on('mousemove', event => {
+            d3.select('.infoGraphique')
+                .style("left", `${event.pageX + 9}px`)
+                .style("top", `${event.pageY - 175}px`);
         })
-        .on('mouseout', function () { // Masquer l'info-bulle
-            infoGraphique
-                .style("display", "none");
-
-                svg.selectAll('rect')
-                .style("opacity", "1")
+        .on('mouseout', () => {
+            d3.select('.infoGraphique').style("display", "none");
+            d3.selectAll('rect').style("opacity", "1");
         });
 }
 
-
-const infoJeux = document.querySelector('.infoJeux')
-
+// Fonction pour afficher les informations d'un jeu au clic
 function afficheInfoJeu() {
     svg.selectAll('rect')
-    .on('click', function (event, d) { 
+        .on('click', (event, d) => {
+            
+            document.querySelector('.infoJeux').innerHTML = `
+                <div class="infoJeux-img-bloc">
+                    <img src="${d.image}" alt="Image du jeu"></div>
+                    <div class="infoJeux-text-bloc">
 
-        infoJeux.innerHTML = `<p>Nom du jeux : ${d.game}</p>
-        <p>Nom du studio : ${d.studio}</p>
-        <p>Année de sortie : ${d.year}</p>
-        <p>Note INDB : ${d.note}</p>
-        <img src ="${d.image}" alt="">
-        `
-        console.log(d);    
-    });
-}
-
-function createGraphVertical(data) {
-        
-        const x = d3.scaleLinear()
-            .domain([0, 10]) // Note sur une échelle linéaire
-            .range([30, width - 30]);
-    
-        const y = d3.scaleBand()
-            .domain(data.map(d => d.game)) // Les noms des jeux
-            .range([height - 30, 30])
-            .padding(0.5);
-    
-        const xAxis = d3.axisBottom(x); // Axe des notes
-        const yAxis = d3.axisLeft(y);   // Axe des jeux
-    
-        const barHeight = y.bandwidth();
-    
-        svg.style("background-color", "#121212");
-    
-        svg.selectAll('rect')
-            .data(data, d => d.game)
-            .join(
-                enter => enter
-                    .append('rect')
-                    .attr('x', x(0)) // Position initiale des barres
-                    .attr('y', d => y(d.game))
-                    .attr('width', 0) // Largeur initiale
-                    .attr('height', barHeight)
-                    .style('ry', 8)
-
-                    .attr('class', d => `winner${d.winner} bar`)
-                    .call(enter => enter.transition()
-                        .duration(1000)
-                        .attr('x', d => x(0))
-                        .attr('width', d => x(d.note) - x(0))
-                    ),
-                update => update
-                    .transition()
-                    .duration(1000)
-                    .attr('x', x(0))
-                    .attr('width', d => x(d.note) - x(0)),
-                exit => exit
-                    .transition()
-                    .duration(500)
-                    .attr('width', 0)
-                    .remove()
-            );
-    
-        svg.selectAll('.x-axis').remove();
-        svg.selectAll('.y-axis').remove();
-    
-        svg.append('g')
-            .attr('class', 'x-axis')
-            .attr('transform', `translate(0, ${y.range()[0]})`)
-            .call(xAxis);
-    
-        svg.append('g')
-            .attr('class', 'y-axis')
-            .attr('transform', `translate(${x.range()[0]},0)`)
-            .call(yAxis);
-    
-        // Ajout du SVG dans la div
-        svgGraphique.appendChild(svg.node());
-        // selectWidthText()
-        // svg.attr('viewBox', `-${textWidth} 0 ${width+textWidth} ${height}`)
-
-        
-        afficheInfoRect();
-        afficheInfoJeu();
-    }
-
-
-    
-    
-    // Fonction pour Sélectionner la taille du texte
-    
-    function selectWidthText() {
-        textWidth = 0
-        d3.select("svg").selectAll("text").each(function() {
-            const bbox = this.getBBox(); 
-            if (bbox.width > textWidth) { 
-                textWidth = bbox.width; 
-            }
+                    <div>
+                        <p>${d.game}</p>
+                        <p>${d.note} / 10</p>
+                    </div>
+                    <p>The Game Awards est une cérémonie annuelle célébrant l’excellence dans l’industrie vidéoludique. Créé en 2014 par Geoff Keighley, l’événement récompense jeux, développeurs et studios. Il inclut aussi annonces et bandes-annonces inédites, attirant millions de spectateurs.</p>
+                    <div class="infoJeux-text-bloc-bottom">
+                        <p>${d.studio}</p>
+                        <div class="orange-separation"></div>
+                        <p>${d.year}</p>
+                    </div>
+                    
+                </div>
+                
+            `;
+            let topInfo = document.querySelector('.infoJeux').offsetTop
+            console.log(topInfo)
+            window.scrollTo({
+                top: topInfo,
+                left: 0,
+                behavior: "smooth",
+              });
         });
-    
-        console.log("Largeur maximale du texte :", textWidth);  
-    }
-    
-
-
-
-
-
-
-
-
+}

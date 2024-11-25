@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+  --arrow-bg: rgba(255, 255, 255, 0.3);
+  --arrow-icon: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/Caret_down_font_awesome_whitevariation.svg);
+  --option-bg: white;
+  --select-bg: rgba(255, 255, 255, 0.2);
+}
+
 .montserrat {
     font-family: "Montserrat", serif;
     font-style: normal;
@@ -221,11 +228,17 @@ html {
     position: absolute;
     background-color: #121212;
     padding: 15px 25px;
-    height: 150px;
+    height: fit-content;
     border-radius: 16px;
     display: none;
     color: white;
 }
+
+.data-name {
+  font-weight: bold;
+  color: #FE721B;
+}
+
 .bar {
     fill: #8F41CE ;
     transition: opacity .5s;
@@ -239,11 +252,31 @@ html {
 .infoJeux {
     margin-right: auto;
     margin-left: auto;
-    width: 50%;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--select-bg);
+    margin-top: 50px;
+    color: white;
+}
+
+.infoJeux-text-bloc div{
+  display: flex;
+  justify-content: space-between;
 }
 .infoJeux img{
     max-width: 500px;
 }
+
+
+
+.orange-separation {
+  height: 20px;
+  width: 3px;
+  border-radius: 8px;
+  background-color: #FE721B;
+}
+
 .svgGraphique {
   display: flex;
   align-items: center;
@@ -257,14 +290,48 @@ html {
 }
 
 .input-bloc {
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
   display: flex;
-  justify-content: center;
-  gap: 16px;
+  gap: 32px;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.rangeSelect {
-  width: 50%;
+.input-bloc select {
+    color: #FE721B;
+    font-size: 2rem;
+    /* Reset */
+    appearance: none;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    /* Personalize */
+    width: 10rem;
+    padding: 1rem 4rem 1rem 1rem;
+    background: var(--arrow-icon) no-repeat right 0.8em center / 1.4em,
+      linear-gradient(to left, var(--arrow-bg) 3em, var(--select-bg) 3em);
+    border-radius: 0.25em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    /* Remove IE arrow */
+    &::-ms-expand {
+      display: none;
+    }
+    /* <option> colors */
+    option {
+      color: inherit;
+      background-color: var(--option-bg);
+    }
+  }
+  
+
+.rangeSelectValue {
+  height: fit-content;
+  color: #FE721B;
+  font-size: rem;
+  font-weight: bold;
 }
 
 .svgGraphique svg {
@@ -280,4 +347,16 @@ html {
 .y-axis {
     color: white;
     font-size: 1rem;
+}
+
+div .infoJeux-text-bloc-bottom {
+  justify-content: initial;
+  align-items: center;
+  gap: 16px;
+}
+
+.infoJeux-img-bloc {}
+.infoJeux-text-bloc {
+  margin-left: 20px;
+  margin-right: 20px;
 }
