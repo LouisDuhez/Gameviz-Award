@@ -149,7 +149,7 @@ html {
     height: 50px;
   }
 
-  h2 {
+  .titre2 {
     margin-left: 20px;
     margin-top: 0;
     font-size: 3rem;
@@ -373,4 +373,51 @@ div .infoJeux-text-bloc-bottom {
 .infoJeux-text-bloc {
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.footer {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 40px 20px;
+}
+
+.mentions {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.section {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #444;
+  padding-bottom: 10px;
+}
+
+.section:last-child {
+  border-bottom: none;
+}
+
+.section h2 {
+  font-size: 1.2em;
+  color: #e74c3c;
+  margin-bottom: 10px;
+}
+
+.section p {
+  margin: 5px 0;
+}
+
+.section a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.section a:hover {
+  text-decoration: underline;
+}
+
+.footer-end {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #ccc;
 }
