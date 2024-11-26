@@ -19,7 +19,7 @@ const svg = d3.create('svg')
 let data = await d3.json("data-gameviz.json");
 data = data
     .filter(d => d.category === "game of the year")
-    .map(d => ({ game: d.game, year: d.year, note: d.note, winner: d.winner, studio: d.studio, image: d.image }));
+    .map(d => ({ game: d.game, year: d.year, note: d.note, winner: d.winner, studio: d.studio, image: d.image, video: d.video, description: d.description }));
 
 // Initialisation des années
 const selectYears = document.querySelector('.selectYears');
@@ -152,18 +152,28 @@ function afficheInfoJeu() {
                         <div class="border-img"></div>
                 </div>
                 <div class="infoJeux-img-bloc">
-                    <img src="${d.image}" alt="Image du jeu">
-                    <div class= "border-img"> </div>
-                    <div class= "border-img border-img-2"> </div>
+                    <video class="video1" poster="${d.image}">
+                        <source src="trailer/${d.video}.mp4" type="video/mp4">
+                    </video>
+                    <!--<img src="${d.image}" alt="Image du jeu">-->
+                    <!--<div class= "border-img"> </div>
+                    <div class= "border-img border-img-2"> </div> -->
                     <div class="lecteur-vid">
+                    <span class="reducesec"><i class="fa-solid fa-backward"></i></span>
+                    <span class="play"><i class="fa-solid fa-play"></i></span>
+                    <span class="skipsec"><i class="fa-solid fa-forward"></i></span>
+                    <div>
+                        <label class="volume"for="volume"><i class="fa-solid fa-volume-xmark"></i></label>
+                        <input id="volume"class="volume-control" type="range" min="0" max="1" step="0.1" value="0">
+                    </div>
                     </div>
                 </div>
                 <div class="infoJeux-text-bloc">
 
                         <p class="game-title">${d.game}</p>
                         <p>${d.note} / 10</p>
-                    <p>The Game Awards est une cérémonie annuelle célébrant l’excellence dans l’industrie vidéoludique. Créé en 2014 par Geoff Keighley, l’événement récompense jeux, développeurs et studios. Il inclut aussi annonces et bandes-annonces inédites, attirant millions de spectateurs.</p>
-                    <div class="infoJeux-text-bloc-bottom">
+                        <p>${d.description}</p>
+                        <div class="infoJeux-text-bloc-bottom">
                         <p>${d.studio}</p>
                         <div class="orange-separation"></div>
                         <p>${d.year}</p>
@@ -180,7 +190,59 @@ function afficheInfoJeu() {
                 left: 0,
                 behavior: "smooth",
               });
+
+            
+            let playStatue = 0
+            const btnPlay = document.querySelector('.play')
+            console.log(btnPlay)
+            const video1 = document.querySelector('.video1')
+            btnPlay.addEventListener('click', function(e) {
+                if (playStatue == 0) {
+                    video1.play()
+                    console.log('play')
+                    playStatue = 1
+                    btnPlay.innerHTML = '<i class="fa-solid fa-pause"></i>'
+                } else {
+                    video1.pause()
+                    playStatue = 0
+                    btnPlay.innerHTML = '<i class="fa-solid fa-play"></i>'
+                    console.log('pause')
+                }
+             })  
+
+             
+             let btnSkip10Sec = document.querySelector('.skipsec')
+             btnSkip10Sec.addEventListener('click', e=> {
+                 console.log(video1.currentTime)
+                 video1.currentTime=video1.currentTime+10;
+                 console.log(video1.currentTime)
+            })
+            
+            let btnreduce10Sec = document.querySelector('.reducesec')
+            btnreduce10Sec.addEventListener('click', e=> {
+                console.log(video1.currentTime)
+                video1.currentTime=video1.currentTime-10;
+                console.log(video1.currentTime)
+                 
+             })
+            video1.volume = 0
+            const volumeControl = document.querySelector('.volume-control');
+            volumeControl.addEventListener('input', function () {
+            video1.volume = this.value
+            
+            if (video1.volume == 0) {
+                document.querySelector('.volume').innerHTML = '<i class="fa-solid fa-volume-xmark"></i>'
+            } if (video1.volume > 0) {
+                document.querySelector('.volume').innerHTML = '<i class="fa-solid fa-volume-low"></i>'
+            } if (video1.volume >= 0.6) {
+                document.querySelector('.volume').innerHTML = '<i class="fa-solid fa-volume-high"></i>'
+            } 
+
+                    });
               
         });
         
 }
+
+
+

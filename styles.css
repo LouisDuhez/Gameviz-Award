@@ -447,3 +447,28 @@ div .infoJeux-text-bloc-bottom {
   font-size: 0.9em;
   color: #ccc;
 }
+
+.lecteur-vid {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 1.5rem;
+}
+.lecteur-vid div {
+  margin-left: auto;
+  font-size: 1rem;
+}
+
+.fa-play {
+  color: #FE721B;
+}
+
+.fa-pause {
+  color: #FE721B;
+}
+
+video[poster]{
+  height:100%;
+  width:100%;
+  object-fit: cover;
+  }
