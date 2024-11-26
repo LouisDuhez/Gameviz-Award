@@ -276,21 +276,46 @@ html {
 .infoJeux {
     margin-right: auto;
     margin-left: auto;
-    width: 500px;
+    width: 80%;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--select-bg);
-    margin-top: 50px;
     color: white;
+}
+
+.game-title {
+  color: #FE721B;
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 0;
 }
 
 .infoJeux-text-bloc div{
   display: flex;
   justify-content: space-between;
 }
-.infoJeux img{
-    max-width: 500px;
+.infoJeux-img-bloc img{
+    width: 100%;
 }
+.infoJeux-img-bloc{
+    width: 60%;
+    overflow: hidden;
+}
+
+.border-img {
+  height: 30px;
+  width: 100%;
+  background-color: #8F41CE;
+  background-image: linear-gradient(90deg, hsla(23, 99%, 55%, 1) 0%, hsla(278, 64%, 43%, 1) 100%);
+  position: relative;
+  rotate: 45deg;
+  right: 250px;
+  bottom: 30px;
+}
+.border-img-2{
+  right: 150px;
+}
+
+
 .svgGraphique {
   display: flex;
   align-items: center;
@@ -313,7 +338,8 @@ html {
   align-items: center;
 }
 
-.input-bloc select {
+.selectYears {
+    
     color: #FE721B;
     font-size: 2rem;
     /* Reset */
@@ -369,10 +395,10 @@ div .infoJeux-text-bloc-bottom {
   gap: 16px;
 }
 
-.infoJeux-img-bloc {}
 .infoJeux-text-bloc {
   margin-left: 20px;
   margin-right: 20px;
+  width: 30%;
 }
 
 .footer {

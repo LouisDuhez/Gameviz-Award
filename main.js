@@ -146,14 +146,22 @@ function afficheInfoJeu() {
         .on('click', (event, d) => {
             
             document.querySelector('.infoJeux').innerHTML = `
+                <div class="border-img-back">
+                        <div class="border-img"></div>
+                        <div class="border-img"></div>
+                        <div class="border-img"></div>
+                </div>
                 <div class="infoJeux-img-bloc">
-                    <img src="${d.image}" alt="Image du jeu"></div>
-                    <div class="infoJeux-text-bloc">
-
-                    <div>
-                        <p>${d.game}</p>
-                        <p>${d.note} / 10</p>
+                    <img src="${d.image}" alt="Image du jeu">
+                    <div class= "border-img"> </div>
+                    <div class= "border-img border-img-2"> </div>
+                    <div class="lecteur-vid">
                     </div>
+                </div>
+                <div class="infoJeux-text-bloc">
+
+                        <p class="game-title">${d.game}</p>
+                        <p>${d.note} / 10</p>
                     <p>The Game Awards est une cérémonie annuelle célébrant l’excellence dans l’industrie vidéoludique. Créé en 2014 par Geoff Keighley, l’événement récompense jeux, développeurs et studios. Il inclut aussi annonces et bandes-annonces inédites, attirant millions de spectateurs.</p>
                     <div class="infoJeux-text-bloc-bottom">
                         <p>${d.studio}</p>
@@ -164,14 +172,15 @@ function afficheInfoJeu() {
                 </div>
                 
             `;
-            let topInfo = document.querySelector('.infoJeux').offsetTop
+            document.querySelector('.infoJeux').style.display ="flex"
+            let topInfo = document.querySelector('.infoJeux').offsetTop - 100
             console.log(topInfo)
             window.scrollTo({
                 top: topInfo,
                 left: 0,
                 behavior: "smooth",
               });
-              document.querySelector('.infoJeux').style.display ="block"
+              
         });
         
 }
