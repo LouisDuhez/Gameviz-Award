@@ -12,8 +12,7 @@ let textWidth = 300;
 const svg = d3.create('svg')
     .attr('width', width)
     .attr('height', height)
-    .attr('viewBox', `${-textWidth} 0 ${width + textWidth} ${height}`)
-    .style('background-color', '#f0f0f0');
+    .attr('viewBox', `0 0 ${width} ${height +40}`)
 
 // Charger les données
 let data = await d3.json("data-gameviz.json");
@@ -102,14 +101,27 @@ function createGraphVertical(data) {
         .attr('class', 'x-axis')
         .attr('transform', `translate(0, ${y.range()[0]})`)
         .call(xAxis);
+    
+    svg.append('text')
+    .attr('class', 'x-axis-label')
+    .attr('text-anchor', 'middle')
+    .attr('x', (x.range()[1] + x.range()[0]) / 2) // Centré par rapport à l'axe X
+    .attr('y', y.range()[0] + 60) // Positionné légèrement sous l'axe X
+    .style('font-size', '1.5rem')
+    .style('font-weight', 'bold')
+    .text('User Score');    
 
     svg.selectAll('.y-axis').remove();
     svg.append('g')
-        .attr('class', 'y-axis')
-        .attr('transform', `translate(${x.range()[0]},0)`)
-        .call(yAxis);
+    .attr('class', 'y-axis')
+    .attr('transform', `translate(${x.range()[0]},0)`)
+    .call(yAxis);
 
-    // Ajouter les interactions
+    svg.selectAll('.y-axis text')
+    .attr('text-anchor', 'start')
+    .attr('x', 9) 
+    .attr('dy', '0.35em')
+
     afficheInfoRect();
     afficheInfoJeu();
 }
@@ -118,6 +130,7 @@ function createGraphVertical(data) {
 function afficheInfoRect() {
     svg.selectAll('rect')
         .on('mouseenter', function (event, d) {
+            // Afficher les informations du jeu dans le conteneur infoGraphique
             d3.select('.infoGraphique')
                 .html(`
                     <p><span class="data-name">Nom du jeu : </span> ${d.game}</p>
@@ -126,19 +139,36 @@ function afficheInfoRect() {
                     <p><span class="data-name">Note INDB :</span> ${d.note}</p>
                 `)
                 .style("display", "block");
+
+            // Réduire l'opacité de toutes les barres
             d3.selectAll('rect').style("opacity", "0.4");
+
+            // Mettre en évidence la barre survolée
             d3.select(this).style("opacity", "1");
+
+            // Réduire l'opacité de toutes les légendes en Y
+            svg.selectAll('.y-axis .tick text').style('opacity', '0.4');
+
+            // Mettre en évidence uniquement la légende associée
+            svg.selectAll('.y-axis .tick text')
+                .filter(t => t === d.game) // Associer la légende au jeu via son nom
+                .style('opacity', '1');
         })
         .on('mousemove', event => {
+            // Mettre à jour la position du conteneur infoGraphique
             d3.select('.infoGraphique')
                 .style("left", `${event.pageX + 9}px`)
                 .style("top", `${event.pageY - 175}px`);
         })
         .on('mouseout', () => {
+            // Réinitialiser l'affichage des informations et l'opacité des éléments
             d3.select('.infoGraphique').style("display", "none");
             d3.selectAll('rect').style("opacity", "1");
+            svg.selectAll('.y-axis .tick text').style('opacity', '1');
         });
 }
+
+
 
 // Fonction pour afficher les informations d'un jeu au clic
 function afficheInfoJeu() {
@@ -171,7 +201,7 @@ function afficheInfoJeu() {
                 <div class="infoJeux-text-bloc">
 
                         <p class="game-title">${d.game}</p>
-                        <p>${d.note} / 10</p>
+                        <p>${d.note} / 10 user score</p>
                         <p>${d.description}</p>
                         <div class="infoJeux-text-bloc-bottom">
                         <p>${d.studio}</p>
@@ -243,6 +273,4 @@ function afficheInfoJeu() {
         });
         
 }
-
-
 
