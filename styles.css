@@ -134,10 +134,10 @@ html {
   font-size: 0.8rem;
   display: flex;
   justify-content: end;
-  margin: 145px;
   padding: 10px;
   margin-right: 20px;
   position: relative;
+  bottom: 150px;
   z-index: 1;
 }
 
@@ -152,37 +152,35 @@ html {
 
   .text-container {
     height: 50px;
+    margin-left: 50px;
   }
 
   .titre2 {
-    margin-left: 20px;
     margin-top: 0;
     font-size: 3rem;
     font-weight: 800;
     position: relative;
-    top: 130px;
-    left: 25px;
     color: white;
   }
 
+ 
 
   .paragraphe-h2 {
     font-size: 1.5rem;
-    margin-left: 20px;
     font-weight: 300;
     color: white;
     position: relative;
-    top: 140px;
-    left: 25px;
-    width: 660px;
+    max-width:700px;
     transition: all 0.5s ease;
   }
 
+  .titre3 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
   .section2 a {
-    margin-left: 20px;
     position: relative;
-    top: 150px;
-    left: 25px;
     color: white;
     font-size: 1.25rem;
     font-weight: 800;

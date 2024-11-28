@@ -310,3 +310,5 @@ function afficheInfoJeu() {
         
 }
 
+
+
