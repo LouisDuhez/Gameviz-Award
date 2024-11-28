@@ -5,6 +5,7 @@
   --arrow-icon: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/Caret_down_font_awesome_whitevariation.svg);
   --option-bg: white;
   --select-bg: rgba(255, 255, 255, 0.2);
+  --main-gradient : linear-gradient(90deg, hsla(23, 99%, 55%, 1) 0%, hsla(278, 64%, 43%, 1) 100%);
 }
 
 .montserrat {
@@ -104,7 +105,7 @@ html {
 }
 
 .h1viz {
-    background-image: linear-gradient(90deg, hsla(23, 99%, 55%, 1) 0%, hsla(278, 64%, 43%, 1) 100%);
+    background-image:var(--main-gradient);
 
     /* permet d'afficher le dégradé sur le texte sur les navigateur Chrome, Safari, Opera (15+), iOS, Android */
     -webkit-background-clip: text;
@@ -240,13 +241,11 @@ html {
   align-items: center;
   color: white;
   width: 90%;
-  min-height: 100vh;
   text-align: center;
   font-size: 4rem;
 }
 
 .graph-top h2 {
-  rotate: -5deg;
   width: fit-content;
   margin-left: auto;
   margin-right: auto;
@@ -261,15 +260,36 @@ html {
 .winner1{
     fill: #FE721B !important;
 }
+.crown {
+  fill: #FE721B;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 .infoGraphique {
     position: absolute;
-    background-color: #121212;
+    background-color: #5A5A5A;
     padding: 15px 25px;
     height: fit-content;
     border-radius: 16px;
     display: none;
     color: white;
+    align-items: center;
+    gap: 32px;
+    width: 40%;
 }
+
+.infoGraphique div {
+  width: 50%;
+}
+.infoGraphique div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+}
+
+
+
 
 .data-name {
   font-weight: bold;
@@ -330,14 +350,10 @@ html {
 
 
 .svgGraphique {
-  display: flex;
-  align-items: center;
-  justify-content: center;
     margin-left: auto;
     margin-right: auto;
     width: 1300px;
-    height: 500px;
-    padding: 25px 15px;
+    height: 800px;
     
 }
 
@@ -355,17 +371,17 @@ html {
 .selectYears {
     
     color: #FE721B;
-    font-size: 2rem;
+    font-size: 1rem;
     /* Reset */
     appearance: none;
     border: 0;
     outline: 0;
     font: inherit;
     /* Personalize */
-    width: 10rem;
+    width: 30rem;
     padding: 1rem 4rem 1rem 1rem;
-    background: var(--arrow-icon) no-repeat right 0.8em center / 1.4em,
-      linear-gradient(to left, var(--arrow-bg) 3em, var(--select-bg) 3em);
+    background: var(--arrow-icon) no-repeat right 0.7em center / 0.8em,
+      linear-gradient(to left, var(--arrow-bg) 2em, var(--select-bg) 2em);
     border-radius: 0.25em;
     box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
     cursor: pointer;
@@ -377,6 +393,8 @@ html {
     option {
       color: inherit;
       background-color: var(--option-bg);
+      font-size: 2rem;
+      transform: rotate(-20deg);
     }
   }
   
@@ -384,7 +402,7 @@ html {
 .rangeSelectValue {
   height: fit-content;
   color: #FE721B;
-  font-size: rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 

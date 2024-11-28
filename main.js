@@ -2,11 +2,11 @@ import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 
 // Sélection de la div cible
 const svgGraphique = document.querySelector('.svgGraphique');
-
+const rangeSelectYears = document.querySelector('.rangeSelect');
+const rangeSelectYearsValue = document.querySelector('.rangeSelectValue');
 // Dimensions initiales
 let width = svgGraphique.offsetWidth;
 let height = svgGraphique.offsetHeight;
-let textWidth = 300;
 
 // Création du SVG
 const svg = d3.create('svg')
@@ -19,6 +19,8 @@ let data = await d3.json("data-gameviz.json");
 data = data
     .filter(d => d.category === "game of the year")
     .map(d => ({ game: d.game, year: d.year, note: d.note, winner: d.winner, studio: d.studio, image: d.image, video: d.video, description: d.description }));
+
+data = data.sort((a,b) => a.note - b.note)
 
 // Initialisation des années
 const selectYears = document.querySelector('.selectYears');
@@ -42,15 +44,16 @@ svgGraphique.appendChild(svg.node());
 selectYears.addEventListener('change', e => {
     selectedYear = e.target.value;
     dataYears = data.filter(d => d.year == selectedYear);
+    rangeSelectYearsValue.innerHTML = `Année : ${selectedYear}`
+    rangeSelectYears.value = selectedYear
     createGraphVertical(dataYears);
 });
 
 // Écouteur pour le range slider
-const rangeSelectYears = document.querySelector('.rangeSelect');
-const rangeSelectYearsValue = document.querySelector('.rangeSelectValue');
+
 rangeSelectYears.addEventListener('input', e => {
     const value = e.target.value;
-    rangeSelectYearsValue.textContent = `Valeur : ${value}`;
+    rangeSelectYearsValue.textContent = `Année : ${value}`;
     dataYears = data.filter(d => d.year == value);
     createGraphVertical(dataYears);
 });
@@ -72,6 +75,8 @@ function createGraphVertical(data) {
     const barHeight = y.bandwidth();
 
     // Mettre à jour les barres
+    svg.selectAll('.crown').remove()
+        
     svg.selectAll('rect')
         .data(data, d => d.game)
         .join(
@@ -84,7 +89,32 @@ function createGraphVertical(data) {
                 .call(enter => enter.transition()
                     .duration(1000)
                     .attr('width', d => x(d.note) - x(0))
-                ),
+                )
+
+                .each(function(d) {
+                    if (d.winner === 1) {
+                        d3.select(this.parentNode)
+                            .append('text')
+                            .attr('x', x(0))
+                            .attr('y', y(d.game) + barHeight / 2)
+                            .attr('dy', '0.35em') 
+                            .text('Winner')
+                            .style('opacity', 0)
+                            .style('position', 'relative')
+                            .style('right',50)
+                            .attr('class', 'crown')
+                            .transition()
+                            .duration(1000)
+                            .delay(500)
+                            .attr('x', x(d.note)+5)
+                            .style('opacity', 1)
+                        exit => exit.transition()
+                            .duration(500)
+                            .attr('width', 0)
+                            .remove()
+                            
+                    }
+                }),
             update => update.transition()
                 .duration(1000)
                 .attr('width', d => x(d.note) - x(0))
@@ -109,7 +139,7 @@ function createGraphVertical(data) {
     .attr('y', y.range()[0] + 60) // Positionné légèrement sous l'axe X
     .style('font-size', '1.5rem')
     .style('font-weight', 'bold')
-    .text('User Score');    
+    .text('Moyenne des utilisateurs');    
 
     svg.selectAll('.y-axis').remove();
     svg.append('g')
@@ -133,12 +163,18 @@ function afficheInfoRect() {
             // Afficher les informations du jeu dans le conteneur infoGraphique
             d3.select('.infoGraphique')
                 .html(`
-                    <p><span class="data-name">Nom du jeu : </span> ${d.game}</p>
-                    <p><span class="data-name">Nom du studio :</span> ${d.studio}</p>
-                    <p><span class="data-name">Année de sortie :</span> ${d.year}</p>
-                    <p><span class="data-name">Note INDB :</span> ${d.note}</p>
+                    <div>              
+                        <img class="infoGraphique-image" src="${d.image}" alt=""></img>
+                    </div>
+                    <div>
+                        
+                        <p><span class="data-name">Nom du jeu : </span> ${d.game}</p>
+                        <p><span class="data-name">Nom du studio :</span> ${d.studio}</p>
+                        <p><span class="data-name">Année de sortie :</span> ${d.year}</p>
+                        <p><span class="data-name">User score :</span> ${d.note}</p>
+                    </div>
                 `)
-                .style("display", "block");
+                .style("display", "flex");
 
             // Réduire l'opacité de toutes les barres
             d3.selectAll('rect').style("opacity", "0.4");

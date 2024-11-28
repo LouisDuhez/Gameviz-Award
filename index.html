@@ -38,14 +38,6 @@
       <!-- Bande rectangulaire inférieure -->
       <path d="M13 693H1463V1024H13V693Z" fill="url(#paint4_linear_43_2)" />
 
-      <!-- éléments graphiques -->
-      <line x1="1384.5" y1="251" x2="1384.5" y2="336" stroke="white" stroke-width="3" />
-      <line x1="1384.5" y1="370" x2="1384.5" y2="455" stroke="white" stroke-width="3" />
-      <line x1="1384.5" y1="487" x2="1384.5" y2="572" stroke="white" stroke-width="3" />
-      <ellipse cx="1384" cy="352.5" rx="10" ry="9.5" fill="white" />
-      <circle cx="1384" cy="235" r="10" fill="white" />
-      <circle cx="1384" cy="471" r="10" fill="white" />
-      <circle cx="1384" cy="589" r="10" fill="white" />
       <!-- Définitions de dégradé -->
       <defs>
         <linearGradient id="paint0_linear_43_2" x1="0" y1="26.5189" x2="742.376" y2="26.5189"
@@ -90,6 +82,8 @@
   <section class="section2" id="section2">
     <div class="text-container">
       <h2 class="titre2">Game<span class="h1viz">viz</span> Awards c'est quoi ?</h2>
+      <p>Le projet Gameviz Awards est une initiative étudiante portée par des passionnés de jeux vidéo et de leur impact sur la culture. Son ambition est d’explorer en profondeur les Game Awards, une cérémonie annuelle qui récompense les meilleures créations vidéoludiques. En analysant ces distinctions, le but est de mieux comprendre les critères qui définissent l’excellence dans ce domaine tout en portant un regard critique sur les décisions et les pratiques qui façonnent cet événement.</p>
+      <h3>Les Games Awards c'est quoi ?</h3>
       <p class="paragraphe-h2">The Game Awards est une cérémonie annuelle célébrant l’excellence dans l’industrie
         vidéoludique. Créé en 2014 par Geoff Keighley, l’événement récompense jeux, développeurs et studios. Il inclut
         aussi annonces et bandes-annonces inédites, attirant millions de spectateurs.</p>
@@ -126,7 +120,7 @@
 
   <section class="graph-bloc">
     <div class="graph-top">
-      <h2>Le prix du <span class="h1viz">Meilleur Jeu</span> de l'Année est attribué à… </h2>
+      <h2>Le prix du <span class="h1viz">Meilleur Jeu</span> en <select class="selectYears" name="yearsSelect" id="yearsSelect"></select> </h2>
     </div>
     <div class="graph-legend">
       
@@ -138,10 +132,9 @@
 
     </div>
     <div class="input-bloc">
-      <select class="selectYears" name="yearsSelect" id="yearsSelect"></select>
       <div>
+        <span class="rangeSelectValue">Année 2014</span>
         <input class="rangeSelect" type="range" min="2014" max="2023" step="1" value="2014"> 
-        <span class="rangeSelectValue">Valeur : 2014</span>
       </div>
     </div>
     <div class="infoJeux" id="infoJeux">
