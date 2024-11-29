@@ -199,6 +199,15 @@ html {
     }
 
   }
+  @media (min-width: 1301px) and (max-width: 1500px) {
+    .paragraphe-h2 {
+      font-size: 1.2rem;
+    }
+    .srclogo {
+      bottom: 100px;
+    }
+    
+  }
 
   /* ============================ INFO JEUX GRAPHIQUE ========================== */
   .infoJeux {
