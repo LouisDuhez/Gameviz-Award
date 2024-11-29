@@ -139,7 +139,7 @@ function createGraphVertical(data) {
     .attr('y', y.range()[0] + 60) // Positionné légèrement sous l'axe X
     .style('font-size', '1.5rem')
     .style('font-weight', 'bold')
-    .text('Moyenne des utilisateurs');    
+    .text('Note moyenne des utilisateurs');    
 
     svg.selectAll('.y-axis').remove();
     svg.append('g')
