@@ -309,6 +309,6 @@ function afficheInfoJeu() {
         });
         
 }
-
+// Graphique numéro 2
 
 
