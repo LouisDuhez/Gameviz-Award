@@ -18,7 +18,7 @@ const svg = d3.create('svg')
 let data = await d3.json("data-gameviz.json");
 data = data
     .filter(d => d.category === "game of the year")
-    .map(d => ({ game: d.game, year: d.year, note: d.note, winner: d.winner, studio: d.studio, image: d.image, video: d.video, description: d.description }));
+    .map(d => ({ game: d.game, year: d.year, note: d.note, winner: d.winner, studio: d.studio, image: d.image, video: d.video, description: d.description, sales : d.sales}));
 
 data = data.sort((a,b) => a.note - b.note)
 
@@ -311,4 +311,60 @@ function afficheInfoJeu() {
 }
 // Graphique numéro 2
 
+const svgGraphique2 = document.querySelector('.svgGraphique2')
 
+const svg2 = d3.create('svg')
+    .attr('width', width)
+    .attr('height', height)
+    .attr('viewBox', `0 0 ${width} ${height + 40}`)
+
+function createGraph2(data) {
+    const y = d3.scaleLinear()
+        .domain([0, 10])
+        .range([height - 30, 30]);
+
+    const x = d3.scaleBand()
+        .domain(data.map(d => d.game))
+        .range([0, width - 30])
+        .padding(0.5);
+
+    const xAxis = d3.axisBottom(x);
+    const yAxis = d3.axisLeft(y);
+
+    svg2.selectAll('rect')
+        .data(data, d => d.game)
+        .join(
+            enter => enter.append('rect')
+                .attr('x', d => x(d.game))
+                .attr('y', y(0))
+                .attr('width', x.bandwidth())  // Utilisation de x.bandwidth() pour la largeur
+                .attr('height', d => y(0) - y(d.sale)) // Ajuste la hauteur des barres
+                .attr('class', d => `winner${d.winner} bar`)
+                .call(enter => enter.transition()
+                    .duration(1000)
+                    .attr('y', d => y(d.sale)) // Déplace les barres en fonction de la valeur
+                    .attr('height', d => y(0) - y(d.sale)) // Ajuste la hauteur des barres
+                ),
+        );
+
+    svg2.append('g')
+        .attr('class', 'x-axis')
+        .attr('transform', `translate(0, ${height - 30})`)  // Position correcte de l'axe X
+        .call(xAxis);
+
+    svg2.append('text')
+        .attr('class', 'x-axis-label')
+        .attr('text-anchor', 'middle')
+        .attr('x', (x.range()[1] + x.range()[0]) / 2) // Centré par rapport à l'axe X
+        .attr('y', height + 20) // Positionné légèrement sous l'axe X
+        .style('font-size', '1.5rem')
+        .style('font-weight', 'bold')
+        .text('Moyenne des utilisateurs');   
+
+    svg2.append('g')
+        .attr('class', 'y-axis')
+        .attr('transform', `translate(${x.range()[0]},0)`)
+        .call(yAxis);
+}
+
+createGraph2 (data)
