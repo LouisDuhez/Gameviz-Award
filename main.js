@@ -311,4 +311,5 @@ function afficheInfoJeu() {
 }
 // Graphique numéro 2
 
+const svgGraphique2 = document.querySelector('.svgGraphique2')
 
