@@ -153,7 +153,7 @@ function createGraphVertical(data) {
     .attr('dy', '0.35em')
 
     afficheInfoRect();
-    afficheInfoJeu();
+    
 }
 
 // Fonction pour afficher les informations au survol
@@ -208,7 +208,7 @@ function afficheInfoRect() {
 
 // Fonction pour afficher les informations d'un jeu au clic
 function afficheInfoJeu() {
-    svg.selectAll('rect')
+    svg2.selectAll('rect')
         .on('click', (event, d) => {
             
             document.querySelector('.infoJeux').innerHTML = `
@@ -319,14 +319,16 @@ const svg2 = d3.create('svg')
     .attr('viewBox', `0 0 ${width} ${height + 40}`)
 
 function createGraph2(data) {
+    svg2.attr('viewBox', `0 0 ${width} ${height +300}`)
+    data.sort((a,b) => a.sales - b.sales)
     const y = d3.scaleLinear()
-        .domain([0, 10])
+        .domain([0, 110])
         .range([height - 30, 30]);
 
     const x = d3.scaleBand()
         .domain(data.map(d => d.game))
         .range([0, width - 30])
-        .padding(0.5);
+        .padding(0.2);
 
     const xAxis = d3.axisBottom(x);
     const yAxis = d3.axisLeft(y);
@@ -338,12 +340,12 @@ function createGraph2(data) {
                 .attr('x', d => x(d.game))
                 .attr('y', y(0))
                 .attr('width', x.bandwidth())  // Utilisation de x.bandwidth() pour la largeur
-                .attr('height', d => y(0) - y(d.sale)) // Ajuste la hauteur des barres
+                .attr('height', d => y(0) - y(d.sales)) // Ajuste la hauteur des barres
                 .attr('class', d => `winner${d.winner} bar`)
                 .call(enter => enter.transition()
                     .duration(1000)
-                    .attr('y', d => y(d.sale)) // Déplace les barres en fonction de la valeur
-                    .attr('height', d => y(0) - y(d.sale)) // Ajuste la hauteur des barres
+                    .attr('y', d => y(d.sales)) // Déplace les barres en fonction de la valeur
+                    .attr('height', d => y(0) - y(d.sales)) // Ajuste la hauteur des barres
                 ),
         );
 
@@ -359,12 +361,22 @@ function createGraph2(data) {
         .attr('y', height + 20) // Positionné légèrement sous l'axe X
         .style('font-size', '1.5rem')
         .style('font-weight', 'bold')
-        .text('Moyenne des utilisateurs');   
+        .text('Les différents jeux nominées');   
 
     svg2.append('g')
         .attr('class', 'y-axis')
         .attr('transform', `translate(${x.range()[0]},0)`)
         .call(yAxis);
-}
+        console.log(data)
 
+        svg2.selectAll('.x-axis text')
+        .attr('y', -7)  
+        .attr('x', -10) 
+        .attr('transform', 'rotate(-90)') 
+        .style('font-size', '1rem')  
+        .style('text-anchor', 'end'); 
+
+        afficheInfoJeu();
+}
+svgGraphique2.appendChild(svg2.node());
 createGraph2 (data)
