@@ -55,6 +55,7 @@ rangeSelectYears.addEventListener('input', e => {
     const value = e.target.value;
     rangeSelectYearsValue.textContent = `Année : ${value}`;
     dataYears = data.filter(d => d.year == value);
+    selectYears.value = value
     createGraphVertical(dataYears);
 });
 
@@ -221,13 +222,14 @@ function afficheInfoJeu() {
                     <video class="video1" poster="${d.image}">
                         <source src="trailer/${d.video}.mp4" type="video/mp4">
                     </video>
-                    <!--<img src="${d.image}" alt="Image du jeu">-->
-                    <!--<div class= "border-img"> </div>
-                    <div class= "border-img border-img-2"> </div> -->
                     <div class="lecteur-vid">
                     <span class="reducesec"><i class="fa-solid fa-backward"></i></span>
                     <span class="play"><i class="fa-solid fa-play"></i></span>
                     <span class="skipsec"><i class="fa-solid fa-forward"></i></span>
+
+                    <input class="vid-time" step="0.01"type="range"></input>
+                    <span class="vid-time-text"> </span>
+
                     <div>
                         <label class="volume"for="volume"><i class="fa-solid fa-volume-xmark"></i></label>
                         <input id="volume"class="volume-control" type="range" min="0" max="1" step="0.1" value="0">
@@ -243,11 +245,30 @@ function afficheInfoJeu() {
                         <p>${d.studio}</p>
                         <div class="orange-separation"></div>
                         <p>${d.year}</p>
+                        
                     </div>
                     
                 </div>
                 
             `;
+            const video1 = document.querySelector('.video1')
+            const vidTime = document.querySelector('.vid-time')
+            const vidTimeText = document.querySelector('.vid-time-text')
+            vidTime.max = video1.duration
+            
+            setInterval(() => {
+                vidTime.value = video1.currentTime
+                vidTimeText.innerHTML = `${video1.currentTime} / ${video1.duration}`
+                
+              }, 100);
+            
+              
+
+            vidTime.addEventListener('click', (e)=> {
+                video1.currentTime = vidTime.value
+            })
+            
+
             document.querySelector('.infoJeux').style.display ="flex"
             let topInfo = document.querySelector('.infoJeux').offsetTop - 100
             console.log(topInfo)
@@ -261,7 +282,7 @@ function afficheInfoJeu() {
             let playStatue = 0
             const btnPlay = document.querySelector('.play')
             console.log(btnPlay)
-            const video1 = document.querySelector('.video1')
+            
             btnPlay.addEventListener('click', function(e) {
                 if (playStatue == 0) {
                     video1.play()
@@ -315,11 +336,11 @@ const svgGraphique2 = document.querySelector('.svgGraphique2')
 
 const svg2 = d3.create('svg')
     .attr('width', width)
-    .attr('height', height)
+    .attr('height', height +300)
     .attr('viewBox', `0 0 ${width} ${height + 40}`)
 
 function createGraph2(data) {
-    svg2.attr('viewBox', `0 0 ${width} ${height +300}`)
+    svg2.attr('viewBox', `-80 0 ${width +50} ${height +300}`)
     data.sort((a,b) => a.sales - b.sales)
     const y = d3.scaleLinear()
         .domain([0, 110])
@@ -347,27 +368,54 @@ function createGraph2(data) {
                     .attr('y', d => y(d.sales)) // Déplace les barres en fonction de la valeur
                     .attr('height', d => y(0) - y(d.sales)) // Ajuste la hauteur des barres
                 ),
-        );
+        )
+        .on('mouseover', function (event, d) {
+            d3.selectAll('rect')
+                .transition()
+                .duration(100)
+                .style('opacity', 0.5);
+    
+            d3.select(this)
+                .transition()
+                .duration(100)
+                .style('opacity', 1)
+                .attr('stroke', 'white')
+                .attr('stroke-width', 2);
+        })
+        .on('mouseout', function () {
+            d3.selectAll('rect')
+                .transition()
+                .duration(100)
+                .style('opacity', 1) 
+    
+            d3.select(this)
+                .transition()
+                .duration(100)
+                .attr('stroke', 'none');
+        });
 
     svg2.append('g')
         .attr('class', 'x-axis')
         .attr('transform', `translate(0, ${height - 30})`)  // Position correcte de l'axe X
         .call(xAxis);
 
-    svg2.append('text')
-        .attr('class', 'x-axis-label')
-        .attr('text-anchor', 'middle')
-        .attr('x', (x.range()[1] + x.range()[0]) / 2) // Centré par rapport à l'axe X
-        .attr('y', height + 20) // Positionné légèrement sous l'axe X
-        .style('font-size', '1.5rem')
-        .style('font-weight', 'bold')
-        .text('Les différents jeux nominées');   
-
     svg2.append('g')
         .attr('class', 'y-axis')
         .attr('transform', `translate(${x.range()[0]},0)`)
         .call(yAxis);
         console.log(data)
+
+    svg2.append('text')
+        .attr('class', 'y-axis-label')
+        .attr('text-anchor', 'middle') 
+        .attr('x', -height / 2) 
+        .attr('y', -60) 
+        .attr('transform', 'rotate(-90)') 
+        .style('font-size', '1.5rem') 
+        .style('font-weight', 'bold') 
+        .style('fill', 'white')
+        .style('font-family',  "Montserrat")
+        .text('Nombre de ventes en million'); 
 
         svg2.selectAll('.x-axis text')
         .attr('y', -7)  

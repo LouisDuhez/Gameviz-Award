@@ -254,6 +254,7 @@ html {
   margin-left: auto;
   margin-right: auto;
   display: flex;
+  flex-direction: column;
   align-items: center;
   color: white;
   width: 90%;
@@ -265,9 +266,10 @@ html {
   width: fit-content;
   margin-left: auto;
   margin-right: auto;
+  font-size: 3rem;
 }
 .graph-top p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-left: auto;
   margin-right: auto;
   width: fit-content;
@@ -333,7 +335,7 @@ html {
 
 .game-title {
   color: #FE721B;
-  font-size: 4rem;
+  font-size: 2.5rem;
   font-weight: bold;
   margin: 0;
 }
@@ -365,7 +367,7 @@ html {
 }
 
 
-.svgGraphique {
+.svgGraphique, .svgGraphique2 {
     margin-left: auto;
     margin-right: auto;
     width: 1300px;
@@ -373,12 +375,22 @@ html {
     
 }
 
+.graphique2 {
+  margin-top: 150px;
+}
+
+ 
+
+.svgGraphique2 {
+  height: 1100px;
+  width: fit-content;
+}
+
 .input-bloc {
-  margin-top: 50px;
+  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
   width: fit-content;
-  display: flex;
 
   gap: 32px;
   justify-content: space-between;
@@ -440,7 +452,7 @@ input[type="range"]::-webkit-slider-thumb {
     outline: 0;
     font: inherit;
     /* Personalize */
-    width: 23rem;
+    width: 15rem;
     padding: 1rem 4rem 1rem 1rem;
     background: var(--arrow-icon) no-repeat right 0.7em center / 0.8em,
       linear-gradient(to left, var(--arrow-bg) 2em, var(--select-bg) 2em);
@@ -484,6 +496,7 @@ input[type="range"]::-webkit-slider-thumb {
     font-family: "Montserrat", serif;
     font-weight: bold;
 }
+
 
 div .infoJeux-text-bloc-bottom {
   justify-content: initial;
@@ -610,4 +623,10 @@ video[poster]{
   
   .footer-bottom p {
     margin: 0;
+  }
+  
+  .vid-time {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
   }
