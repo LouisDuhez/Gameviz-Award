@@ -256,13 +256,12 @@ function afficheInfoJeu() {
             const vidTimeText = document.querySelector('.vid-time-text')
             vidTime.max = video1.duration
             
+            // Met à jour la barre de temps de la video en seconde
             setInterval(() => {
-                vidTime.value = video1.currentTime
-                vidTimeText.innerHTML = `${video1.currentTime} / ${video1.duration}`
-                
-              }, 100);
-            
-              
+                vidTime.value = video1.currentTime;
+                // Affiche le temps de la video en seconde
+                vidTimeText.innerHTML = `${Math.floor(video1.currentTime)}s / ${Math.floor(video1.duration)}s`;
+            }, 100);
 
             vidTime.addEventListener('click', (e)=> {
                 video1.currentTime = vidTime.value
