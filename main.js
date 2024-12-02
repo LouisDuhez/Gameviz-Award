@@ -255,10 +255,11 @@ function afficheInfoJeu() {
             const vidTime = document.querySelector('.vid-time')
             const vidTimeText = document.querySelector('.vid-time-text')
             vidTime.max = video1.duration
+            vidTime.value = video1.currentTime;
             
             // Met à jour la barre de temps de la video en seconde
             setInterval(() => {
-                vidTime.value = video1.currentTime;
+                
                 // Affiche le temps de la video en seconde
                 vidTimeText.innerHTML = `${Math.floor(video1.currentTime)}s / ${Math.floor(video1.duration)}s`;
             }, 100);
@@ -380,6 +381,11 @@ function createGraph2(data) {
                 .style('opacity', 1)
                 .attr('stroke', 'white')
                 .attr('stroke-width', 2);
+            
+            d3.selectAll('.x-axis .tick text').style('opacity', '0.4');
+            d3.selectAll('.x-axis .tick text')
+                    .filter(t => t === d.game)
+                    .style('opacity', '1');
         })
         .on('mouseout', function () {
             d3.selectAll('rect')
@@ -391,6 +397,9 @@ function createGraph2(data) {
                 .transition()
                 .duration(100)
                 .attr('stroke', 'none');
+
+            d3.selectAll('.x-axis .tick text')
+                .style('opacity', '1')
         });
 
     svg2.append('g')
