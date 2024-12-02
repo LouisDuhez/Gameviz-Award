@@ -243,7 +243,8 @@ html {
   width: fit-content;
   margin-left: auto;
   margin-right: auto;
-  font-size: 3rem;
+  font-size: 2rem;
+  margin-bottom: 5px;
 }
 .graph-top p {
   font-size: 1rem;
@@ -327,7 +328,6 @@ html {
 }
 .infoJeux-img-bloc{
     width: 60%;
-    overflow: hidden;
 }
 
 .border-img {
@@ -349,7 +349,7 @@ html {
     margin-left: auto;
     margin-right: auto;
     width: 1300px;
-    height: 800px;
+    height: 700px;
     
 }
 
@@ -454,7 +454,7 @@ input[type="range"]::-webkit-slider-thumb {
 .rangeSelectValue {
   height: fit-content;
   color: #FE721B;
-  font-size: 2rem;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
@@ -495,8 +495,11 @@ div .infoJeux-text-bloc-bottom {
   font-size: 1.2rem;
 }
 .lecteur-vid div {
+  display: flex;
+  gap: 5px;
   margin-left: auto;
   font-size: 1rem;
+  flex-wrap: nowrap;
 }
 
 .fa-play {
@@ -612,11 +615,64 @@ video[poster]{
     cursor: pointer;
 }
 
+.volume-control, .vid-time {
+  -webkit-appearance: none; 
+  appearance: none; 
+  height: 10px;
+  background: white; 
+  border-radius: 5px; 
+  outline: none; 
+}
+
+.volume-control::-webkit-slider-runnable-track, 
+.vid-time::-webkit-slider-runnable-track {
+  background: white; 
+  border-radius: 100px; 
+  height: 10px; 
+}
+
+.volume-control::-webkit-slider-thumb, 
+.vid-time::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none; 
+  width: 20px; 
+  height: 20px; 
+  background-color: white; 
+  border: 1px solid black;
+  border-radius: 50%; 
+  cursor: pointer; 
+  margin-top: -5px; 
+}
+
+.volume-control::-moz-range-thumb, 
+.vid-time::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.volume-control::-ms-thumb, 
+.vid-time::-ms-thumb {
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
 @media (min-width: 980px) and (max-width: 1300px) {
   .paragraphe-h2 {
     width: 470px;
     font-size: 1rem;
   }
+  h2 {
+    font-size: 1rem;
+  }
+
   .section2 a {
     font-size: 1rem;
   }
@@ -635,6 +691,11 @@ video[poster]{
   .paragraphe-h2 {
     font-size: 1.2rem;
   }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
   .srclogo {
     bottom: 100px;
   }
