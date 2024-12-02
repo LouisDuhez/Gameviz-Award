@@ -68,7 +68,7 @@ function createGraphVertical(data) {
     const y = d3.scaleBand()
         .domain(data.map(d => d.game))
         .range([height - 30, 30])
-        .padding(0.5);
+        .padding(0.2);
 
     const xAxis = d3.axisBottom(x);
     const yAxis = d3.axisLeft(y);
@@ -262,12 +262,13 @@ function afficheInfoJeu() {
             const video1 = document.querySelector('.video1')
             const vidTime = document.querySelector('.vid-time')
             const vidTimeText = document.querySelector('.vid-time-text')
-            vidTime.max = video1.duration
+            
             vidTime.value = video1.currentTime;
             
             // Met à jour la barre de temps de la video en seconde
             setInterval(() => {
                 // Récupère le temps actuel et la durée totale de la vidéo
+                vidTime.max = video1.duration
                 const currentTime = video1.currentTime;
                 const duration = video1.duration;
             
