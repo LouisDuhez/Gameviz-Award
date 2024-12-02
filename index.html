@@ -248,12 +248,12 @@
     <section class="graph-bloc">
       <div class="graph-top">
         <h2>
-          Le prix du <span class="h1viz">Meilleur Jeu</span> en
-          <select
-            class="selectYears"
-            name="yearsSelect"
-            id="yearsSelect"
-          ></select>
+          <label for="yearsSelect">Le prix du <span class="h1viz">Meilleur Jeu</span> en</label>
+            <select
+              class="selectYears"
+              name="yearsSelect"
+              id="yearsSelect"
+            ></select>
         </h2>
       </div>
       <div class="graph-legend"></div>
@@ -261,7 +261,7 @@
       <div class="svgGraphique"></div>
       <div class="input-bloc">
         <div>
-          <span class="rangeSelectValue">Année 2014</span>
+          <label for="selectannee" class="rangeSelectValue">Année 2014</label>
           <input
             class="rangeSelect"
             type="range"
@@ -269,6 +269,7 @@
             max="2023"
             step="1"
             value="2014"
+            id="selectannee"
           />
         </div>
       </div>
