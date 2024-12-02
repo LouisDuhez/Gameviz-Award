@@ -280,7 +280,8 @@ html {
   width: fit-content;
   margin-left: auto;
   margin-right: auto;
-  font-size: 3rem;
+  font-size: 2rem;
+  margin-bottom: 5px;
 }
 
 .graph-top p {
@@ -371,7 +372,6 @@ html {
   width: 60%;
   overflow: hidden;
 }
-
 .border-img {
   height: 30px;
   width: 100%;
@@ -502,7 +502,7 @@ input[type="range"]::-webkit-slider-thumb {
 .rangeSelectValue {
   height: fit-content;
   color: #FE721B;
-  font-size: 2rem;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
@@ -544,8 +544,11 @@ div .infoJeux-text-bloc-bottom {
 }
 
 .lecteur-vid div {
+  display: flex;
+  gap: 5px;
   margin-left: auto;
   font-size: 1rem;
+  flex-wrap: nowrap;
 }
 
 .fa-play {
@@ -665,11 +668,66 @@ details summary:hover {
   cursor: pointer;
 }
 
+.volume-control, .vid-time {
+  -webkit-appearance: none; 
+  appearance: none; 
+  height: 10px;
+  background: white; 
+  border-radius: 5px; 
+  outline: none; 
+}
+
+.volume-control::-webkit-slider-runnable-track, 
+.vid-time::-webkit-slider-runnable-track {
+  background: white; 
+  border-radius: 100px; 
+  height: 10px; 
+}
+
+.volume-control::-webkit-slider-thumb, 
+.vid-time::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none; 
+  width: 20px; 
+  height: 20px; 
+  background-color: white; 
+  border: 1px solid black;
+  border-radius: 50%; 
+  cursor: pointer; 
+  margin-top: -5px; 
+}
+
+.volume-control::-moz-range-thumb, 
+.vid-time::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.volume-control::-ms-thumb, 
+.vid-time::-ms-thumb {
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
 @media (min-width: 980px) and (max-width: 1300px) {
   .paragraphe-h2 {
     width: 470px;
     font-size: 1rem;
   }
+<<<<<<< HEAD
+=======
+  h2 {
+    font-size: 1rem;
+  }
+>>>>>>> d993557b56b34eb9f347acab19e63f86da39d776
 
   .section2 a {
     font-size: 1rem;
@@ -694,6 +752,13 @@ details summary:hover {
     font-size: 1.2rem;
   }
 
+<<<<<<< HEAD
+=======
+  h2 {
+    font-size: 1.2rem;
+  }
+
+>>>>>>> d993557b56b34eb9f347acab19e63f86da39d776
   .srclogo {
     bottom: 100px;
   }
