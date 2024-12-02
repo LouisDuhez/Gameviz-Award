@@ -193,9 +193,16 @@ function afficheInfoRect() {
         })
         .on('mousemove', event => {
             // Mettre à jour la position du conteneur infoGraphique
-            d3.select('.infoGraphique')
-                .style("left", `${event.pageX + 9}px`)
-                .style("top", `${event.pageY - 175}px`);
+                const infoGraphiqueWidth = document.querySelector('.infoGraphique').offsetWidth
+                if(event.pageX >= window.innerWidth/2 +100) {
+                    d3.select('.infoGraphique').style("left", `${event.pageX - infoGraphiqueWidth -10}px`)
+                }
+                else {
+                    d3.select('.infoGraphique').style("left", `${event.pageX + 9}px`)
+                }
+                d3.select('.infoGraphique').style("top", `${event.pageY}px`);
+                
+                console.log(event.pageX)
         })
         .on('mouseout', () => {
             // Réinitialiser l'affichage des informations et l'opacité des éléments
@@ -204,6 +211,7 @@ function afficheInfoRect() {
             svg.selectAll('.y-axis .tick text').style('opacity', '1');
         });
 }
+
 
 
 

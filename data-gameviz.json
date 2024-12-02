@@ -8566,6 +8566,7 @@
           "studio": "Naughty Dog / Sony Interactive Entertainment",
           "winner": 1,
           "note": 5.8,
+          "video" : "TLOUPII",
           "image": "https://gaming-cdn.com/images/products/6215/orig/the-last-of-us-part-ii-pc-jeu-steam-cover.jpg?v=1729848490",
           "description": "*The Last of Us Part II* est un jeu d'action-aventure où Ellie poursuit sa quête de vengeance dans un monde dévasté par une épidémie. Acclamé pour son scénario mature et ses performances, le jeu divise cependant par ses choix narratifs audacieux.",
           "sales": 8.5
@@ -8577,6 +8578,7 @@
           "studio": "Nintendo",
           "winner": 0,
           "note": 5.8,
+          "video" : "ACNH",
           "image": "https://gaming-cdn.com/images/products/4809/616x353/animal-crossing-new-horizons-switch-jeu-nintendo-eshop-europe-cover.jpg?v=1730384101",
           "description": "*Animal Crossing: New Horizons* invite les joueurs à construire et personnaliser une île paradisiaque. Ce jeu de simulation de vie, relaxant et addictif, a connu un énorme succès en raison de sa capacité à offrir un refuge virtuel pendant la pandémie.",
           "sales": 34
@@ -8588,6 +8590,7 @@
           "studio": "id Software",
           "winner": 0,
           "note": 8.6,
+          "video":"DE" ,
           "image": "https://gaming-cdn.com/images/products/5155/orig/doom-eternal-deluxe-edition-deluxe-edition-pc-jeu-steam-cover.jpg?v=1700764610",
           "description": "*Doom Eternal* est un jeu de tir rapide et brutal où le joueur incarne le Doom Slayer pour éliminer des hordes de démons. Célébré pour son gameplay frénétique et ses graphismes impressionnants, il poursuit l'héritage de la série en apportant de nouvelles mécaniques et une histoire plus développée.",
           "sales": 3.5
@@ -8599,6 +8602,7 @@
           "studio": "Square Enix",
           "winner": 0,
           "note": 8.2,
+          "video": "FFVII",
           "image": "https://gaming-cdn.com/images/products/5103/orig/final-fantasy-vii-remake-xbox-one-remake-xbox-one-jeu-microsoft-store-cover.jpg?v=1666449144",
           "description": "*Final Fantasy VII Remake* offre une réinvention spectaculaire du jeu de rôle classique. Avec des combats en temps réel et une mise à jour visuelle impressionnante, le remake explore les personnages et l'univers de Midgar tout en enrichissant l'histoire originale.",
           "sales": 5.2
