@@ -267,9 +267,26 @@ function afficheInfoJeu() {
             
             // Met à jour la barre de temps de la video en seconde
             setInterval(() => {
-                
-                // Affiche le temps de la video en seconde
-                vidTimeText.innerHTML = `${Math.floor(video1.currentTime)}s / ${Math.floor(video1.duration)}s`;
+                // Récupère le temps actuel et la durée totale de la vidéo
+                const currentTime = video1.currentTime;
+                const duration = video1.duration;
+            
+                // Calcule les minutes et secondes pour le temps actuel
+                const currentMinutes = Math.floor(currentTime / 60);
+                const currentSeconds = Math.floor(currentTime % 60);
+                // ajoute un 0 devant les chiffres si ils sont inférieurs à 10
+                const currentMinutesadd0 = currentMinutes < 10 ? '0' + currentMinutes : currentMinutes;
+                const currentSecondsadd0 = currentSeconds < 10 ? '0' + currentSeconds : currentSeconds;
+            
+                // Calcule les minutes et secondes pour la durée totale
+                const durationMinutes = Math.floor(duration / 60);
+                const durationSeconds = Math.floor(duration % 60);
+                // ajoute un 0 devant les chiffres si ils sont inférieurs à 10
+                const durationMinutesadd0 = durationMinutes < 10 ? '0' + durationMinutes : durationMinutes;
+                const durationSecondsadd0 = durationSeconds < 10 ? '0' + durationSeconds : durationSeconds;
+            
+                // Affiche le temps de la vidéo en format 00:00 / 00:00
+                vidTimeText.innerHTML = `${currentMinutesadd0}:${currentSecondsadd0} / ${durationMinutesadd0}:${durationSecondsadd0}`;
             }, 100);
 
             vidTime.addEventListener('click', (e)=> {
