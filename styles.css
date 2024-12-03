@@ -5,22 +5,24 @@
   --arrow-icon: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/Caret_down_font_awesome_whitevariation.svg);
   --option-bg: white;
   --select-bg: rgba(255, 255, 255, 0.2);
-  --main-gradient : linear-gradient(90deg, hsla(23, 99%, 55%, 1) 0%, hsla(278, 64%, 43%, 1) 100%);
+  --main-gradient: linear-gradient(90deg, hsla(23, 99%, 55%, 1) 0%, hsla(278, 64%, 43%, 1) 100%);
 }
 
 .montserrat {
-    font-family: "Montserrat", serif;
-    font-style: normal;
+  font-family: "Montserrat", serif;
+  font-style: normal;
 }
+
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
+
 /* ========================================KEY FRAME ANIMATION====================================================== */
 /* Animations de la page d'accueil */
 @keyframes slideInDiagonal {
@@ -28,23 +30,49 @@ html {
     transform: translate(-100%, -100%);
   }
 }
+
 @keyframes slideInDiagonal2 {
   0% {
     transform: translate(100%, -100%);
   }
 }
+
 @keyframes slideInimage {
   0% {
     transform: translate(0%, 100%);
   }
 }
 
+@keyframes identifier2 {
+  0% {
+    transform: translate(-50%, -20%);
+  }
+
+  100% {
+    transform: translate(-50%, 0%);
+  }
+}
+
+@keyframes slide-gauche {
+  0% {
+    opacity: 0;
+    transform: translate(100%, -100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
 .diagonal-line {
   animation: slideInDiagonal 3s ease-out forwards;
 }
+
 .diagonal-line2 {
   animation: slideInDiagonal2 3s ease-out forwards;
 }
+
 .pathanim {
   opacity: 0;
 }
@@ -52,85 +80,78 @@ html {
 /*======================================== LA PAGE D'ACCUEIL ======================================================*/
 body,
 html {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    background-color: #121212;
-    font-family: 'montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #121212;
+  font-family: 'montserrat', sans-serif;
 }
 
 /* Section accueil en plein écran */
 .accueil {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    background-color: #121212;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #121212;
 }
 
 .accueil svg {
-    width: 100vw;
-    height: 100vh;
+  width: 100vw;
+  height: 100vh;
 }
 
 .img_trophee {
-    filter: drop-shadow(0px 4px 31.1px rgba(255, 255, 255, 0.3));
-    animation: slideInimage 3s ease-out forwards;
+  filter: drop-shadow(0px 4px 31.1px rgba(255, 255, 255, 0.3));
+  animation: slideInimage 3s ease-out forwards;
 }
 
 .accueil h1 {
-    font-weight: 800;
-    position: absolute;
-    top: 13%;
-    left: 51%;
-    transform: translate(-50%, -50%);
-    font-size: 5.5rem;
-    color: white;
-    text-align: center;
-    margin: 0;
-    z-index: 1;
-    width: 100vw;
+  font-weight: 800;
+  position: absolute;
+  top: 13%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+  font-size: 5.5rem;
+  color: white;
+  text-align: center;
+  margin: 0;
+  z-index: 1;
+  width: 100vw;
 }
 
 .accueil p {
-    font-weight: 700;
-    position: absolute;
-    top: 68.5%;
-    left: 51%;
-    transform: translate(-50%, -50%);
-    font-size: 0.7rem;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    margin: 0;
-    z-index: 1;
+  font-weight: 700;
+  position: absolute;
+  top: 68.5%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+  font-size: 0.7rem;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin: 0;
+  z-index: 1;
 }
 
 .h1viz {
-    background-image:var(--main-gradient);
+  background-image: var(--main-gradient);
 
-    /* permet d'afficher le dégradé sur le texte sur les navigateur Chrome, Safari, Opera (15+), iOS, Android */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  /* permet d'afficher le dégradé sur le texte sur les navigateur Chrome, Safari, Opera (15+), iOS, Android */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
-    /* permet d'afficher le dégradé sur le texte sur le navigateur Firefox */
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
+  /* permet d'afficher le dégradé sur le texte sur le navigateur Firefox */
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
 
-@keyframes identifier2 {
-  0% {
-    transform: translate(-50%, -20%);
-  }
-  100% {
-    transform: translate(-50%, 0%);
-  }
-} 
-.accueil img, .accueil a {
-    position: absolute;
-    bottom: 10%;
-    left: 50.6%;
-    transform: translateX(-50%);
-    animation: identifier2 0.5s infinite alternate;
-  }
+.accueil img,
+.accueil a {
+  position: absolute;
+  bottom: 10%;
+  left: 50.6%;
+  transform: translateX(-50%);
+  animation: identifier2 0.5s infinite alternate;
+}
 
 
 /*======================================== DEUXIEME SECTION ======================================================*/
@@ -147,85 +168,101 @@ html {
 }
 
 .section2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100vw;
-    min-height: 100vh;
-    background-color: #121212;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #121212;
+}
 
-  .text-container {
-    height: 50px;
-    margin-left: 50px;
-  }
+.text-container {
+  height: 50px;
+  margin-left: 50px;
+}
 
-  .titre2 {
-    margin-top: 0;
-    font-size: 3rem;
-    font-weight: 800;
-    position: relative;
-    color: white;
-  }
+.titre2 {
+  margin-top: 0;
+  font-size: 3rem;
+  font-weight: 800;
+  position: relative;
+  color: white;
+}
 
- 
 
-  .paragraphe-h2 {
-    font-size: 1.5rem;
-    font-weight: 300;
-    color: white;
-    position: relative;
-    max-width:700px;
-    transition: all 0.5s ease;
-  }
 
-  .titre3 {
-    font-size: 2rem;
-    font-weight: bold;
-  }
+.paragraphe-h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: white;
+  position: relative;
+  max-width: 700px;
+  transition: all 0.5s ease;
+}
 
-  .section2 a {
-    position: relative;
-    color: white;
-    font-size: 1.25rem;
-    font-weight: 800;
-    transition: color 0.3s ease;
-  }
-  .section2 a:hover {
-    color: #FE721B;
-  }
+.titre3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
 
-  /* ============================ INFO JEUX GRAPHIQUE ========================== */
-  .infoJeux {
-    height: 70vh;
-    display: none;
-    background-color: #121212;
-    align-items: center;
-    gap: 20px;
-    padding: 10px;
-    margin: 10px;
-  }
+.section2 a {
+  position: relative;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 800;
+  transition: color 0.3s ease;
+}
 
-  .gauche {
-    flex: 1;
-    color: white;
-    padding: 100px;
-  }
+.section2 a:hover {
+  color: #FE721B;
+}
 
-  .droite {
-    font-size: 1.2rem;
-    flex: 1;
-    color: white;
-    height: 270px;
-  }
+/* animation svg de la section2 */
 
-  .gauche img {
-    width: 550px;
-    height: 270px;
-    width: 100%;
-    border-radius: 5px;
-  }
-  /* ==================================================== Graphique ===================================================  */
+.svg-animate.visible .pathanim:nth-child(1) {
+  animation: slide-gauche 1s forwards;
+}
+
+.svg-animate.visible .pathanim:nth-child(2) {
+  animation: slide-gauche 2s forwards;
+}
+
+.svg-animate.visible .img_coupe {
+  animation: slide-gauche 3s forwards;
+}
+
+/* ============================ INFO JEUX GRAPHIQUE ========================== */
+.infoJeux {
+  height: 70vh;
+  display: none;
+  background-color: #121212;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.gauche {
+  flex: 1;
+  color: white;
+  padding: 100px;
+}
+
+.droite {
+  font-size: 1.2rem;
+  flex: 1;
+  color: white;
+  height: 270px;
+}
+
+.gauche img {
+  width: 550px;
+  height: 270px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* ==================================================== Graphique ===================================================  */
 
 .graph-top {
   margin-left: auto;
@@ -246,6 +283,7 @@ html {
   font-size: 2rem;
   margin-bottom: 5px;
 }
+
 .graph-top p {
   font-size: 1rem;
   margin-left: auto;
@@ -254,9 +292,10 @@ html {
   margin-top: 0;
 }
 
-.winner1{
-    fill: #FE721B !important;
+.winner1 {
+  fill: #FE721B !important;
 }
+
 .crown {
   fill: #FE721B;
   font-size: 2rem;
@@ -264,21 +303,22 @@ html {
 }
 
 .infoGraphique {
-    position: absolute;
-    background-color: #5A5A5A;
-    padding: 15px 25px;
-    height: fit-content;
-    border-radius: 16px;
-    display: none;
-    color: white;
-    align-items: center;
-    gap: 32px;
-    width: 40%;
+  position: absolute;
+  background-color: #5A5A5A;
+  padding: 15px 25px;
+  height: fit-content;
+  border-radius: 16px;
+  display: none;
+  color: white;
+  align-items: center;
+  gap: 32px;
+  width: 40%;
 }
 
 .infoGraphique div {
   width: 50%;
 }
+
 .infoGraphique div img {
   width: 100%;
   height: 100%;
@@ -294,22 +334,22 @@ html {
 }
 
 .bar {
-    fill: #8F41CE ;
-    transition: opacity .5s;
-    border-radius: 8px;
+  fill: #8F41CE;
+  transition: opacity .5s;
+  border-radius: 8px;
 }
 
 .bar:hover {
-    opacity: 1 !important;
+  opacity: 1 !important;
 }
 
 .infoJeux {
-    margin-right: auto;
-    margin-left: auto;
-    width: 80%;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
 }
 
 .game-title {
@@ -319,7 +359,7 @@ html {
   margin: 0;
 }
 
-.infoJeux-text-bloc div{
+.infoJeux-text-bloc div {
   display: flex;
   justify-content: space-between;
 }
@@ -330,6 +370,10 @@ html {
     width: 60%;
 }
 
+.infoJeux-img-bloc {
+  width: 60%;
+  overflow: hidden;
+}
 .border-img {
   height: 30px;
   width: 100%;
@@ -340,7 +384,8 @@ html {
   right: 250px;
   bottom: 30px;
 }
-.border-img-2{
+
+.border-img-2 {
   right: 150px;
 }
 
@@ -357,7 +402,7 @@ html {
   margin-top: 150px;
 }
 
- 
+
 
 .svgGraphique2 {
   height: 1100px;
@@ -394,7 +439,7 @@ input[type=range].rangeSelect {
   width: 15rem;
 }
 
-  /***** Track Styles *****/
+/***** Track Styles *****/
 /***** Chrome, Safari, Opera, and Edge Chromium *****/
 input[type="range"]::-webkit-slider-runnable-track {
   background: var(--select-bg);
@@ -410,46 +455,50 @@ input[type="range"]::-moz-range-track {
 /***** Thumb Styles *****/
 /***** Chrome, Safari, Opera, and Edge Chromium *****/
 input[type="range"]::-webkit-slider-thumb {
-  -webkit-appearance: none; /* Override default look */
+  -webkit-appearance: none;
+  /* Override default look */
   appearance: none;
-  margin-top: -12px; /* Centers thumb on the track */
+  margin-top: -12px;
+  /* Centers thumb on the track */
   background-color: #FE721B;
   border-radius: 16px;
   height: 2rem;
-  width: 1rem;    
+  width: 1rem;
 }
 
 
 .selectYears {
-    
-    color: #FE721B;
-    font-size: 1rem;
-    /* Reset */
-    appearance: none;
-    border: 0;
-    outline: 0;
-    font: inherit;
-    /* Personalize */
-    width: 15rem;
-    padding: 1rem 4rem 1rem 1rem;
-    background: var(--arrow-icon) no-repeat right 0.7em center / 0.8em,
-      linear-gradient(to left, var(--arrow-bg) 2em, var(--select-bg) 2em);
-    border-radius: 0.25em;
-    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
-    cursor: pointer;
-    /* Remove IE arrow */
-    &::-ms-expand {
-      display: none;
-    }
-    /* <option> colors */
-    option {
-      color: inherit;
-      background-color: var(--option-bg);
-      font-size: 2rem;
-      transform: rotate(-20deg);
-    }
+
+  color: #FE721B;
+  font-size: 1rem;
+  /* Reset */
+  appearance: none;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  /* Personalize */
+  width: 15rem;
+  padding: 1rem 4rem 1rem 1rem;
+  background: var(--arrow-icon) no-repeat right 0.7em center / 0.8em,
+    linear-gradient(to left, var(--arrow-bg) 2em, var(--select-bg) 2em);
+  border-radius: 0.25em;
+  box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+
+  /* Remove IE arrow */
+  &::-ms-expand {
+    display: none;
   }
-  
+
+  /* <option> colors */
+  option {
+    color: inherit;
+    background-color: var(--option-bg);
+    font-size: 2rem;
+    transform: rotate(-20deg);
+  }
+}
+
 
 .rangeSelectValue {
   height: fit-content;
@@ -460,8 +509,8 @@ input[type="range"]::-webkit-slider-thumb {
 
 
 .x-axis {
-    color: white;
-    font-size: 1.5rem;
+  color: white;
+  font-size: 1.5rem;
 }
 
 .x-axis-label {
@@ -469,10 +518,10 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .y-axis {
-    color: white;
-    font-size: 1.5rem;
-    font-family: "Montserrat", serif;
-    font-weight: bold;
+  color: white;
+  font-size: 1.5rem;
+  font-family: "Montserrat", serif;
+  font-weight: bold;
 }
 
 
@@ -493,7 +542,9 @@ div .infoJeux-text-bloc-bottom {
   align-items: center;
   gap: 16px;
   font-size: 1.2rem;
+  padding: 3px;
 }
+
 .lecteur-vid div {
   display: flex;
   gap: 5px;
@@ -510,109 +561,162 @@ div .infoJeux-text-bloc-bottom {
   color: #FE721B;
 }
 
-video[poster]{
-  height:100%;
-  width:100%;
+video[poster] {
+  height: 100%;
+  width: 100%;
   object-fit: cover;
-  }
+}
 
-  footer {
-    margin-top: 50px;
-    padding: 20px 40px;
-    color: white;
-    background-color: #323232;
-    font-family: Arial, sans-serif;
-  }
-  
-  .footer-header {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .footer-header p:first-child {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #FE721B;
-  }
-  
-  footer h2, footer h3 {
-    color: #FE721B;
-  }
-  
-  footer h2 {
-    font-size: 1.5rem;
-  }
-  
-  footer h3 {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-  }
-  
-  .footer-main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px;
-    margin-top: 20px;
-    border-top: 1px solid #444;
-    padding-top: 20px;
-  }
-  
-  .footer-part1, .footer-part2 {
-    flex: 1;
-    min-width: 300px;
-  }
-  
-  .footer-part1 div, .footer-part2 div {
-    margin-bottom: 20px;
-  }
-  
-  footer p {
-    font-size: 0.9rem;
-    line-height: 1.4;
-  }
-  
-  .footer-bold {
-    font-weight: bold;
-  }
-  
-  footer a {
-    color: #FE721B;
-    text-decoration: none;
-  }
-  
-  footer a:hover {
-    text-decoration: underline;
-  }
-  
-  details summary {
-    cursor: pointer;
-    font-size: 1.2rem;
-    color: #FE721B;
-    margin-bottom: 10px;
-  }
-  
-  details summary:hover {
-    text-decoration: underline;
-  }
-  
-  .footer-bottom {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 0.8rem;
-  }
-  
-  .footer-bottom p {
-    margin: 0;
-  }
-  
-  .vid-time {
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .graphique2 .bar {
-    cursor: pointer;
+footer {
+  margin-top: 50px;
+  padding: 20px 40px;
+  color: white;
+  background-color: #323232;
+  font-family: Arial, sans-serif;
+}
+
+.footer-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer-header p:first-child {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #FE721B;
+}
+
+footer h2,
+footer h3 {
+  color: #FE721B;
+}
+
+footer h2 {
+  font-size: 1.5rem;
+}
+
+footer h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.footer-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+  border-top: 1px solid #444;
+  padding-top: 20px;
+}
+
+.footer-part1,
+.footer-part2 {
+  flex: 1;
+  min-width: 300px;
+}
+
+.footer-part1 div,
+.footer-part2 div {
+  margin-bottom: 20px;
+}
+
+footer p {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.footer-bold {
+  font-weight: bold;
+}
+
+footer a {
+  color: #FE721B;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+details summary {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #FE721B;
+  margin-bottom: 10px;
+}
+
+details summary:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.8rem;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+.vid-time {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.graphique2 .bar {
+  cursor: pointer;
+}
+
+.volume-control, .vid-time {
+  -webkit-appearance: none; 
+  appearance: none; 
+  height: 10px;
+  background: white; 
+  border-radius: 5px; 
+  outline: none; 
+}
+
+.volume-control::-webkit-slider-runnable-track, 
+.vid-time::-webkit-slider-runnable-track {
+  background: white; 
+  border-radius: 100px; 
+  height: 10px; 
+}
+
+.volume-control::-webkit-slider-thumb, 
+.vid-time::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none; 
+  width: 20px; 
+  height: 20px; 
+  background-color: white; 
+  border: 1px solid black;
+  border-radius: 50%; 
+  cursor: pointer; 
+  margin-top: -5px; 
+}
+
+.volume-control::-moz-range-thumb, 
+.vid-time::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.volume-control::-ms-thumb, 
+.vid-time::-ms-thumb {
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 .volume-control, .vid-time {
@@ -669,24 +773,33 @@ video[poster]{
     width: 470px;
     font-size: 1rem;
   }
+
+  h2 {
+    font-size: 1rem;
+  }
   h2 {
     font-size: 1rem;
   }
 
+
   .section2 a {
     font-size: 1rem;
   }
+
   .titre2 {
     font-size: 2rem;
   }
+
   .vid-time {
     width: 100px;
   }
+
   #volume {
     width: 60px;
   }
 
 }
+
 @media (min-width: 1301px) and (max-width: 1500px) {
   .paragraphe-h2 {
     font-size: 1.2rem;
@@ -699,13 +812,15 @@ video[poster]{
   .srclogo {
     bottom: 100px;
   }
+
   .vid-time-text {
     font-size: 1rem;
   }
+
   .vid-time {
     width: 250px;
   }
-  
+
 }
 
 @media (width < 1300px) {
@@ -713,11 +828,13 @@ video[poster]{
     width: 1200px;
   }
 }
+
 @media (width < 1200px) {
   .svgGraphique {
     width: 1100px;
   }
 }
+
 @media (width < 1100px) {
   .svgGraphique {
     width: 1000px;

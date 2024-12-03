@@ -1,20 +1,13 @@
 document.addEventListener("DOMContentLoaded", function () {
 
     window.addEventListener('scroll', function () {
-        const elements = document.querySelectorAll('.pathanim');
-
-        elements.forEach((element, index) => {
-            // Vérifie si le défilement vertical de la fenêtre est supérieur à 50 pixels
-            if (window.scrollY > 50) {
-                // Ajoute un délai avant d'ajouter la classe 'diagonal-line2' et de changer l'opacité
-                setTimeout(() => {
-                    element.classList.add('diagonal-line2');
-                    element.style.opacity = 1;
-                    // Délai d'une seconde entre chaque animation
-                }, index * 1000);
+        const element = document.querySelector('.svg-animate');
+        // Récupère la position de l'élément par rapport à la fenêtre grâce à getBoundingClientRect()
+        const rect = element.getBoundingClientRect();
+        // Si la position de l'élément est inférieure à la hauteur de la fenêtre et que la position de l'élément est supérieure à 0 alors ajoute la classe 'visible'
+        if (rect.top < window.innerHeight && rect.bottom > 0) {
+            element.classList.add('visible');
             }
         });
-    });
-
 
 });

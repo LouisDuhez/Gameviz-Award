@@ -235,11 +235,12 @@ function afficheInfoJeu() {
                     <span class="play"><i class="fa-solid fa-play"></i></span>
                     <span class="skipsec"><i class="fa-solid fa-forward"></i></span>
 
-                    <input class="vid-time" step="0.01"type="range"></input>
+                    <label for="vid-time" aria-label="Temps de la vidéo"></label>
+                    <input class="vid-time" step="0.01"type="range" id="vid-time"></input>
                     <span class="vid-time-text"> </span>
 
                     <div>
-                        <label class="volume"for="volume"><i class="fa-solid fa-volume-xmark"></i></label>
+                        <label class="volume"for="volume" aria-label="son de la vidéo"><i class="fa-solid fa-volume-xmark"></i></label>
                         <input id="volume"class="volume-control" type="range" min="0" max="1" step="0.1" value="0">
                     </div>
                     </div>

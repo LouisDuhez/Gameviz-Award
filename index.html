@@ -191,7 +191,7 @@
         </p>
       </div>
 
-      <svg viewBox="-610 0 1440 550" preserveAspectRatio="xMidYMid meet">
+      <svg class="svg-animate" viewBox="-610 0 1440 550" preserveAspectRatio="xMidYMid meet">
         <!-- Rectangle avec dégradés -->
         <path
           class="pathanim"
@@ -248,12 +248,12 @@
     <section class="graph-bloc">
       <div class="graph-top">
         <h2>
-          Le prix du <span class="h1viz">Meilleur Jeu</span> en
-          <select
-            class="selectYears"
-            name="yearsSelect"
-            id="yearsSelect"
-          ></select>
+          <label for="yearsSelect">Le prix du <span class="h1viz">Meilleur Jeu</span> en</label>
+            <select
+              class="selectYears"
+              name="yearsSelect"
+              id="yearsSelect"
+            ></select>
         </h2>
       </div>
       <div class="graph-legend"></div>
@@ -261,7 +261,7 @@
       <div class="svgGraphique"></div>
       <div class="input-bloc">
         <div>
-          <span class="rangeSelectValue">Année 2014</span>
+          <label for="selectannee" class="rangeSelectValue">Année 2014</label>
           <input
             class="rangeSelect"
             type="range"
@@ -269,6 +269,7 @@
             max="2023"
             step="1"
             value="2014"
+            id="selectannee"
           />
         </div>
       </div>
@@ -281,23 +282,7 @@
       <div class="svgGraphique2"></div>
       <div class="infoJeux" id="infoJeux"></div>
     </section>
-    <section class="critique">
-      <h2>Analyse</h2>
-      <p>
-        
-Voici une version corrigée et légèrement étoffée de votre texte, en gardant le même style et discours :
 
-À la suite de ces deux graphiques, deux questions se posent. D'une part, sur quels critères se basent les votes pour désigner les gagnants ? En effet, on remarque que les gagnants n'ont pas nécessairement les meilleures notes des utilisateurs, voire parfois pas du tout. Cela amène à remettre en question la valeur des notes, notamment celles des utilisateurs.
-
-Les notes des utilisateurs sont à double tranchant : elles peuvent refléter la qualité globale d'un jeu, mais elles peuvent aussi traduire une frustration personnelle ou même une simple haine envers un jeu ou un studio. À l'inverse, les notes de la presse sont souvent très élogieuses, mais elles ne reflètent pas toujours fidèlement la qualité réelle d'un jeu. Ces disparités soulèvent une interrogation sur la pertinence des critères de jugement.
-
-Ainsi, pourrait-on dire que la cérémonie des Game Awards est le meilleur moyen de mesurer la qualité d'un jeu ? En théorie, cela semble plausible : les jeux y sont comparés au sein de catégories spécifiques, soumis à un concours impliquant des votes d'utilisateurs et de professionnels du milieu. Ce mélange d'opinions pourrait donner une image plus juste.
-
-Cependant, ce serait oublier un point essentiel du domaine vidéoludique : un jeu vidéo offre une expérience unique à chacun. En effet, chaque joueur vivra une aventure différente, avec ou sans bugs, et selon ses propres attentes ou préférences. Certains privilégieront un type de jeu plutôt qu’un autre.
-
-C’est là que réside la particularité du jeu vidéo : il est à la fois un produit technique et une forme d'art. Et comme pour tout art, la qualité d’un jeu est fondamentalement subjective. Ce qui est extraordinaire pour l’un pourra être médiocre pour l’autre.
-      </p>
-    </section>
     <footer>
       <div class="footer-header">
         <p>Game<span class="h1viz">viz</span> Awards</p>
