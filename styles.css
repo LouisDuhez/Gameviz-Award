@@ -718,7 +718,7 @@ details summary:hover {
   cursor: pointer;
 }
 .critique {
-  width: 90%;
+  width: fit-content;
   margin-left: auto;
   margin-right: auto;
   color: white;
