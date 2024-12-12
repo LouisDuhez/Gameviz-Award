@@ -393,7 +393,7 @@ html {
   margin-left: auto;
   margin-right: auto;
   width: 1300px;
-  height: 500px;
+  height: 700px;
 
 }
 
@@ -566,25 +566,38 @@ video[poster] {
   object-fit: cover;
 }
 
+/* Footer */
 footer {
-  padding: 20px;
-  background-color: #323232;
+  background-color: #191919;
   color: white;
   font-family: Arial, sans-serif;
-  text-align: center;
+  padding: 20px 40px;
 }
 
 .footer-container {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   gap: 20px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
 }
 
 .footer-brand p:first-child {
   font-size: 2rem;
   font-weight: bold;
-  color: #FE721B;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.footer-links {
+  text-align: center;
 }
 
 .footer-links button {
@@ -592,36 +605,26 @@ footer {
   color: white;
   border: none;
   padding: 10px 15px;
-  margin: 0 10px;
+  margin: 5px;
   border-radius: 5px;
-  font-size: 1rem;
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 8px;
+  font-size: 1rem;
 }
 
 .footer-links button:hover {
   background-color: #ff8946;
 }
 
-.footer-socials a {
-  color: white;
-  font-size: 1.5rem;
-  margin: 0 10px;
-  text-decoration: none;
+.footer-copyright {
+  text-align: right;
 }
 
-.footer-socials a:hover {
-  color: #FE721B;
-}
-
-.footer-bottom p {
+.footer-copyright p {
+  margin: 5px 0;
   font-size: 0.9rem;
-  margin: 0;
 }
 
-/* Modals */
+/* General Modal Styles */
 .modal {
   display: none;
   position: fixed;
@@ -632,29 +635,61 @@ footer {
   background-color: rgba(0, 0, 0, 0.8);
   justify-content: center;
   align-items: center;
+  z-index: 1000;
 }
 
 .modal-content {
   background-color: white;
-  color: black;
   padding: 20px;
-  border-radius: 8px;
-  max-width: 500px;
+  border-radius: 10px;
   width: 90%;
-  text-align: center;
+  max-width: 600px;
+  position: relative;
+  color: black;
 }
 
 .modal-content h3 {
-  color: #FE721B;
+  color: #161616;
 }
 
-.close {
+.modal-content h4 {
+  color: #FE721B;
+  margin-top: 20px;
+}
+
+.modal-content .close {
   position: absolute;
   top: 10px;
-  right: 20px;
+  right: 15px;
   font-size: 1.5rem;
   cursor: pointer;
 }
+
+/* Contributors List */
+.contributors-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contributors-list li {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.github-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.github-icon {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 
 .vid-time {
   width: 300px;

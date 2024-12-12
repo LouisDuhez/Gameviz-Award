@@ -331,48 +331,121 @@
     </section>
     <footer>
       <div class="footer-container">
-        <div class="footer-brand">
+        <!-- Colonne 1 : Branding -->
+        <div class="footer-column footer-brand">
           <p>Game<span class="h1viz">viz</span> Awards</p>
-          <p>Par Louis Duhez, Nicolas Molduch, Théo De Oliveira</p>
         </div>
-        <div class="footer-links">
+
+        <!-- Colonne 2 : Liens -->
+        <div class="footer-column footer-links">
           <button onclick="toggleModal('mentionsLegales')">
-            <i class="fas fa-gavel"></i> Mentions Légales
+            Mentions Légales
           </button>
-          <button onclick="toggleModal('sources')">
-            <i class="fas fa-book"></i> Sources
-          </button>
+          <button onclick="toggleModal('sources')">Sources</button>
         </div>
-        <div class="footer-socials">
-          <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
-          <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
-          <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
-          <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
-        </div>
-        <div class="footer-bottom">
-          <p>
-            © 2024 Game<span class="h1viz">viz</span> Awards - Tous droits
-            réservés.
-          </p>
+
+        <!-- Colonne 3 : Copyright -->
+        <div class="footer-column footer-copyright">
+          <p>&copy; 2024 Game<span class="h1viz">viz</span> Awards</p>
+          <p>Par Louis Duhez, Nicolas Molduch, Théo De Oliveira</p>
         </div>
       </div>
 
-      <!-- Modals -->
+      <!-- Modal Mentions Légales -->
       <div id="mentionsLegales" class="modal">
         <div class="modal-content">
           <span class="close" onclick="toggleModal('mentionsLegales')"
             >&times;</span
           >
           <h3>Mentions Légales</h3>
-          <p>Contenu des mentions légales ici...</p>
+          <div class="modal-body">
+            <h4>Éditeur du site web</h4>
+            <p>
+              <strong>Directeur de publication :</strong> Université Gustave
+              Eiffel
+            </p>
+            <p>
+              <strong>Adresse :</strong> 5 bd Descartes, 77420 Champs-sur-Marne
+            </p>
+            <p><strong>Contact :</strong> 0160957500</p>
+            <p><strong>Numéro de SIREN :</strong> 130 026 123 00013</p>
+            <p><strong>Code APE :</strong> 85.42Z</p>
+            <p><strong>Président :</strong> Gilles Roussel</p>
+
+            <h4>DPO (Délégué à la Protection des Données)</h4>
+            <p><strong>Nom :</strong> Véronique Juge</p>
+            <p>
+              <strong>Adresse :</strong> 5 Boulevard Descartes, 77420
+              Champs-sur-Marne, France
+            </p>
+            <p>
+              <strong>Mail :</strong>
+              <a href="mailto:protectiondesdonnees-dpo@univ-eiffel.fr"
+                >protectiondesdonnees-dpo@univ-eiffel.fr</a
+              >
+            </p>
+
+            <h4>Hébergeur</h4>
+            <p><strong>Host :</strong> GitHub, Inc.</p>
+            <p>
+              <strong>Adresse :</strong> Vijzelstraat 68-78, 1017 HL Amsterdam,
+              Pays-Bas
+            </p>
+            <p>
+              <strong>Utilisation des données :</strong>
+              <a
+                href="https://github.com/LINCnil/Guide-RGPD-du-developpeur/blob/main/14-G%C3%A9rer%20la%20dur%C3%A9e%20de%20conservation%20des%20donn%C3%A9es.md"
+                target="_blank"
+              >
+                En savoir plus
+              </a>
+            </p>
+
+            <h4>Contributeurs</h4>
+            <ul class="contributors-list">
+              <li>
+                <strong>Théo De Oliveira</strong>
+                <a href="https://github.com/Theo2o" target="_blank">
+                  <img
+                    src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                    alt="GitHub"
+                    class="github-icon"
+                  />
+                </a>
+              </li>
+              <li>
+                <strong>Nicolas Molduch</strong>
+                <a href="https://github.com/Nicolas24700" target="_blank">
+                  <img
+                    src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                    alt="GitHub"
+                    class="github-icon"
+                  />
+                </a>
+              </li>
+              <li>
+                <strong>Louis Duhez</strong>
+                <a href="https://github.com/LouisDuhez" target="_blank">
+                  <img
+                    src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                    alt="GitHub"
+                    class="github-icon"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
 
+      <!-- Modal Sources -->
       <div id="sources" class="modal">
         <div class="modal-content">
           <span class="close" onclick="toggleModal('sources')">&times;</span>
           <h3>Sources</h3>
-          <p>Liste des sources ici...</p>
+          <div class="modal-body">
+            <p>Liste des sources à insérer ici...</p>
+          </div>
         </div>
       </div>
     </footer>
