@@ -330,86 +330,50 @@
       </p>
     </section>
     <footer>
-      <div class="footer-header">
-        <p>Game<span class="h1viz">viz</span> Awards</p>
-        <p>Par Louis Duhez, Nicolas Molduch, Théo De Oliveira</p>
+      <div class="footer-container">
+        <div class="footer-brand">
+          <p>Game<span class="h1viz">viz</span> Awards</p>
+          <p>Par Louis Duhez, Nicolas Molduch, Théo De Oliveira</p>
+        </div>
+        <div class="footer-links">
+          <button onclick="toggleModal('mentionsLegales')">
+            <i class="fas fa-gavel"></i> Mentions Légales
+          </button>
+          <button onclick="toggleModal('sources')">
+            <i class="fas fa-book"></i> Sources
+          </button>
+        </div>
+        <div class="footer-socials">
+          <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            © 2024 Game<span class="h1viz">viz</span> Awards - Tous droits
+            réservés.
+          </p>
+        </div>
       </div>
 
-      <details>
-        <summary>Mentions Légales</summary>
-        <div class="footer-main">
-          <div class="footer-part1">
-            <div>
-              <h3>Éditeur du site web</h3>
-              <p>
-                <span class="footer-bold">Directeur de publication :</span>
-                université Gustave Eiffel
-              </p>
-              <p>
-                <span class="footer-bold">Adresse :</span> 5 bd Descartes, 77420
-                Champs-sur-Marne
-              </p>
-              <p><span class="footer-bold">Contact :</span> 0160957500</p>
-              <p>
-                <span class="footer-bold">Numéro de SIREN :</span> 130 026 123
-                00013
-              </p>
-              <p><span class="footer-bold">Code APE :</span> 85.42Z</p>
-              <p><span class="footer-bold">Président :</span> Gilles Roussel</p>
-            </div>
-
-            <div>
-              <h3>DPO (Délégué à la Protection des Données)</h3>
-              <p><span class="footer-bold">Nom :</span> Véronique Juge</p>
-              <p>
-                <span class="footer-bold">Adresse :</span> 5 Boulevard
-                Descartes, 77420 Champs-sur-Marne, France
-              </p>
-              <p>
-                <span class="footer-bold">Mail :</span>
-                <a href="mailto:protectiondesdonnees-dpo@univ-eiffel.fr"
-                  >protectiondesdonnees-dpo@univ-eiffel.fr</a
-                >
-              </p>
-            </div>
-          </div>
-
-          <div class="footer-part2">
-            <div>
-              <h3>Hébergeur</h3>
-              <p><span class="footer-bold">Host :</span> GitHub, Inc.</p>
-              <p>
-                <span class="footer-bold">Adresse :</span> Vijzelstraat 68-78,
-                1017 HL Amsterdam, Pays-Bas
-              </p>
-              <p>
-                <span class="footer-bold">Utilisation des données :</span>
-                <a
-                  href="https://github.com/LINCnil/Guide-RGPD-du-developpeur/blob/main/14-G%C3%A9rer%20la%20dur%C3%A9e%20de%20conservation%20des%20donn%C3%A9es.md"
-                  >En savoir plus</a
-                >
-              </p>
-            </div>
-
-            <div>
-              <h3>Contributeurs</h3>
-              <p>
-                <span class="footer-bold">Équipe :</span> Théo De Oliveira,
-                Nicolas Molduch, Louis Duhez
-              </p>
-              <p>
-                <span class="footer-bold">Conception :</span> Théo De Oliveira
-              </p>
-            </div>
-          </div>
+      <!-- Modals -->
+      <div id="mentionsLegales" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="toggleModal('mentionsLegales')"
+            >&times;</span
+          >
+          <h3>Mentions Légales</h3>
+          <p>Contenu des mentions légales ici...</p>
         </div>
-      </details>
+      </div>
 
-      <div class="footer-bottom">
-        <p>
-          © 2024 Game<span class="h1viz">viz</span> Awards - Tous droits
-          réservés.
-        </p>
+      <div id="sources" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="toggleModal('sources')">&times;</span>
+          <h3>Sources</h3>
+          <p>Liste des sources ici...</p>
+        </div>
       </div>
     </footer>
     <script src="script.js"></script>
