@@ -24,8 +24,8 @@ function toggleModal(id) {
     body.style.position = "relative";
     // Changer le scroll-behavior avant la redirection
     html.style.scrollBehavior = "auto"; 
-    // Rediriger vers l'ancre #test
-    window.location.href = "#test";
+    // Redirige vers le footer
+    window.location.href = "#footerid";
   } else {
     modal.style.display = "flex";
     //met le body en fix pour eviter le scroll lors de l'ouverture du modal
