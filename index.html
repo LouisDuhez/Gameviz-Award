@@ -7,9 +7,6 @@
   <title>Gameviz Awards</title>
   <link rel="stylesheet" href="styles.css" />
   <link rel="icon" type="image/png" href="Images/viz.png" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -200,7 +197,7 @@
       </div>
       </div>
     </section>
-    <footer>
+    <footer id="test">
       <div class="footer-container">
         <!-- Colonne 1 : Branding -->
         <div class="footer-column footer-brand">
@@ -223,8 +220,8 @@
     </div>
 
     <!-- Modal Mentions Légales -->
-    <div id="mentionsLegales" class="modal">
-      <div class="modal-content">
+    <div id="mentionsLegales" class="modal" onclick="toggleModal('mentionsLegales')">
+      <div class="modal-content" onclick="stop(event)">
         <span class="close" onclick="toggleModal('mentionsLegales')">&times;</span>
         <h3>Mentions Légales</h3>
         <div class="modal-body">
@@ -295,8 +292,8 @@
     </div>
 
     <!-- Modal Sources -->
-    <div id="sources" class="modal">
-      <div class="modal-content">
+    <div id="sources" class="modal" onclick="toggleModal('sources')">
+      <div class="modal-content" onclick="stop(event)">
         <span class="close" onclick="toggleModal('sources')">&times;</span>
         <h3>Sources</h3>
         <div class="modal-body">
