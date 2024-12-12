@@ -605,7 +605,7 @@ footer {
 }
 
 .footer-links button {
-  background-color: #FE721B;
+  background-color: #414141;
   color: white;
   border: none;
   padding: 10px 15px;
@@ -617,7 +617,6 @@ footer {
 }
 
 .footer-links button:hover {
-  background-color: #ff8946;
   transform: scale(1.1);
 }
 
