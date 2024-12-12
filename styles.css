@@ -192,7 +192,7 @@ html {
 
 
 .paragraphe-h2 {
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   font-weight: 300;
   color: white;
   position: relative;
@@ -249,7 +249,7 @@ html {
 }
 
 .droite {
-  font-size: 1.2rem;
+  font-size: 1.125rem;
   flex: 1;
   color: white;
   height: 270px;
@@ -283,13 +283,12 @@ html {
   width: fit-content;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 50px;
-  font-size: 2rem;
+  font-size: 3rem;
   margin-bottom: 5px;
 }
 
 .graph-top p {
-  font-size: 1rem;
+  font-size: 1.125rem;
   margin-left: auto;
   margin-right: auto;
   width: fit-content;
@@ -358,7 +357,7 @@ html {
 
 .game-title {
   color: #FE721B;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bold;
   margin: 0;
 }
@@ -408,7 +407,7 @@ html {
 
 
 .svgGraphique2 {
-  height: 1100px;
+  height: 1000px;
   width: fit-content;
 }
 
@@ -473,7 +472,7 @@ input[type="range"]::-webkit-slider-thumb {
 .selectYears {
 
   color: #FE721B;
-  font-size: 1rem;
+  font-size: 1.125rem;
   /* Reset */
   appearance: none;
   border: 0;
@@ -506,14 +505,14 @@ input[type="range"]::-webkit-slider-thumb {
 .rangeSelectValue {
   height: fit-content;
   color: #FE721B;
-  font-size: 1.2rem;
+  font-size: 1.125rem;
   font-weight: bold;
 }
 
 
 .x-axis {
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.125rem;
 }
 
 .x-axis-label {
@@ -522,7 +521,7 @@ input[type="range"]::-webkit-slider-thumb {
 
 .y-axis {
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   font-family: "Montserrat", serif;
   font-weight: bold;
 }
@@ -765,7 +764,7 @@ footer {
   cursor: pointer;
 }
 .critique {
-  width: fit-content;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   color: white;
@@ -774,13 +773,34 @@ footer {
 
 .critique h2 {
   font-size: 2rem;
+  margin-bottom: 0px;
+}
+.critique div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.critique p {
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
+.critique div div {
+  flex-direction: column;
+  width: 45%;
+  max-width: 900px;
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+.critique div img {
+  width: 100%;
+  border-radius: 8px;
+  height: fit-content;
+}
 
+.source {
+  font-size: 0.8rem;
+  color: white;
+}
+
+.source a {
+  color: white;
 }
 .liste-sources p {
   margin-bottom: 0;
