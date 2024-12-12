@@ -307,86 +307,123 @@
       </div>
     </section>
     <footer>
-      <div class="footer-header">
-        <p>Game<span class="h1viz">viz</span> Awards</p>
-        <p>Par Louis Duhez, Nicolas Molduch, Théo De Oliveira</p>
+      <div class="footer-container">
+        <!-- Colonne 1 : Branding -->
+        <div class="footer-column footer-brand">
+          <p>Game<span class="h1viz">viz</span> Awards</p>
+        </div>
+
+        <!-- Colonne 2 : Liens -->
+        <div class="footer-column footer-links">
+          <button onclick="toggleModal('mentionsLegales')">
+            Mentions Légales
+          </button>
+          <button onclick="toggleModal('sources')">Sources</button>
+        </div>
+
+        <!-- Colonne 3 : Copyright -->
+        <div class="footer-column footer-copyright">
+          <p>&copy; 2024 Game<span class="h1viz">viz</span> Awards</p>
+          <p>Par Louis Duhez, Nicolas Molduch, Théo De Oliveira</p>
+        </div>
       </div>
 
-      <details>
-        <summary>Mentions Légales</summary>
-        <div class="footer-main">
-          <div class="footer-part1">
-            <div>
-              <h3>Éditeur du site web</h3>
-              <p>
-                <span class="footer-bold">Directeur de publication :</span>
-                université Gustave Eiffel
-              </p>
-              <p>
-                <span class="footer-bold">Adresse :</span> 5 bd Descartes, 77420
-                Champs-sur-Marne
-              </p>
-              <p><span class="footer-bold">Contact :</span> 0160957500</p>
-              <p>
-                <span class="footer-bold">Numéro de SIREN :</span> 130 026 123
-                00013
-              </p>
-              <p><span class="footer-bold">Code APE :</span> 85.42Z</p>
-              <p><span class="footer-bold">Président :</span> Gilles Roussel</p>
-            </div>
+      <!-- Modal Mentions Légales -->
+      <div id="mentionsLegales" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="toggleModal('mentionsLegales')"
+            >&times;</span
+          >
+          <h3>Mentions Légales</h3>
+          <div class="modal-body">
+            <h4>Éditeur du site web</h4>
+            <p>
+              <strong>Directeur de publication :</strong> Université Gustave
+              Eiffel
+            </p>
+            <p>
+              <strong>Adresse :</strong> 5 bd Descartes, 77420 Champs-sur-Marne
+            </p>
+            <p><strong>Contact :</strong> 0160957500</p>
+            <p><strong>Numéro de SIREN :</strong> 130 026 123 00013</p>
+            <p><strong>Code APE :</strong> 85.42Z</p>
+            <p><strong>Président :</strong> Gilles Roussel</p>
 
-            <div>
-              <h3>DPO (Délégué à la Protection des Données)</h3>
-              <p><span class="footer-bold">Nom :</span> Véronique Juge</p>
-              <p>
-                <span class="footer-bold">Adresse :</span> 5 Boulevard
-                Descartes, 77420 Champs-sur-Marne, France
-              </p>
-              <p>
-                <span class="footer-bold">Mail :</span>
-                <a href="mailto:protectiondesdonnees-dpo@univ-eiffel.fr"
-                  >protectiondesdonnees-dpo@univ-eiffel.fr</a
-                >
-              </p>
-            </div>
-          </div>
+            <h4>DPO (Délégué à la Protection des Données)</h4>
+            <p><strong>Nom :</strong> Véronique Juge</p>
+            <p>
+              <strong>Adresse :</strong> 5 Boulevard Descartes, 77420
+              Champs-sur-Marne, France
+            </p>
+            <p>
+              <strong>Mail :</strong>
+              <a href="mailto:protectiondesdonnees-dpo@univ-eiffel.fr"
+                >protectiondesdonnees-dpo@univ-eiffel.fr</a
+              >
+            </p>
 
-          <div class="footer-part2">
-            <div>
-              <h3>Hébergeur</h3>
-              <p><span class="footer-bold">Host :</span> GitHub, Inc.</p>
-              <p>
-                <span class="footer-bold">Adresse :</span> Vijzelstraat 68-78,
-                1017 HL Amsterdam, Pays-Bas
-              </p>
-              <p>
-                <span class="footer-bold">Utilisation des données :</span>
-                <a
-                  href="https://github.com/LINCnil/Guide-RGPD-du-developpeur/blob/main/14-G%C3%A9rer%20la%20dur%C3%A9e%20de%20conservation%20des%20donn%C3%A9es.md"
-                  >En savoir plus</a
-                >
-              </p>
-            </div>
+            <h4>Hébergeur</h4>
+            <p><strong>Host :</strong> GitHub, Inc.</p>
+            <p>
+              <strong>Adresse :</strong> Vijzelstraat 68-78, 1017 HL Amsterdam,
+              Pays-Bas
+            </p>
+            <p>
+              <strong>Utilisation des données :</strong>
+              <a
+                href="https://github.com/LINCnil/Guide-RGPD-du-developpeur/blob/main/14-G%C3%A9rer%20la%20dur%C3%A9e%20de%20conservation%20des%20donn%C3%A9es.md"
+                target="_blank"
+              >
+                En savoir plus
+              </a>
+            </p>
 
-            <div>
-              <h3>Contributeurs</h3>
-              <p>
-                <span class="footer-bold">Équipe :</span> Théo De Oliveira,
-                Nicolas Molduch, Louis Duhez
-              </p>
-              <p>
-                <span class="footer-bold">Conception :</span> Théo De Oliveira
-              </p>
-            </div>
+            <h4>Contributeurs</h4>
+            <ul class="contributors-list">
+              <li>
+                <strong>Théo De Oliveira</strong>
+                <a href="https://github.com/Theo2o" target="_blank">
+                  <img
+                    src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                    alt="GitHub"
+                    class="github-icon"
+                  />
+                </a>
+              </li>
+              <li>
+                <strong>Nicolas Molduch</strong>
+                <a href="https://github.com/Nicolas24700" target="_blank">
+                  <img
+                    src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                    alt="GitHub"
+                    class="github-icon"
+                  />
+                </a>
+              </li>
+              <li>
+                <strong>Louis Duhez</strong>
+                <a href="https://github.com/LouisDuhez" target="_blank">
+                  <img
+                    src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                    alt="GitHub"
+                    class="github-icon"
+                  />
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
-      </details>
+      </div>
 
-      <div class="footer-bottom">
-        <p>
-          © 2024 Game<span class="h1viz">viz</span> Awards - Tous droits
-          réservés.
-        </p>
+      <!-- Modal Sources -->
+      <div id="sources" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="toggleModal('sources')">&times;</span>
+          <h3>Sources</h3>
+          <div class="modal-body">
+            <p>Liste des sources à insérer ici...</p>
+          </div>
+        </div>
       </div>
     </footer>
     <script src="script.js"></script>

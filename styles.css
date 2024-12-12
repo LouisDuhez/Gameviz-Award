@@ -261,6 +261,9 @@ html {
   width: 100%;
   border-radius: 5px;
 }
+.tick text {
+  pointer-events: none;
+}
 
 /* ==================================================== Graphique ===================================================  */
 
@@ -393,7 +396,7 @@ html {
   margin-left: auto;
   margin-right: auto;
   width: 1300px;
-  height: 500px;
+  height: 600px;
 
 }
 
@@ -566,98 +569,130 @@ video[poster] {
   object-fit: cover;
 }
 
+/* Footer */
 footer {
-  margin-top: 50px;
-  padding: 20px 40px;
+  background-color: #191919;
   color: white;
-  background-color: #323232;
   font-family: Arial, sans-serif;
+  padding: 20px 40px;
 }
 
-.footer-header {
-  text-align: center;
-  margin-bottom: 20px;
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.footer-header p:first-child {
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-brand p:first-child {
   font-size: 2rem;
   font-weight: bold;
-  color: #FE721B;
+  color: #ffffff;
+  margin-bottom: 30px;
 }
 
-footer h2,
-footer h3 {
-  color: #FE721B;
-}
-
-footer h2 {
-  font-size: 1.5rem;
-}
-
-footer h3 {
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-}
-
-.footer-main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 20px;
-  margin-top: 20px;
-  border-top: 1px solid #444;
-  padding-top: 20px;
-}
-
-.footer-part1,
-.footer-part2 {
-  flex: 1;
-  min-width: 300px;
-}
-
-.footer-part1 div,
-.footer-part2 div {
-  margin-bottom: 20px;
-}
-
-footer p {
-  font-size: 0.9rem;
-  line-height: 1.4;
-}
-
-.footer-bold {
-  font-weight: bold;
-}
-
-footer a {
-  color: #FE721B;
-  text-decoration: none;
-}
-
-footer a:hover {
-  text-decoration: underline;
-}
-
-details summary {
-  cursor: pointer;
-  font-size: 1.2rem;
-  color: #FE721B;
-  margin-bottom: 10px;
-}
-
-details summary:hover {
-  text-decoration: underline;
-}
-
-.footer-bottom {
+.footer-links {
   text-align: center;
-  margin-top: 20px;
-  font-size: 0.8rem;
 }
 
-.footer-bottom p {
-  margin: 0;
+.footer-links button {
+  background-color: #FE721B;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
 }
+
+.footer-links button:hover {
+  background-color: #ff8946;
+}
+
+.footer-copyright {
+  text-align: right;
+}
+
+.footer-copyright p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+}
+
+/* General Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+  position: relative;
+  color: black;
+}
+
+.modal-content h3 {
+  color: #161616;
+}
+
+.modal-content h4 {
+  color: #FE721B;
+  margin-top: 20px;
+}
+
+.modal-content .close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Contributors List */
+.contributors-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contributors-list li {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.github-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.github-icon {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 
 .vid-time {
   width: 300px;
@@ -741,7 +776,6 @@ details summary:hover {
   max-width: 900px;
   font-size: 1.125rem;
   line-height: 1.5;
-
 }
 
 .critique img {
