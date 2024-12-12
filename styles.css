@@ -136,11 +136,10 @@ html {
   background-image: var(--main-gradient);
 
   /* permet d'afficher le dégradé sur le texte sur les navigateur Chrome, Safari, Opera (15+), iOS, Android */
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 
   /* permet d'afficher le dégradé sur le texte sur le navigateur Firefox */
-  -moz-background-clip: text;
   -moz-text-fill-color: transparent;
 }
 
