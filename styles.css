@@ -777,11 +777,19 @@ footer {
   font-size: 1.125rem;
   line-height: 1.5;
 }
-
-.critique img {
-  width: 50%;
+.critique div img {
+  width: 100%;
   border-radius: 8px;
   height: fit-content;
+}
+
+.source {
+  font-size: 0.8rem;
+  color: white;
+}
+
+.source a {
+  color: white;
 }
 
 @media (min-width: 980px) and (max-width: 1300px) {
