@@ -261,6 +261,9 @@ html {
   width: 100%;
   border-radius: 5px;
 }
+.tick text {
+  pointer-events: none;
+}
 
 /* ==================================================== Graphique ===================================================  */
 
@@ -280,6 +283,7 @@ html {
   width: fit-content;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 50px;
   font-size: 2rem;
   margin-bottom: 5px;
 }
@@ -393,7 +397,7 @@ html {
   margin-left: auto;
   margin-right: auto;
   width: 1300px;
-  height: 700px;
+  height: 600px;
 
 }
 
@@ -762,8 +766,7 @@ footer {
 }
 
 .critique p {
-  max-width: 900px;
-  font-size: 1rem;
+  max-width: 700px;
   margin-left: auto;
   margin-right: auto;
 
